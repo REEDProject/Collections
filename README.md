@@ -1,5 +1,3 @@
-![REED logo](logo.png)
-
 # REED Online Collection Files
 
 This repository contains the TEI XML files that populate [REED Online](https://ereed.library.utoronto.ca/).
