@@ -4,7 +4,7 @@ This repository contains the TEI XML files that populate [REED Online](https://e
 
 ## Directory Structure
 
-The `TEI/` directory contains the `taxonomy.xml` and `glossary.xml` files. These are not collection specific and will be updated with more information as each new collection is published. The `records/` directory contains collection-specific files, with records transcriptions and associated editorial apparatus. The collection files work in conjunction with `taxonomy.xml` and `glossary.xml`.
+The `TEI/` directory contains the `taxonomy.xml` and `glossary.xml` files. These are not collection specific and will be updated with more information as each new collection is published. The `records/` directory contains collection-specific files, with records transcriptions and associated editorial apparatus. The collection files reference common information in `taxonomy.xml` and `glossary.xml`.
 
 ## How To Download Files 
 
