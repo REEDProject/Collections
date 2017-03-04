@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="records/REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="records/REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/" xml:id="taxonomy">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Taxonomy</title>
+                <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+                <funder><orgName>National Endowment for the Humanities, Washington, DC, United
+                        States of America</orgName></funder>
+                <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+                        Canada</orgName></funder>
+                <editor>J. Alan B. Somerset</editor>
+                <respStmt>
+                    <persName>C. Black</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Project Manager</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Kathy Chung</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Post-doctoral Fellow in Digital Humanities, EATS taxonomy developer and
+                        tagger</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="JC">James Cummings</persName>
+                    <orgName>University of Oxford</orgName>
+                    <resp>TEI Schema Designer, Technical Consultant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Patrick Gregory</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Tanya Hagen</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Bibliographer</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Janine Harper</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>English Glossarian, Proofreader</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Alexandra F. Johnston</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>REED Founder and Senior Consultant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Sally-Beth MacLean</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                        Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Byron Moldofsky</persName>
+                    <orgName>University of Toronto</orgName>
+                    <resp>Cartographer</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="JN">Jamie Norrish</persName>
+                    <resp>Programmer, TEI Schema Designer, Technical Consultant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Suzanne Westfall</persName>
+                    <resp>Principal Investigator, NEH grant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Abigail Ann Young</persName>
+                    <orgName>Records of Early English Drama (REED)</orgName>
+                    <resp>Paleographer</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>version 1, released <date when-iso="2017-03-03">3 March
+                    2017</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority><orgName>Records of Early English Drama (REED)</orgName>
+                    <address>
+                        <addrLine>University of Toronto</addrLine>
+                        <addrLine>170 St George Street, Suite 810</addrLine>
+                        <addrLine>Toronto, Ontario, Canada</addrLine>
+                        <addrLine>M5R 2M8</addrLine>
+                    </address>
+                </authority>
+                <availability>
+                    <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                            <date>2017</date></p>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                        under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                        International (CC BY-NC-SA 4.0) licence.</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Records of Early English Drama</title>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Born digital. Information on original sources for transcriptions can be accessed
+                    via the Document Descriptions.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Records of Early English Drama (REED) is an international scholarly project that
+                    is establishing for the first time the context from which the drama of
+                    Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since
+                    then to locate, transcribe, and edit historical documents containing evidence of
+                    drama, secular music, and other communal entertainment and ceremony from the
+                    Middle Ages until 1642, when the Puritans closed the London theatres.</p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="bibliography_sections">
+                        <catDesc>Bibliography Sections</catDesc>
+                        <category xml:id="generalBib">
+                            <catDesc>General</catDesc>
+                        </category>
+                        <category xml:id="staffBib">
+                            <catDesc>Staffordshire</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="record_types">
+                        <catDesc>Record types</catDesc>
+                        <category xml:id="central_gvt">
+                            <catDesc>central government and royal</catDesc>
+                        </category>
+                        <category xml:id="local_gvt">
+                            <catDesc>local government</catDesc>
+                        </category>
+                        <category xml:id="church">
+                            <catDesc>church</catDesc>
+                        </category>
+                        <category xml:id="education">
+                            <catDesc>educational institution</catDesc>
+                        </category>
+                        <category xml:id="guild_craft">
+                            <catDesc>guild, craft/trade</catDesc>
+                        </category>
+                        <category xml:id="guild_rel">
+                            <catDesc>guild, religious</catDesc>
+                        </category>
+                        <category xml:id="rel_community">
+                            <catDesc>religious community</catDesc>
+                        </category>
+                        <category xml:id="manor">
+                            <catDesc>manorial</catDesc>
+                        </category>
+                        <category xml:id="family">
+                            <catDesc>family</catDesc>
+                        </category>
+                        <category xml:id="chron_hist">
+                            <catDesc>chronicles and histories</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="repositories">
+                        <catDesc>Repositories</catDesc>
+                        <category xml:id="BL">
+                            <catDesc>
+                                <choice>
+                                    <abbr>BL</abbr>
+                                    <expan>British Library</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="Bodl.">
+                            <catDesc>
+                                <choice>
+                                    <abbr>Bodl.</abbr>
+                                    <expan>Bodleian</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="brampton-museum">
+                            <catDesc>Brampton Museum</catDesc>
+                        </category>
+                        <category xml:id="cheshire-record-office">
+                            <catDesc>Cheshire Record Office</catDesc>
+                        </category>
+                        <category xml:id="chetham-library">
+                            <catDesc>Chetham's Library</catDesc>
+                        </category>
+                        <category xml:id="CUL">
+                            <catDesc>
+                                <choice>
+                                    <abbr>CUL</abbr>
+                                    <expan>Cambridge University Library</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="folger-shakespeare-library">
+                            <catDesc>Folger Shakespeare Library</catDesc>
+                        </category>
+                        <category xml:id="lichfield-cathedral-library">
+                            <catDesc>Lichfield Cathedral Library</catDesc>
+                        </category>
+                        <category xml:id="lincolnshire-archives">
+                            <catDesc>Lincolnshire Archives</catDesc>
+                        </category>
+                        <category xml:id="LRO">
+                            <catDesc>
+                                <choice>
+                                    <abbr>LRO</abbr>
+                                    <expan>Lichfield Record Office</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="STRO">
+                            <catDesc>
+                                <choice>
+                                    <abbr>STRO</abbr>
+                                    <expan>Staffordshire Record Office</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="TNA">
+                            <catDesc>
+                                <choice>
+                                    <abbr>TNA</abbr>
+                                    <expan>The National Archives</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="william-salt-library">
+                            <catDesc>William Salt Library</catDesc>
+                        </category>
+                        <category xml:id="WLHC">
+                            <catDesc>
+                                <choice>
+                                    <abbr>WLHC</abbr>
+                                    <expan>Walsall Local History Centre</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="WRO">
+                            <catDesc>
+                                <choice>
+                                    <abbr>WRO</abbr>
+                                    <expan>Worcestershire Record Office</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="short_title_catalogues">
+                        <catDesc>Short-Title Catalogues</catDesc>
+                        <category xml:id="STC">
+                            <catDesc>
+                                <choice>
+                                    <abbr>STC</abbr>
+                                    <expan>Pollard and Redgrave (eds), Short-Title Catalogue</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                        <category xml:id="Wing">
+                            <catDesc>
+                                <choice>
+                                    <abbr>Wing</abbr>
+                                    <expan>Wing, Short-Title Catalogue</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+            <!-- Add new major milestone changes to top, within <change> tags. For instance, addition of new collections. -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Abbreviations, symbols and taxonomies used in eREED</head>
+
+            <div xml:id="sources">
+                <head>Sources</head>
+
+                <listBibl>
+                    <bibl xml:id="STAWAS">
+                        <title type="edName">Archdeacon <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/39341/"
+                                type="Person_Clergy">John Fulnetby's</rs> Visitation
+                            Articles</title>
+                        <note type="techDesc"><p><title type="sourceName">ARTICLES | TO BE |
+                                    INQUIRED OF | WITHIN THE ARCHDEACONRY | OF STAFFORD | In the
+                                    Visitation of the Right Worshipfull [blank] | Archdeaconry of
+                                    Stafford. | <hi rend="italic">Holden in the yeare of our Lord
+                                        God, 1635</hi> | Printed at <hi rend="italic">London, by
+                                        Richard Badger,</hi> | <date>1635</date>.</title></p></note>
+                        <idno type="publication" sameAs="#STC"/>
+                        <idno type="pubNumber">10336</idno>
+                    </bibl>
+
+                    <msDesc xml:id="STDOU2">
+                        <msIdentifier>
+                            <settlement>Oxford</settlement>
+                            <repository sameAs="#Bodl."/>
+                            <idno type="shelfmark">MS. Douce d.24</idno>
+                            <msName>Manorial Court Roll Excerpt (A)</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The extract is from a letter of two leaves to Francis
+                            Douce from William Hamper, Deritend House, Birmingham, 17 February 1823.
+                            William Hamper, an antiquary working with the Bagot family papers, wrote
+                            to Francis Douce with an excerpt taken from a manorial court roll for
+                                <rs ref="http://ereed.library.utoronto.ca/eats/entity/36396/"
+                                type="Place_BoroughParish">Bagot's Bromley</rs>, apparently a manor
+                            within the parish of <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/1026/"
+                                type="Place_BoroughParish">Abbots Bromley</rs> (or Bromley Paget).
+                            The original has not been traced.</ab>
+                        <ab type="techDesc"><date>1822–4</date>; English; paper; i + 332; size of
+                            leaves varies: ff 124–5v, 235mm x 190mm (letter with relevant extract);
+                            modern foliation 1–333 (ff 266, 267 double); modern cloth binding, title
+                            on spine: 'LETTERS TO DOUCE 1822–1824 MS. Douce d.24.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV117">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/17</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1584</date>; English and Latin; paper; iii + 264;
+                            310mm x 210mm; modern pencil pagination; bound in worn parchment covers,
+                            title on front: '1584 Sept.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STCCCR">
+                        <msIdentifier>
+                            <settlement>Chester</settlement>
+                            <repository sameAs="#cheshire-record-office"/>
+                            <idno type="shelfmark">EDC 5 (1635)/87</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/15612/"
+                                    type="Place_EcclesiasticalArea">Diocese of Chester</rs>
+                                Consistory Court Case, Response to Complaint in <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/1573/"
+                                    type="Person_Female">Colly</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/1478/"
+                                    type="Person_Male">Dikes</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1635</date>; English and Latin; paper; bifolium,
+                            folded in 2 to make 2 leaves, subsequently folded in 4 vertically; 302mm
+                            x 374mm; unfoliated; writing on ff [1--2] and endorsed on third panel of
+                            f [2v].</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STABTA">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Cotton MS Vespas. E. iii</idno>
+                            <msName>Annals of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/39449/"
+                                    type="Place_Feature">Burton upon Trent Abbey</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1263</date>; Latin; parchment; vi +214+ v; 220mm x
+                            160mm; modern pencil foliation supersedes several earlier foliations in
+                            ink; composite MS in modern BL binding, original quires mounted on
+                            guards, title on spine: 'ANNALS OF | BURTON-ON-TRENT | ABBEY, ETC.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STBUR1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 8/104/20</idno>
+                            <msName><rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/5448/ http://ereed.library.utoronto.ca/eats/entity/5544/"
+                                    type="Person_Commoner">Crippells</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/5605/"
+                                    type="Person_Male">Lambe</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1619</date>; English; parchment; 2 membranes, sewn
+                            together at the upper left corner; mb [1] (Answer): 335mm x 645mm, mb 2
+                            (Bill): 280mm x 770mm; unfoliated (mb 2 has a '2' written at the bottom
+                            in pencil); written on 1 side only, both mbs have words and phrases
+                            inserted above the lines in a different ink.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV131">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/31</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1615–20</date>; Latin and English; paper; 224
+                            leaves; 290mm x 190mm; original foliation 1–51, thereafter unfoliated;
+                            14 quires of 16 leaves each; original parchment binding with remains of
+                            leather thong closure, in ink on front cover is a list of years, 1615
+                            through 1619 inclusive.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV151">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/51</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1629–33</date>; Latin and English; paper; 2
+                            visitation act books: ii + 116 and i + 148 + i; 290mm x 195mm; modern
+                            and contemporary foliations continuous through 2 volumes (contemporary
+                            foliation 1–255 followed here); repaired and bound into 2 volumes with
+                            green cloth covers, in a green slip-case, no title. All entries are
+                            taken from the second volume (both are described here because they are
+                            not distinguishable from external markings).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STDRA1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 8/20/24</idno>
+                            <msName>Bill of Complaint in <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/7513/"
+                                    type="Person_Male">Gillam</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/7631/"
+                                    type="Person_Male">Church</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1616</date>; English; parchment; 2 membranes
+                            stitched together at top left; unnumbered; mb [1] (Answer): 320mm x
+                            545mm, mb 2 (Bill): 350mm x 690mm; written on 1 side; mb 1 is damaged at
+                            top right edge, mb [2] is endorsed: 'Ven<ex>er</ex>is octauo die
+                                Nouemb<ex>ri</ex>s An<ex>n</ex>o xiiijo Ia<ex>cobis</ex>
+                                R<ex>egis</ex>,' and (written other way) 'Attor<ex>neus</ex>
+                                R<ex>egis</ex> v<ex>e</ex>r<ex>su</ex>s Churche et
+                            al<ex>ios</ex>.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STECC1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 2/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/8870/"
+                                    type="Person_Male">Alkyn</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8317/"
+                                    type="Person_Male">Pursall</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1537</date>; English; paper; a collection of
+                            documents of various sizes in a volume titled on the spine: 'Star
+                            Chamber Proceedings Hen. VIII': (1) Interrogatories: bifolium; 280mm x
+                            390mm; unnumbered (f [2v] blank). Now numbered f 58 and bound as above.
+                            (2) Depositions: 8 leaves; 315mm x 200mm; unnumbered (f [8] blank); f
+                            [8v] contains endorsement: 'Alkyn v. Pursall.' Now mounted on guard
+                            pages, numbered ff 59–66, and bound as above.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STEQSA">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/72, item 36</idno>
+                            <msName>Complaints against <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8942/"
+                                    type="Person_Male">Thomas Jacson</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/21077/"
+                                    type="Collective_Occupation">Victualler</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Michaelmas <date>1599</date>; English; paper; single
+                            sheet; 305mm x 200mm; written on both sides, no internal date to
+                            identify session or year; mounted on guard stub and preserved within
+                            blue folder.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STEQS1">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/91, items 61-2</idno>
+                            <msName>Information Lodged against <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8942/"
+                                    type="Person_Male">Thomas Jacson</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/21077/"
+                                    type="Collective_Occupation">Victualler</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Easter <date>1604</date>; English; paper; bifolium;
+                            310mm x 205mm (folios given separate item numbers); written on 1 side;
+                            mounted on guard stub and preserved within blue folder.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STEQS2">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/91, item 63</idno>
+                            <msName>Charges Alleged against <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8942/"
+                                    type="Person_Male">Thomas Jacson</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/21077/"
+                                    type="Collective_Occupation">Victualler</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Easter <date>1604</date>; English; paper; single sheet;
+                            305mm x 205mm, written on 1 side; mounted on guard stub and preserved
+                            within blue folder.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STEQS3">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/94, items 69-70</idno>
+                            <msName>Complaint against <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8942/"
+                                    type="Person_Male">Thomas Jacson</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/21077/"
+                                    type="Collective_Occupation">Victualler</rs>, by <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/9022/"
+                                    type="Person_Clergy">Roger Steventon</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/9186/"
+                                    type="Collective_ClergyAndChurchwardens">Vicar</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Epiphany <date>1604–5</date>; English; paper; bifolium;
+                            310mm x 205mm (folios given separate item numbers); written on f [1]
+                            only (item 69, recto); mounted on guard stub and preserved within blue
+                            folder.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STGRF1">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/95, items 37-8</idno>
+                            <msName>Court Order against <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/9839/"
+                                    type="Person_Male">William Johnson</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Easter <date>1605</date>; English; paper; bifolium;
+                            315mm x 205mm (folios given separate item numbers); written on f [1]
+                            only (item 37, recto); mounted on guard stub and preserved within blue
+                            folder.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV138">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/38</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1620</date>; Latin and English; paper; 46 leaves;
+                            310mm x 200mm; unfoliated; 2 disparate quires, 12 and 34 leaves; much
+                            faded and damaged by damp; paper covers, in ink on the front cover of
+                            each quire is the date, '1620.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STCORV">
+                        <msIdentifier>
+                            <settlement>Manchester</settlement>
+                            <repository sameAs="#chetham-library"/>
+                            <idno type="shelfmark">MUN.A.6.65.A</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/11325/"
+                                    type="Collective_Guild">Corvisors' and Curriers' Guild</rs>
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The Lichfield Corvisors' and Curriers' Accounts migrated
+                            by unknown means to Manchester, where they are now preserved at
+                            Chetham's Library. The accounting year began on St Crispin's Day (25
+                            October), on which day a guild dinner was held. A second dinner was held
+                            on Corpus Christi Day, but there is no evidence that it was associated
+                            with a civic procession at the late date of preservation of these
+                            accounts.</ab>
+                        <ab type="techDesc"><hi rend="italic">c</hi>
+                            <date>1562–1623</date>; English; paper; 21 leaves; 412mm x 155mm; modern
+                            pencil foliation 41–62; 3 gatherings bound into a booklet, some repair
+                            where pages have been torn when booklet folded across at some time;
+                            bound in parchment from old (presumably religious) MS, inner cover has 4
+                            columns written at right angles to the booklet, outer cover is written
+                            the same way up as the folios of the booklet; flaps on front and rear
+                            outer covers, lower half of leather spine and part of the original
+                            binding thong survive.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STJSIN">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">Peculiar Court of Lichfield, 1618, P/C/11</idno>
+                            <msName>Inventory of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/39502/"
+                                    type="Person_Commoner">Julian Stonynge</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The identity and residence of Julian Stonynge are
+                            unknown.</ab>
+                        <ab type="techDesc"><date>1618</date>; English; paper; bifolium (inventory
+                            further folded in 4); 340mm x 140mm; unfoliated; ff [1–1v] contain
+                            inventory, f [2] blank, f [2v] contains endorsement: 'Inven Iulian
+                            Stonynge....' </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLBNS">
+                        <msIdentifier>
+                            <settlement>Lincoln</settlement>
+                            <repository sameAs="#lincolnshire-archives"/>
+                            <idno type="shelfmark">D&amp;C A/2/3</idno>
+                            <msName>Cathedral Statutes of Bishop <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/39548/"
+                                    type="Person_Clergy">Hugh de Nonant</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1275–1300</date>; Latin; parchment and paper; v
+                            (first 2 are strips) + 54 (parchment) + ix (first 3 are a rental
+                            account, final 2 are strips); 290mm x 200mm (text area generally 205mm x
+                            155mm); foliated 1–48 (final 6 leaves unfoliated); half of f 19 is
+                            missing; parchment booklets in original binding with skin and paper
+                            board cover; on spine: 'A | Marti | Logium | 2 | 3 (the word Martilogium
+                            is contemporary).' This is John de Schalby's compilation of various
+                            documents; the copy of the statutes occurs on ff 45v–8v.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLCHA">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/A/21/CC 124078</idno>
+                            <msName>Account of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/10994/"
+                                    type="Person_Male">John Stalker</rs>, Bishop's <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/10976/"
+                                    type="Collective_Occupation">Bailiff</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1457–8</date>; Latin; parchment; 8 membranes (7
+                            sewn at top plus 1 membrane serial to mb 7); 750mm x 280mm; 760mm x
+                            270mm; 530mm x 290mm; 480mm x 295mm; 830mm x 295mm; 750mm x 290mm; 685mm
+                            x 300 mm; 365mm x 300mm; unnumbered; mb [1] written on 1 side. Each
+                            membrane has accounts for a different manor or borough under diocesan
+                            control. Membrane [1] contains the accounts of John Stalker, bishop's
+                            bailiff of Lichfield.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLCHB">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D(W)1734/J. 2057</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/39626/"
+                                    type="Place_BoroughParish">Longdon</rs> Manorial Court
+                                Roll</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><hi rend="italic">c</hi>
+                            <date>1300–17</date>; Latin; parchment; 12 membranes joined at top, some
+                            of which have serial membranes; dates and places vary: (1) 530mm x 200mm
+                            + 460mm x 200mm + 520mm x 200mm + 190mm x 200mm; 1308–9 (Longdon); (2)
+                            630mm x 225mm + 660mm x 225mm + 640mm x 225mm; 1309–10 (Longdon); (3)
+                            530mm x 215mm + 510mm x 215mm + 420mm x 215mm + 510mm x 215mm; 1310–11
+                            (Longdon); (4) 630mm x 245mm + 630mm x 245mm + 440mm x 245mm; 1311–12
+                            (Longdon); (5) 270mm x 220mm + 220mm x 220mm + 670mm x 220mm + 670mm x
+                            220mm + 130mm x 220mm; 1312–13 (Longdon); (6) 620mm x 230mm + 390mm x
+                            230mm; 1313–14 (Longdon); (7) 600mm x 230mm + 630mm x 230mm + 370mm x
+                            230mm (right side damaged so lateral measures are approximate); 1303–4
+                            (Longdon); (8) 560mm x 240mm + 535mm x 240mm + 190mm x 240mm + 100mm x
+                            240mm; 1304–5 (Longdon); (9) 520mm x 218mm + 500mm x 218mm; 1305–6
+                            (Longdon); (10) 340mm x 220mm + approx. 310mm x 220mm (damaged at
+                            bottom); 1306–7 (Withington; 560mm x 220mm + 135mm x 220mm; 1316–17
+                            (Longdon); (12) 490mm x 230mm; 1314–15 (Cannock). Membrane 9, which
+                            contains the extract transcribed, is a rental and expenses account,
+                            written on both sides. The Bishop of Coventry and Lichfield was lord of
+                            the manor of Longdon.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLCHX">
+                        <msIdentifier>
+                            <settlement>Chester</settlement>
+                            <repository sameAs="#cheshire-record-office"/>
+                            <idno type="shelfmark">DCH/0/8, item 2</idno>
+                            <msName>Account of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/39689/"
+                                    type="Person_Commoner">Robert Blaby</rs>, Bishop's <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/10976/"
+                                    type="Collective_Occupation">Bailiff</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1420–1</date>; Latin; single membrane; part of a
+                            group of 12 unbound membranes for the same date, probably originally
+                            joined at the head. The twelve membranes contain a series of manorial
+                            rentals and accounts for Lichfield, Prees, Eccleshall, Brewood and other
+                            manors of the bishop of Lichfield. The document has deteriorated to the
+                            point where physical examination was not possible (microfilm copy
+                            consulted).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLDCA">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#lichfield-cathedral-library"/>
+                            <idno type="shelfmark">Chapter Act Books No. 3</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/35059/"
+                                    type="Collective_ClergyAndChurchwardens">Dean</rs> and Chapter
+                                Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1490–1523</date>; Latin; parchment and paper; ii
+                            (parchment, contains title page) + 142 (paper) + v (parchment, contains
+                            index); 330mm x 230mm; original foliation; bound in brown leather, very
+                            worn, no title on spine but on f [i]: 'Tertius Liber vocat<ex>us</ex> le
+                            Black Book Acta Capitularia Ab Anno 1490 Ad 1523.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLDI1">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">D 30/7/1/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/36465/"
+                                    type="Place_Feature">Lichfield Cathedral</rs> Sacrist's
+                                Roll</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1342</date>; Latin; parchment; single membrane;
+                            700mm x 280mm.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STLSRV">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Lansdowne MS 213</idno>
+                            <msName>A Relation of a Short Survey of 26 Counties</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">In his edition of the MS, L.G. Wickham Legg,
+                            'Introduction,' <title>26 Counties</title>, p xviii, identified the
+                            author as the lieutenant, whose surname was Hammond but whose given name
+                            remains unknown. In Lansdowne MS 213, 'A Relation' is followed by
+                            commendatory verses by an anonymous friend of the author, and then by a
+                            companion piece by Hammond describing a tour of the southwestern
+                            counties. The MS is from various dates in the 1630s, but A Relation of A
+                            Short Survey of 26 Counties is dated 1634.</ab>
+                        <ab type="techDesc"><date>1630s</date>; English; paper; iii + 446 + ii;
+                            273mm x 160mm; modern foliation; paper booklets (several different items
+                            bound together); British Library modern maroon leather binding, stippled
+                            front and back with Lansdowne arms on front and back covers, title on
+                            spine: 'MISCELLANEOUS HISTORICAL TRACTS. XV11 CENT. BRIT. MUS.' Contains
+                            (ff 315–46v) 'A Relation of a short Suruey of 26. Counties, breifly
+                            describing the Citties and their Scytuations, and the Corporate Townes,
+                            and Castles therein. Obseru'd in a Seuen Weekes Iourney begun at the
+                            City of Norwich and from thence into the North. On Monday August 11.th
+                            1634. and ending att the same Place. By a Captaine, a Lieutennt, and an
+                            Ancient. All three of the Military Company in Norwich.' </ab>
+                    </msDesc>
+
+                    <bibl xml:id="STNICH">
+                        <title type="edName">Queen <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/11772/"
+                                type="Person_Royalty">Elizabeth's</rs>
+                            <rs ref="http://ereed.library.utoronto.ca/eats/entity/40648/"
+                                type="Entertainment_Type">Visit</rs> to <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/3702/"
+                                type="Place_BoroughParish">Lichfield</rs> (A)</title>
+                        <note type="techDesc"><p>Nichols, John. <title type="sourceName">THE |
+                                    PROGRESSES | AND | PUBLIC PROCESSIONS | OF | QUEEN ELIZABETH. |
+                                    ... | A NEW EDITION, IN THREE VOLUMES. | VOLUME I. | [Royal Coat
+                                    of Arms] | LONDON: PRINTED BY AND FOR JOHN NICHOLS AND SON, |
+                                    (PRINTERS TO THE SOCIETY OF ANTIQUARIES,) | 25, PARLIAMENT
+                                    STREET. | <date>1823</date>.</title></p></note>
+                        <idno type="authorSurname">Nichols</idno>
+                        <idno type="shortTitle">Progresses, vol 1</idno>
+                    </bibl>
+
+                    <msDesc xml:id="STV152">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/52</idno>
+                            <msName>Archdeaconry of Staffordshire Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1629</date>; English with some Latin; paper; 108
+                            leaves (some blank between archdeaconries); 325mm x 200mm; paginated in
+                            modern pencil 1–107 (108 unfoliated); bound into a quire, no cover.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STGRB1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 42/13</idno>
+                            <msName>Letter from <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/13153/"
+                                    type="Person_Royalty">John of Gaunt's</rs> Register
+                                Book</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">John of Gaunt's two register books contain various orders,
+                            including orders for payments, letters, and many other types of official
+                            records concerning the running of the vast duchy of Lancaster. Some of
+                            the orders are addressed to borough and other local officials within the
+                            duchy, and deal with local arrangements. The register books also contain
+                            a vast amount of material about the running of Gaunt's various
+                            households in England, as far-flung as Bamburgh, Leicester, Kenilworth,
+                            Kingston Lacy, Hertford, and the Savoy, as well as others in Europe.
+                            Records of his payments for minstrels and other entertainers have been
+                            transcribed, wherever activities or payments for them may have occurred,
+                            because the administrative centres of the duchy appear to have been
+                            Tutbury and Kenilworth. The register books have been published as
+                                <title>John of Gaunt's Register, Part I (1371-1375)</title>, Sydney
+                            Armitage-Smith (ed), Camden Society, 3rd ser, 20–1, 2 vols (London,
+                            1911); <title>John of Gaunt's Register, Part II (1379–83)</title>,
+                            Eleanor C. Lodge and Robert Somerville (eds), Camden Society, 3rd ser,
+                            56–7, 2 vols (London, 1937).</ab>
+                        <ab type="techDesc"><date>1372–6</date>; Anglo-Norman and Latin; parchment
+                            with paper fly-leaves; ii + 235 + ii; 330mm x 230mm; ink foliation;
+                            bound in brown cloth boards with leather corners and spine, title on
+                            spine: 'Duchy of Lancaster. Miscell. Books.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STNASM">
+                        <msIdentifier>
+                            <settlement>Newcastle under Lyme</settlement>
+                            <repository sameAs="#brampton-museum"/>
+                            <idno type="shelfmark">no shelfmark</idno>
+                            <msName>Corporation Minute Book</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The borough records, 1369–1411, consist of elections of
+                            officers and admissions of burgesses. After this there occurs a gap
+                            until 1490–1510, when the records again consist of elections,
+                            admissions, a few orders by the burgesses, and no accounts. Then a
+                            further gap occurs until 1590. See Thomas Pape, <title>Medieval
+                                Newcastle-Under-Lyme</title> (Manchester, 1928).</ab>
+                        <ab type="techDesc"><date>1590–1669</date>; English; paper; vii + 121 + vii;
+                            pp 2–147, 242: 340mm x 220mm, pp 148–241: 310mm x 190mm; original
+                            foliation to f 50, original pagination, 51–242 (p 243 obliterated by
+                            repair to volume; pp 162–3 missing); bound in brown leather with brass
+                            studs and closures (nineteenth century), title on front: 'Corporation of
+                            Newcastle-under-Lyme (Red Book) 1590 to 1669.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STNQS1">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/26, item 1</idno>
+                            <msName>Information Lodged against <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/14017/"
+                                    type="Person_Male">Thomas Greene</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/14062/"
+                                    type="Collective_Occupation">Tailor</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Epiphany <date>1590–1</date>; English; paper; single
+                            sheet; 405mm x 295mm; damaged at right edge resulting in loss of text;
+                            repaired and mounted on a sheet attached to guard stub and preserved
+                            within blue folder.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STSMER">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D1399/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/36054/"
+                                    type="Place_Feature">St Mary's</rs> Parish Register</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1559—1667</date>; Latin, English; parchment; ii +
+                            198 + ii; 322mm x 220mm; modern pencil foliation; original calfskin
+                            binding repaired; rebound in the 20th century with new fly leaves;
+                            '1559—1666' on spine and front cover.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STRVAB">
+                        <msIdentifier>
+                            <settlement>Worcester</settlement>
+                            <repository sameAs="#WRO"/>
+                            <idno type="shelfmark">BA 2760</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/39739/"
+                                    type="Place_EcclesiasticalArea">Diocese of Worcester</rs>
+                                Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1613–17</date>; Latin, some English; paper; x +
+                            444 + x; 310mm x 190mm; foliated 1–444; modern half-leather binding
+                            (1963), title on cover: 'Visitation act book, 1613–17.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STSHA1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 8/67/11</idno>
+                            <msName>Bill of Complaint in <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/14762/"
+                                    type="Person_Female">Bourne</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/14928/"
+                                    type="Person_Male">Cole</rs> et al</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1616</date>; English; parchment; 2 membranes;
+                            170mm x 440mm and 453mm x 500mm; modern numbering in pencil on lower
+                            right corner but not in logical order (mb 2 contains a bill of complaint
+                            and mb 1 the defendants' answer); mb 1 has an uneven top edge along
+                            which can be seen descenders from a line of text, from which it has been
+                            cut away, mb 2 is slightly stained and has 5 worm holes (2
+                            repaired).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STMCBR">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D1287/10/2 (O/250)</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/19671/"
+                                    type="Person_Male">Matthew Cradock's</rs> Book of
+                                Remembrance</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>July 1614–June 1615</date>; English and Latin;
+                            paper; 305mm x 200mm; modern pencil paginated 1–283; p 260 onwards blank
+                            and occasional blank folios through text, no fly leaves; some printed
+                            inserts of Lord Mayors Orders.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STSBAI">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D1323/E/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/10976/"
+                                    type="Collective_Occupation">Bailiffs'</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/3576/"
+                                    type="Collective_ClergyAndChurchwardens">Churchwardens'</rs>,
+                                and <rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This volume contains (a) copies of earlier accounts,
+                            beginning in 1519, which are in the same hand as entries for the years
+                            1611 onwards, so they presumably were copied by the town clerk or his
+                            scribe; (b) accounts of bailiffs, chamberlains, churchwardens, and
+                            schoolwardens, because the accounts of the minor officials were
+                            presented and approved by the corporation officials before being entered
+                            into the town book. In the transcriptions, the entries from the
+                            churchwardens are differentiated from the bailiffs' (later the mayors')
+                            accounts because they originated from different authorities. The
+                            churchwardens' accounting year was 21 December–20 December, with the
+                            accounts presented to the bailiffs between 13 February and 19 March, the
+                            Friday following Quadragesima Sunday. The bailiffs' accounting year was
+                            18 October–17 October, with the accounts similarly being presented
+                            between 13 February and 19 March. The mayoral accounting year was later
+                            adjusted slightly to begin the next Monday after St Luke's Day (ie, 27
+                            October).</ab>
+                        <ab type="techDesc"><date>1611–62</date>; English; paper; v + 353; 350mm x
+                            225mm (text area variable); modern pencil foliation to f 310 (ff 5–19,
+                            21, 152, 161, 179, 250, 305–53 blank; 60–2, 142–7, 149–50, 153–7, 168,
+                            244–7, and 253 missing; 158, 166, 167, 193, and 201 foliated twice
+                            [a/b]; 221 foliated thrice [a/b/c]); early tooled calf binding, much
+                            worn, with loose leather cover; remains of brass closures; also
+                            preserved is an older (perhaps original?) parchment binding which has
+                            title on inside front and back covers: 'Burgiis Stafford Liber
+                                Compot<ex>us</ex> This book was bought and In<damage><gap
+                                    unit="chars" extent="1"/></damage>veded by Richard Drakeford and
+                            Iohn Wilson Bailiffes of the said Borough vicesimo die Novembris Anno
+                            regn D<ex>omi</ex>ni Iacobi vnum Regis Anglie &amp; Nono Scocie
+                                    <damage><gap unit="chars" extent="6"/></damage> gracias. 1611 IS
+                            R Drakeford I Willson Bailliffs.' On f [ii] is written: 'The Old Book of
+                            Accounts.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STSSU2">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#william-salt-library"/>
+                            <idno type="shelfmark">S.MS. 366/1/A</idno>
+                            <msName>Copies of Summary Accounts (A)</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This is a collection of brief annual summaries of receipts
+                            and expenses for the schoolwardens, <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/3576/"
+                                type="Collective_ClergyAndChurchwardens">churchwardens</rs>,
+                            chamberlains, and <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/10976/"
+                                type="Collective_Occupation">bailiffs</rs>. Not all years are
+                            represented, nor all officers within a given year. Near the beginning of
+                            the volume there occur some more detailed accounts, in which the
+                            transcribed record is found.</ab>
+                        <ab type="techDesc"><date>1520–1628</date>; English; paper; ii + 92 + ii
+                            (modern fly-leaves); 360mm x 240mm; paginated 1–92; pages preserved,
+                            mounted and bound into modern green cloth guard-book, no title on
+                            spine.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWORS">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D(W)1721/1/4</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/19579/"
+                                    type="Person_Male">Thomas Worswicke's</rs> Book</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Thomas Worswicke was steward to Edward Stafford, 13th
+                            Baron Stafford, town clerk of Stafford, and eventually (<hi
+                                rend="italic">c</hi> 1625) mayor of Stafford. His reasons for
+                            keeping copies of town records and other documents remain unclear, as
+                            are the dates of these collections. The first ff 1–64 contain Stafford
+                            family pedigrees and other items; with second foliation begins Thomas
+                            Worswicke's collections of Stafford records for 1603–4, together with
+                            diary accounts of his activities in Stafford affairs.</ab>
+                        <ab type="techDesc"><date>1603–23</date>; English; paper; v + 64 + 201 + v;
+                            420mm x 260mm; modern pencil foliation 1–64, early ink foliation 1–178
+                            follows pencil foliation (ff 92–8, 133 missing, ff 178–201 possibly
+                            unfoliated, or perhaps lost because of wear at top corner); bound in
+                            full brown calf (19th century) with brass studs and closures, title on
+                            spine: 'Stafford Manuscripts Pedigrees of the House of Stafford Stafford
+                            Town Record &amp; Account.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTWYS">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">PROB 11/27</idno>
+                            <msName>Will of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/26580/"
+                                    type="Person_Male">John Wistowe</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1539</date>; English (wills) and Latin (probates);
+                            parchment; 375 leaves; 420mm x 340mm (310mm x 240mm); modern stamped
+                            foliation; bound in leather with metal edges and corners, metal clasps,
+                            title on spine: 'DYNGELEY | 27.' Contains register copies of original
+                            wills, copied into volume at time of probate; the will transcribed is on
+                            ff 247v–8.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV130">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/30</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1614</date>; Latin and English; paper; 26 leaves +
+                            1 fragment interleaved between ff [23–4]; 305mm x 210mm; unfoliated;
+                            single stitched quire but no binding, presumably originally part of a
+                            visitation act book.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTAM1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 2/4</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/39761/"
+                                    type="Person_Commoner">Bett</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/26891/"
+                                    type="Person_Male">Ferrers</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This volume of Star Chamber proceedings contains a variety
+                            of documents, including the depositions, examination of witnesses, and
+                            examination of the defendant in the case of Bett v. Ferrys. The
+                            depositions were taken at Tamworth, 18 January 1536/7, by Sir George
+                            Greysley and James Leveson. The list of seventeen interrogatories does
+                            not survive.</ab>
+                        <ab type="techDesc"><date>1536/7</date>; English; paper; 3 leaves conserved
+                            on guard sheets; 420mm x 295mm, 370mm x 300mm, and 261mm x 300mm. Now
+                            foliated 177–9 and bound in a 19th century volume: vi + 1–228 + vi;
+                            binding damaged, spine separating from boards, title on spine 'Star
+                            Chamber Proceedings Hen. VIII 4.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTAM3">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Additional MS 28177</idno>
+                            <msName>Examination of Defendant in <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/39761/"
+                                    type="Person_Commoner">Bett</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/26891/"
+                                    type="Person_Male">Ferrers</rs> (A)</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>30 November 1860–27 September 1862</date>;
+                            English; paper; 340 leaves; ii + 228 + cx; 325mm x 250mm; foliation by
+                            British Library, 1869: ii + 226; 109 blank leaves + flyleaf follow last
+                            foliated leaf; original binding, black cloth boards with leather spine
+                            and cornerings, with some tooling, title on spine.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STGRB2">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 42/14</idno>
+                            <msName>Order from <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/13153/"
+                                    type="Person_Royalty">John of Gaunt's</rs> Register
+                                Book</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">John of Gaunt's two register books contain various orders,
+                            including orders for payments, letters, and many other types of official
+                            records concerning the running of the vast duchy of Lancaster. Some of
+                            the orders are addressed to borough and other local officials within the
+                            duchy, and deal with local arrangements. Two such excerpts deal with
+                            Newcastle under Lyme and Tutbury, and hence the register books are fully
+                            described above, under those boroughs. The register books also contain a
+                            vast amount of material about the running of Gaunt's various households
+                            in England, as far-flung as Bamburgh, Leicester, Kenilworth, Kingston
+                            Lacy, Hertford, and the Savoy, as well as others in Europe. Records of
+                            his payments for minstrels and other entertainers have been transcribed,
+                            wherever activities or payments for them may have occurred, because the
+                            administrative centres of the duchy appear to have been Tutbury and
+                            Kenilworth. The register books have been published as <title>John of
+                                Gaunt's Register, Part I (1371-1375)</title>, Sydney Armitage-Smith
+                            (ed), Camden Society, 3rd ser, 20–1, 2 vols (London, 1911); <title>John
+                                of Gaunt's Register, Part II (1379–83)</title>, Eleanor C. Lodge and
+                            Robert Somerville (eds), Camden Society, 3rd ser, 56–7, 2 vols (London,
+                            1937). </ab>
+                        <ab type="techDesc"><date>1379–83</date>; French; parchment; ii + 153 + ii
+                            (fly leaves part of binding); 350mm x 230mm; modern (inaccurate) and
+                            antiquarian (accurate) foliation; contemporary repair on f 113; bound in
+                            19th-c. brown cloth with leather spine and corners, title on spine:
+                            'Duchy of Lancaster Miscell Books.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTLE2">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 41/597, item [d]</idno>
+                            <msName>Letter from <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27382/"
+                                    type="Person_Male">Lord Newburgh</rs>, <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/28574/"
+                                    type="Collective_Office">Chancellor of the Duchy of
+                                    Lancaster</rs>, to the Clerk of the Duchy Chamber</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">These two sets of orders for the <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                type="Entertainer_Type">minstrels</rs>' court contain, in items
+                            [a/b] and [c/d], the two variant versions of the orders. It is assumed
+                            that [a], the version of the orders which cannot be precisely dated, is
+                            earlier because it is a re-issue (with minor changes, errors, and
+                            omissions) of the orders of 1618 (TNA: DL 41/587). Presumably the letter
+                            of 7 May 1630, [b], was intended to accompany this version of the
+                            orders. It could not have been intended for the orders dated later, the
+                            revised orders of 10 May 1630 (1631?), item [c]. These revised orders
+                            presumably reflect changes ordered by the new chancellor of the duchy of
+                            Lancaster, Edward Barrett, Lord Newburgh, who held office from April
+                            1629 concurrently with his predecessor, Sir <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/27295/"
+                                type="Person_Male">Humphrey May</rs>, or perhaps by May himself.
+                            May's death in June 1630 likely caused some upheaval in the workings of
+                            the Chancery office, and may account for the confusion in dates with
+                            this version of the orders. In any case there appears to have been a
+                            delay of a little over a year before the revised orders, item [c], were
+                            issued, along with item [d], Newburgh's letter of 21 May 1631 ordering
+                            that the orders be exemplified and enforced. However, the existence of
+                            an exemplification dated 10 May 1630 (1631?) may indicate that
+                            Newburgh's letter was related to yet another recension of the orders,
+                            now lost. The relationships between these variant versions, one
+                            concludes, are not at all clear.</ab>
+                        <ab type="techDesc"><date>21 May 1631</date>; English; paper; bifolium used
+                            as single sheet for letter written on f [1]; 295mm x 180mm;
+                            autograph.</ab>
+
+                    </msDesc>
+
+                    <msDesc xml:id="STTMC1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 41/587</idno>
+                            <msName>Regulations Governing the <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                    type="Entertainer_Type">Minstrels'</rs> Court</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1618</date>; English; parchment; single membrane;
+                            670mm x 312mm; written on 1 side; ink worn in many places, staining at
+                            top 95mm x 225mm; folded at bottom with parchment strip to attach seal
+                            (no evidence for seal), written on strip: 'orders concerninge the
+                            Mystrells court holden att Tutbury in Com<ex>itatus</ex> staff
+                                y<ex>a</ex>t whether they bee inforce.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTMC2">
+                        <msIdentifier>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 41/597, item [c]</idno>
+                            <msName>Revised Regulations Governing the <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                    type="Entertainer_Type">Minstrels'</rs> Court</msName>
+                        </msIdentifier>
+                        <ab type="techDesc">10 May 1629; English; parchment; 575mm x 375mm; written
+                            over onto fold at foot (dorse) with final order and exemplification;
+                            folded at bottom with parchment strip to attach seal (no evidence for
+                            seal).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTPAT">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Additional Charter 42681B</idno>
+                            <msName>Letter Patent of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/24537/"
+                                    type="Person_Royalty">Charles I</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Letter patent accompanying BL: Additional Charter 42681A,
+                            likely a copy of TNA: DL 41/597, item [c].</ab>
+                        <ab type="techDesc"><date>30 June 1631</date>; Latin; parchment; single
+                            membrane; 80mm x 300mm; written on recto only.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTPPC">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">C 66/2738</idno>
+                            <msName>Royal Proclamation re <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                    type="Entertainer_Type">Minstrels'</rs> Court</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1637</date>; English; parchment; single membrane;
+                            635mm x 255mm. Membrane 6 dors is in a large Chancery patent roll
+                            containing over 150 serial membranes bearing various dates.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTPS1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 29/1/3</idno>
+                            <msName>Agreement re Pasturage for <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                    type="Entertainer_Type">Minstrels'</rs> Horses</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1313–15</date>; Latin; parchment; 28 membranes;
+                            750–825mm x 380mm (mbs 27 and 28 considerably smaller: mb 27, 830mm x
+                            235mm, mb 28, 420mm x 260mm) (text area c 590mm–620mm x 350mm); written
+                            on both sides, writing on dorse begins on reverse of the first mb of the
+                            roll; attached at the top; cloth wrapping.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTPS2">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">DL 42/109</idno>
+                            <msName>Agreement re Pasturage for <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                    type="Entertainer_Type">Minstrels'</rs> Horses</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1558–9</date>; Latin and English; vellum; i + 160
+                            + 1; 400mm x 285mm (290mm x 185mm); later foliation 1–151 (ff 152–60
+                            blank, unfoliated); some flourishes of capitals, titles, subtitles, and
+                            names heading paragraphs in red ink, slightly raised; bound in brown
+                            leather boards with brass clasps, crest on boards tooled in gold, title
+                            on spine: 'DUCHY OF LANCASTER | MISCELL. BOOKS | 109.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTSC1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">SC 11/606</idno>
+                            <msName>Description of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/37400/"
+                                    type="Entertainment_AnimalSport">Bull-Running</rs>
+                                Custom</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1382</date>; parchment; 2 mbs, sewn at top; mb
+                            [1]: 560mm x 200mm, mb [2]r: 610mm x 200mm, mb [2]d is pasted onto
+                            backing of mb [2]r and is fragmentary: (a) 45mm x 200mm, then a gap
+                            (missing area) of 125mm x 200mm (b) 490mm x 200mm (damaged); unnumbered;
+                            written on both sides, on mb [1]d writing begins at head of membrane, on
+                            mb [2]d at foot; parchment wrapper.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STTUT2">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Royal MS 18.B.x</idno>
+                            <msName>Description of the <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/8709/"
+                                    type="Entertainer_Type">Minstrels'</rs> Court and <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/37400/"
+                                    type="Entertainment_AnimalSport">Bull-Running</rs> (A)</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Contains a 'trewe copie of the antient franchisses
+                            priviledges and customs' of Tutbury, 'collected by Robert Roworth, his
+                            Maiesties poore tennant of Tutbury.' The identity of Robert Roworth, and
+                            the rationale for this collection of materials about Tutbury, are
+                            unknown.</ab>
+                        <ab type="techDesc"><hi rend="italic">c</hi>
+                            <date>1617–30</date>; English; paper; iii (modern) + iii (containing MS
+                            description and table of contents) + 95 (first and final 13 blank: i +
+                            81 + 13 (blank)) + iii (modern); 275mm x 175mm; contemporary and modern
+                            foliation (latter omits ff 25 and 77 (blank), and gives 79 folios);
+                            modern BL binding, black leather spine and corners, title on spine:
+                            'Roworth: Ancient Franchise of Tutbury.' The date, 'ultimo Aug.
+                                a<ex>nn</ex>o 1617,' is scribbled at the bottom of f [ii]v.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STUTT1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 8/192/12</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/27498/"
+                                    type="Person_Male">Kynnersley</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27543/"
+                                    type="Person_Male">Tyxall</rs> et al</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Anthony Kynnersley, farmer, of Loxley, brings a complaint
+                            against William Tyxall of Lees Hill.</ab>
+                        <ab type="techDesc"><date>1616</date>; English; parchment; 2 membranes;
+                            160mm x 260mm and 475mm x 675mm; modern numbering in pencil at bottom
+                            right of mbs.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWALB">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#william-salt-library"/>
+                            <idno type="shelfmark">ms 50/A2/56</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/10976/"
+                                    type="Collective_Occupation">Bailiff's</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Wall was a manor located just to the south of Lichfield,
+                            on Watling Street. The lord of the manor was Sir <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/27714/"
+                                type="Person_Gentry">William Vernon</rs>. This is the account of <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/39783/"
+                                type="Person_Commoner">John Teddesley</rs>, bailiff of Wall.</ab>
+                        <ab type="techDesc"><date>1448–9</date>; Latin; paper; single sheet; 750mm x
+                            290mm approximately; damaged at top, bottom, and left side; written
+                            (presumably) on 1 side and pasted onto a modern backing sheet. </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWAL1">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 1/2/95</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/27793/"
+                                    type="Person_Male">Roger Dyngley</rs> v. <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27957/"
+                                    type="Person_Gentry">John Beamont</rs> et al</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This complaint about an affray and its aftermath is
+                            brought by Roger Dyngley, mayor of Walsall, and Thomas Rice against a
+                            number of defendants.</ab>
+                        <ab type="techDesc"><date>1499</date>; English; parchment; 2 membranes sewn
+                            onto modern paper binding strips; 298mm x 210mm and 300mm x 535mm
+                            respectively. Bound in 19th-c. cloth in a large volume containing cases
+                            from STAC 1/2/51–135 inclusive; numbered 95. </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWAL3">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">2/19/101</idno>
+                            <msName>Answer of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27957/"
+                                    type="Person_Gentry">John Beamont</rs> to the Complaint of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27793/"
+                                    type="Person_Male">Roger Dyngley</rs> and <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27843/"
+                                    type="Person_Male">Thomas Rice</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">[<date>1499</date>]; English; parchment; single
+                            membrane; 170mm x 300mm; written on 1 side; no endorsement.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWAL4">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 2/13/247</idno>
+                            <msName>Answer of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/28003/"
+                                    type="Person_Commoner">Walter Leveson</rs> to the Complaint of
+                                    <rs ref="http://ereed.library.utoronto.ca/eats/entity/27793/"
+                                    type="Person_Male">Roger Dyngley</rs> and <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27843/"
+                                    type="Person_Male">Thomas Rice</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">[<date>1499</date>]; English; parchment; single
+                            membrane; 170mm x 335mm; written on 1 side; dorse has later endorsement:
+                            '14 Dyngley vs Leverson.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWAL5">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">STAC 2/28/109</idno>
+                            <msName>Replication by <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27793/"
+                                    type="Person_Male">Roger Dyngley</rs> and <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27843/"
+                                    type="Person_Male">Thomas Rice</rs> to the Answer of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/27957/"
+                                    type="Person_Gentry">John Beamont</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc">[<date>1499</date>]; English; parchment; single
+                            membrane; 370mm x 300mm; written on 1 side; damaged at right side by 2
+                            tears and 3 holes; dorse has later endorsement: 'Walsall, Inhabitants of
+                            v Beaumont.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWCWA">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">276/62*</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/39876/"
+                                    type="Place_Feature">All Saints'</rs>
+                                <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/"
+                                    type="Collective_ClergyAndChurchwardens">Churchwardens'</rs>
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The church became dedicated to St Matthew at some time
+                            after 1531 and is now so known. These accounts were presented each year
+                            sometime between 25 December and 30 December; hence, they refer mainly
+                            to the second of the two years given in the date in the heading.</ab>
+                        <ab type="techDesc"><date>1462–1531</date>; English and Latin; paper; ii +
+                            68 + ii; 220mm x 165mm; modern pencil pagination 2–135; contemporary
+                            calf binding (original(?) parchment binding now bound into volume as ff
+                            1, 2, 135, 136, formerly part of an MS written in 2 columns, now
+                            indecipherable), title on spine: 'Church-wardens' Accounts 1462/1531,'
+                            title on front cover: 'Church-wardens' Accounts. All Saints' Church
+                            Walsall, 1462–1531.' </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA1">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA2">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/4</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA3">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/7</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA4">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/8</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA5">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/10</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA6">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/11</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA7">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/18</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA8">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/19</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMA9">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/20</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; 2 separate
+                            leaves; 400mm x 155mm; joined neck to tail, written seriatim.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAA">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/21</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAB">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/22</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAC">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/23</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAD">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/24</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAE">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/25</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; 2 separate
+                            bifolia; 400mm x 155mm; not distinguished (one is endorsed on f [2v]:
+                            'My ffathers Accovnt when hee was Maior,' the other is another version,
+                            more neatly written and grouped, of the same set of accounts).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAF">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/29</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; booklet composed
+                            of 2 folded sheets resulting in 4 leaves; 300mm x 200mm; unfoliated
+                            (last 2 leaves blank); stitched.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAG">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/30</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab>The mayoral term was from Michaelmas (29 September) to Michaelmas with
+                            the accounts to be rendered on St Clement's Day (23 November) or
+                            occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWMAH">
+                        <msIdentifier>
+                            <settlement>Walsall</settlement>
+                            <repository sameAs="#WLHC"/>
+                            <idno type="shelfmark">277/13/31</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/"
+                                    type="Collective_Occupation">Mayors'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The mayoral term was from Michaelmas (29 September) to
+                            Michaelmas with the accounts to be rendered on St Clement's Day (23
+                            November) or occasionally on St Catherine's Day (25 November).</ab>
+                        <ab type="techDesc"><date>1594–1642</date>; English; paper; collection of
+                            separate papers, each a bifolium (except nos 20 and 25); average leaf
+                            size 400mm x 155mm; all sets of documents preserved in separate folders.
+                        </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV145">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/45</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1623</date>; Latin and English; 48 leaves (2
+                            disparate quires, 18 and 30 leaves); 310mm x 190mm; unfoliated; much
+                            damaged (some folios unreadable); unbound: first quire has on f [1]:
+                            'Newport 16.2,' and on f [18v]: 'Detecta per veteres Economis in com
+                            Salop 1623'; second quire has on f [1]: 'Presentm<damage><gap
+                                    unit="chars" extent="3"/></damage> at Stafford.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STV155">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">B/V/1/55</idno>
+                            <msName>Archdeaconry of Stafford Visitation Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1635</date>; Latin and English; iii + 91 + iii;
+                            320mm x 210mm; modern pencil pagination 1–183 (interleaved smaller
+                            leaves follow pp 12, 34, 95, 125, 149: paginated as 12b, 34b, etc);
+                            repaired and rebound in blue cloth, no title.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STQSRS">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Q/SR/119</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/1309/"
+                                    type="Place_BoroughParish">Stafford</rs> Quarter Session
+                                Rolls</msName>
+                        </msIdentifier>
+                        <ab type="techDesc">Trinity Term <date>1611</date>; English; paper;
+                            bifolium; 305mm x 200mm; written on rectos of ff [1] and [2], now
+                            numbered 45 and 46 in modern pencil, versos blank; contained in a folder
+                            of other sessions.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWOCW">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">Shaw Hellier MSS (in private hands)</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/39917/"
+                                    type="Place_Feature">St Peter's</rs>
+                                <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/"
+                                    type="Collective_ClergyAndChurchwardens">Churchwardens'</rs>
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The MS is in private hands and was temporarily deposited
+                            in Staffordshire Record Office for consultation by arrangement. It
+                            contains annual churchwardens' accounts, presented usually at Lady Day
+                            or Mid-Lent Sunday each year; in most cases the date of presentation
+                            specifies the calendar year. This is assumed to have been in Old Style
+                            and the year has been corrected accordingly (for example, 1520 has been
+                            given as 1520/1). There are several cases in which both the calendar and
+                            regnal year are specified; in these the year appears to be given in New
+                            Style and has not been corrected. The handwriting, presumably that of
+                            the parish clerk, changes several times in the course of the years
+                            covered by the document.</ab>
+                        <ab type="techDesc"><date>1520–1634</date>; English; paper; iv + 418; 295mm
+                            x 208mm; contemporary and modern foliation begins with f 7 (on f 5, as 2
+                            leaves apparently missing at beginning of book, 4 leaves also missing
+                            following f 29, 2 leaves missing following f 103), foliation has been
+                            followed where found; bound in contemporary dark brown calf; no
+                            title.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STYOCW">
+                        <msIdentifier>
+                            <settlement>Lichfield</settlement>
+                            <repository sameAs="#LRO"/>
+                            <idno type="shelfmark">D.(W.)1851/1/13/20</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/39917/"
+                                    type="Place_Feature">St Peter's</rs>
+                                <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/"
+                                    type="Collective_ClergyAndChurchwardens">Churchwardens'</rs>
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The churchwardens' accounting year during this period
+                            coincided with the regnal year, 22 April–21 April.</ab>
+                        <ab type="techDesc"><date>1541–7</date>; English; paper; 11 leaves; 400mm x
+                            155mm, except pp 5--8 which are 285mm x 155mm; modern pencil pagination;
+                            preserved and mounted on guard pages in a modern green cloth guard book,
+                            dated 1962, no title. </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STYX01">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Additional MS 46,460 vol. A</idno>
+                            <msName>Manorial Court Record</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This manuscript is bound in three parts, designated A (ff
+                            1–111), B (ff 112–78), and C (ff 179–213).</ab>
+                        <ab type="techDesc"><date>16th century</date>; English, Latin; paper; ii +
+                            111 + ii; c 313mm x 204mm; contemporary foliation in ink (293–454)
+                            superseded by modern foliation in pencil (used here); leaves variously
+                            trimmed at top or bottom, edges and corners reinforced with paper;
+                            leaves mounted on guards, usually quires of 8 to each guard though some
+                            originally conjugate leaves have become detached and are mounted
+                            separately; standard BL binding, on spine: 'Presented by the Rt. Hon.
+                            Viscount Fitzalan of Derwent | Wellys Papers. | Shrewsbury (Talbot MSS),
+                            VOL. VII.' </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STBBL1">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D(W)1721/3/207</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/22742/"
+                                    type="Person_Commoner">Walter Bagot's</rs> Household
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Walter Bagot (1557–1622) was holder of the title and
+                            estate during this time. The manuscript is very damaged. It consists, in
+                            its present form, of a series of preserved and mounted fragmentary
+                            leaves and bifolia, some numbered in modern pencil, others not. The
+                            order of preservation is not the order in which the leaves originally
+                            occurred. The manuscript is partial, the remainder 'cannot be produced'
+                            and may have been destroyed as unsalvageable by the record office. Each
+                            mounted leaf containing an extract is described below as a separate item
+                            from a box of disjunct leaves.</ab>
+                        <ab type="techDesc"><hi rend="italic">c</hi>
+                            <date>1574–1619</date>; English; paper: Item 1: <date>1613</date>;
+                            conjugate leaf; 310mm x 190mm; foliated in modern pencil as ff 61 and 64
+                            (found within the bifolium is another conjugate leaf, foliated ff 62 and
+                            63); damaged at right edge; Item 2: dates obliterated on most leaves in
+                            group, but conjugate leaf f 85 is dated <date>1615</date>; conjugate
+                            leaf; approximately 310mm x 190mm; foliated ff 85 and 87, part of a
+                            group foliated ff 81--92; damaged at top; Item 3: 1619; conjugate leaf;
+                            approximately 310mm x 190mm; foliated ff 126 and 128; damaged at left
+                            edge. </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STWILS">
+                        <msIdentifier>
+                            <settlement>Cambridge</settlement>
+                            <repository sameAs="#CUL"/>
+                            <idno type="shelfmark">Add. MS 33</idno>
+                            <msName>Autobiography of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/39954/"
+                                    type="Person_Commoner">Arthur Wilson</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1602–1710</date>; English; paper; ix + 128; 185mm
+                            x 135mm; contemporary and modern pagination (pp i–ix, 172–98, 203–48,
+                            and 251–6 blank); modern binding in half calf, original binding
+                            survives: full calf, secured with 2 metal clasps (1 remains). Also
+                            contains 'Observations of God's Providence in the tract of my life' (pp
+                            1–56, 199–202).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STFHA1">
+                        <msIdentifier>
+                            <settlement>Washington, DC</settlement>
+                            <repository sameAs="#folger-shakespeare-library"/>
+                            <idno type="shelfmark">MS L.e.313</idno>
+                            <msName>Sir <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/26891/"
+                                    type="Person_Gentry">Humphrey Ferrers'</rs> Household
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1605</date>; English; paper; 2 loose sheets; 305mm
+                            x 200mm; unnumbered; sheet [2] missing 115mm x 110mm at top right corner
+                            (torn away); sheet [1] written on both sides, heading 'At London'; sheet
+                            [2v] has 'A note of disbursem<ex>en</ex>t<ex>es</ex> taken the xxvth of
+                            Maj 1605' (oriented vertically to the left).</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STFHA2">
+                        <msIdentifier>
+                            <settlement>Washington, DC</settlement>
+                            <repository sameAs="#folger-shakespeare-library"/>
+                            <idno type="shelfmark">MS L.e.315</idno>
+                            <msName>Sir <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/26891/"
+                                    type="Person_Gentry">Humphrey Ferrers'</rs> Household
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="techDesc">no date; English; paper; single sheet fragment; 220mm x
+                            260mm; no heading.</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STPGH1">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D(W)1734/3/3/276</idno>
+                            <msName>Sir <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/33321/"
+                                    type="Person_Male">Thomas Paget's</rs> Household
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">These are the accounts of Thomas Paget, 4th Baron Paget.
+                            The accounting year of the Paget household was 1 January to 31
+                            December.</ab>
+                        <ab type="techDesc"><date>1578–80</date>; English; paper; 92 leaves; 290mm x
+                            200mm; modern pencil foliation (numerous blank leaves); finished
+                            accounts grouped according to type, under headings; bound in parchment
+                            with ties, no title. </ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STPGH2">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D(W)1734/3/3/280</idno>
+                            <msName>Sir <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/33321/"
+                                    type="Person_Male">Thomas Paget's</rs> Household
+                                Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">These are the accounts of Thomas Paget, 4th Baron Paget.
+                            The accounting year of the Paget household was 1 January to 31
+                            December.</ab>
+                        <ab type="techDesc"><date>1579–80</date>; English; paper; 167 leaves; 300mm
+                            x 200mm; unfoliated; bound in brown leather, much perished, title in ink
+                            on front cover, in 18th-c. hand: 'Household Steward's Accounts from
+                            1579,' also titled on f [1]: 'The household book declaringe the daylie
+                            and weekelie expences from the xvijth daie of October 1579.'</ab>
+                    </msDesc>
+
+                    <msDesc xml:id="STPGH3">
+                        <msIdentifier>
+                            <settlement>Stafford</settlement>
+                            <repository sameAs="#STRO"/>
+                            <idno type="shelfmark">D(W)1734/2/7/8</idno>
+                            <msName>Inventory of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/40000/"
+                                    type="Place_BoroughParish">Burton Manor</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>4 September 1580</date>; English; paper; 17
+                            leaves; 300mm x 200mm; ink foliation; stitched; no cover, titled in ink
+                            on front: 'An Inventorie taken the fourthe of September 1580....'</ab>
+                    </msDesc>
+
+                    <bibl xml:id="STWRIN">
+                        <title type="edName">Inventory of the Effects of Sir <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/34657/"
+                                type="Person_Male">Hugh Wrottesley</rs> (A)</title>
+                        <note type="edDesc"><p>Sir Hugh Wrottesley (<hi rend="italic">c</hi>
+                                1570–1633) was father of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/34764/"
+                                    type="Person_Male">Walter Wrottesley</rs> (1606–59), initially a
+                                Parliamentarian, turned Royalist sympathizer, created 1st Baronet of
+                                Wrottesley in 1642 (Wrottesley, <title>Family of Wrottesley</title>,
+                                pp 295–6, 306, 314–16). <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/40181/"
+                                    type="Place_BoroughParish">Wrottesley Hall</rs>, near Tettenhall
+                                (now part of Wolverhampton, West Midlands) was a moated Tudor House,
+                                destroyed by fire in 1897.</p>
+                            <p>Historical Manuscripts Commission, <title>Guide to the Location of
+                                    Collections Described in the Reports and Calendars Series
+                                    1870-1980</title> (London, 1982), 68, records that the
+                                manuscripts of the Wrottesley family at Wrottesley were destroyed in
+                                a fire in 1897. What remains are two antiquarian transcriptions from
+                                documents of Sir Hugh Wrottesley. The first results from the HMC
+                                survey of the MSS before the house burned, while the second gives
+                                details of the fire at Wrottesley, 16 December 1897, when the house
+                                was completely destroyed, and quotes extensively from transcripts
+                                made before that event, including the inventory transcribed
+                                here.</p></note>
+                        <note type="techDesc"><p>Wrottesley, George. <title type="sourceName"
+                                    >History of the Family of Wrottesley of Wrottesley, Co.
+                                    Stafford</title> (Exeter, <date>1903</date>; rpt Staffordshire
+                                Record Society, Collections for a History of Staffordshire ns 6, pt
+                                2, <date>1906</date>), 301–5.</p></note>
+                        <idno type="authorSurname">Wrottesley</idno>
+                        <idno type="shortTitle">History</idno>
+                    </bibl>
+
+                    <bibl xml:id="STWRLT">
+                        <title type="edName">Letter from <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/34611/"
+                                type="Person_Male">J. Richards</rs> to Sir <rs
+                                ref="http://ereed.library.utoronto.ca/eats/entity/34657/"
+                                type="Person_Male">Hugh Wrottesley</rs> (A)</title>
+                        <note type="edDesc"><p>Sir Hugh Wrottesley (<hi rend="italic">c</hi>
+                                1570–1633) was father of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/34764/"
+                                    type="Person_Male">Walter Wrottesley</rs> (1606–59), initially a
+                                Parliamentarian, turned Royalist sympathizer, created 1st baronet of
+                                Wrottesley in 1642 (Wrottesley, <title>Family of Wrottesley</title>,
+                                pp 295–6, 306, 314–16). <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/40181/"
+                                    type="Place_BoroughParish">Wrottesley Hall</rs>, near Tettenhall
+                                (now part of Wolverhampton, West Midlands) was a moated Tudor House,
+                                destroyed by fire in 1897.</p>
+                            <p>Historical Manuscripts Commission, <title>Guide to the Location of
+                                    Collections Described in the Reports and Calendars Series
+                                    1870-1980</title> (London, 1982), 68, records that the
+                                manuscripts of the Wrottesley family at Wrottesley were destroyed in
+                                a fire in 1897. What remains are two antiquarian transcriptions from
+                                documents of Sir Hugh Wrottesley. The first, transcribed here,
+                                results from the HMC survey of the MSS before the house burned,
+                                while the second gives details of the fire at Wrottesley, 16
+                                December 1897, when the house was completely destroyed, and quotes
+                                extensively from transcripts made before that event.</p></note>
+                        <note type="techDesc"><p>Historical Manuscripts Commission. 'The Manuscripts
+                                of the Right Honourable Lord Wrottesley, at Wrottesley,
+                                Staffordshire.' Alfred J. Horwood (ed). <title type="sourceName"
+                                    >Second Report</title> (London, <date>1874</date>).
+                            46–9.</p></note>
+                        <idno type="authorSurname">Horwood</idno>
+                        <idno type="shortTitle">'Manuscripts'</idno>
+                    </bibl>
+
+                    <msDesc xml:id="STTSHL">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#Bodl."/>
+                            <idno type="shelfmark">MS Ashmole 48</idno>
+                            <msName>The <rs ref="http://ereed.library.utoronto.ca/eats/entity/40706/" type="Entertainment_Type">Ballad</rs> of <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/40099/"
+                                    type="Person_Commoner">Richard Sheale</rs></msName>
+                            
+                        </msIdentifier>
+                        <ab type="techDesc"><date>16th century</date>; English; paper; i + 141 + 1;
+                            190mm x 140mm; modern pencil and (inaccurate) ink foliation; bound in
+                            marbled boards with leather spine and corners, title on spine: 'Ash
+                            48.'</ab>
+                    </msDesc>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+
+</TEI>
