@@ -11,9 +11,10 @@
                         States of America</orgName></funder>
                 <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                         Canada</orgName></funder>
+                <editor>Alexandra F. Johnston</editor>
                 <editor>J. Alan B. Somerset</editor>
                 <respStmt>
-                    <persName>C. Black</persName>
+                    <persName xml:id="CB">C. Black</persName>
                     <orgName>Records of Early English Drama (REED)</orgName>
                     <resp>Project Manager</resp>
                 </respStmt>
@@ -55,11 +56,6 @@
                         Editor</resp>
                 </respStmt>
                 <respStmt>
-                    <persName>Byron Moldofsky</persName>
-                    <orgName>University of Toronto</orgName>
-                    <resp>Cartographer</resp>
-                </respStmt>
-                <respStmt>
                     <persName xml:id="JN">Jamie Norrish</persName>
                     <resp>Programmer, TEI Schema Designer, Technical Consultant</resp>
                 </respStmt>
@@ -74,8 +70,8 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>version 1, released <date when-iso="2017-03-03">3 March
-                    2017</date></edition>
+                <edition>version 2, released <date when-iso="2018-04-16">16 April
+                    2018</date></edition>
             </editionStmt>
             <publicationStmt>
                 <authority><orgName>Records of Early English Drama (REED)</orgName>
@@ -88,7 +84,7 @@
                 </authority>
                 <availability>
                     <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
-                            <date>2017</date></p>
+                            <date>2018</date></p>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
                         under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
                         International (CC BY-NC-SA 4.0) licence.</licence>
@@ -117,6 +113,9 @@
                         <catDesc>Bibliography Sections</catDesc>
                         <category xml:id="generalBib">
                             <catDesc>General</catDesc>
+                        </category>
+                        <category xml:id="berksBib">
+                            <catDesc>Berkshire</catDesc>
                         </category>
                         <category xml:id="staffBib">
                             <catDesc>Staffordshire</catDesc>
@@ -157,6 +156,14 @@
                     </category>
                     <category xml:id="repositories">
                         <catDesc>Repositories</catDesc>
+                        <category xml:id="BRO">
+                            <catDesc>
+                                <choice>
+                                    <abbr>BRO</abbr>
+                                    <expan>Berkshire Record Office</expan>
+                                </choice>
+                            </catDesc>
+                        </category>
                         <category xml:id="BL">
                             <catDesc>
                                 <choice>
@@ -190,6 +197,9 @@
                                 </choice>
                             </catDesc>
                         </category>
+                        <category xml:id="exeter-college-archives">
+                            <catDesc>Exeter College Archives</catDesc>
+                        </category>
                         <category xml:id="folger-shakespeare-library">
                             <catDesc>Folger Shakespeare Library</catDesc>
                         </category>
@@ -206,6 +216,16 @@
                                     <expan>Lichfield Record Office</expan>
                                 </choice>
                             </catDesc>
+                        </category>
+                        <category xml:id="oxfordshire-history-centre">
+                            <catDesc>Oxfordshire History Centre</catDesc>
+                        </category>
+                        <category xml:id="record-office-leicestershire-leicester-rutland">
+                            <catDesc>Record Office of Leicestershire, Leicester, and
+                                Rutland</catDesc>
+                        </category>
+                        <category xml:id="st-george-chapel">
+                            <catDesc>St George's Chapel Archives and Chapter Library</catDesc>
                         </category>
                         <category xml:id="STRO">
                             <catDesc>
@@ -225,6 +245,9 @@
                         </category>
                         <category xml:id="william-salt-library">
                             <catDesc>William Salt Library</catDesc>
+                        </category>
+                        <category xml:id="wiltshire-swindon-archives">
+                            <catDesc>Wiltshire and Swindon Archives</catDesc>
                         </category>
                         <category xml:id="WLHC">
                             <catDesc>
@@ -272,8 +295,11 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change/>
             <!-- Add new major milestone changes to top, within <change> tags. For instance, addition of new collections. -->
+            <change when="2018-04-16" who="#CB">Published version 2 of taxonomy.xml</change>
+            <change when="2018-02-23" who="#CB">Added all data from Berkshire
+                taxonomy-excerpt.xml</change>
+            <change when="2017-03-03" who="#CB">Published version 1 of taxonomy.xml</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -560,7 +586,7 @@
                             <repository sameAs="#chetham-library"/>
                             <idno type="shelfmark">MUN.A.6.65.A</idno>
                             <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/11325/"
-                                    type="Collective_Guild">Corvisors' and Curriers' Guild</rs>
+                                    type="Collective_GuildOccupational">Corvisors' and Curriers' Guild</rs>
                                 Accounts</msName>
                         </msIdentifier>
                         <ab type="edDesc">The Lichfield Corvisors' and Curriers' Accounts migrated
@@ -692,8 +718,7 @@
                             <settlement>Lichfield</settlement>
                             <repository sameAs="#lichfield-cathedral-library"/>
                             <idno type="shelfmark">Chapter Act Books No. 3</idno>
-                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/35059/"
-                                    type="Collective_ClergyAndChurchwardens">Dean</rs> and Chapter
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/10928/" type="Collective_ClergyAndChurchwardens">Dean</rs> and Chapter
                                 Act Book</msName>
                         </msIdentifier>
                         <ab type="techDesc"><date>1490–1523</date>; Latin; parchment and paper; ii
@@ -2017,18 +2042,1330 @@
 
                     <msDesc xml:id="STTSHL">
                         <msIdentifier>
-                            <settlement>London</settlement>
+                            <settlement>Oxford</settlement>
                             <repository sameAs="#Bodl."/>
                             <idno type="shelfmark">MS Ashmole 48</idno>
-                            <msName>The <rs ref="http://ereed.library.utoronto.ca/eats/entity/40706/" type="Entertainment_Type">Ballad</rs> of <rs
+                            <msName>The <rs
+                                    ref="http://ereed.library.utoronto.ca/eats/entity/40706/"
+                                    type="Entertainment_Type">Ballad</rs> of <rs
                                     ref="http://ereed.library.utoronto.ca/eats/entity/40099/"
                                     type="Person_Commoner">Richard Sheale</rs></msName>
-                            
+
                         </msIdentifier>
                         <ab type="techDesc"><date>16th century</date>; English; paper; i + 141 + 1;
                             190mm x 140mm; modern pencil and (inaccurate) ink foliation; bound in
                             marbled boards with leather spine and corners, title on spine: 'Ash
                             48.'</ab>
+                    </msDesc>
+
+                    <bibl xml:id="BRRCOV">
+                        <title type="edName">Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs> (A)</title>
+                        <note type="edDesc"><p>The broken run of early <rs ref="http://ereed.library.utoronto.ca/eats/entity/46700/" type="Place_BoroughParish">Reading</rs> rolls were surveyed
+                                by William Macray for the Historical Manuscript Commission in 1888
+                                ('Corporation of Reading,' pp 167–227). Fourteen rolls before 1413
+                                seen by Macray are no longer extant. Those for 1363–4, 1366–7,
+                                1367–8, 1378–9, and 1384–5 were used by Norman Gibbs in his Oxford
+                                doctoral thesis in 1935. All had disappeared by 1960 (Slade,
+                                    <title>Reading Gild Accounts</title>, pt 1, pp xvii–xxii). There
+                                has been speculation that the disappearance was as a result of enemy
+                                action during the Second World War when Reading, by then an
+                                important railway centre, was heavily bombed. Macray does not record the accounting year, but later MS evidence indicates that it was Michaelmas to Michaaelmas.  </p></note>
+                        <note type="techDesc"><p>Macray, <title type="sourceName"> 'Corporation of
+                                    Reading,'</title> pp 167–227.</p></note>
+                        <idno type="authorSurname">Macray</idno>
+                        <idno type="shortTitle">'Corporation of Reading'</idno>
+                    </bibl>
+
+                    <msDesc xml:id="BRRCOK">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/39</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Although the manuscripts are badly damaged, all evidence supports an accounting year of Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1456–7</date>; Latin; parchment roll; single
+                            membrane; 740mm x 250mm; written 1 side only; now rolled in green
+                            vinyl.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOI">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/20</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Although the manuscripts are badly damaged, all evidence supports an accounting year of Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1430–1</date>; Latin; parchment roll; single
+                            membrane; 660mm x 260mm; written on both sides; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOJ">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/23</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Although the manuscripts are badly damaged, all evidence supports an accounting year of Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1433–4</date>; Latin; parchment roll; single
+                            membrane; 850mm x 245mm; written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOH">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/18</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light and Macray's readings are supplied
+                            where the MS is not now legible. Although the manuscripts are badly damaged, all evidence supports an accounting year of Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1428–9</date>; Latin; parchment roll; single
+                            membrane; 580mm x 280mm; written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOG">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/17</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light. Although the manuscripts are badly damaged, all evidence supports an accounting year of Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1427–8</date>; Latin; parchment roll; single
+                            membrane; 685mm x 255mm; written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOF">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/16</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light.</ab>
+                        <ab type="techDesc"><date>1426–7</date>; Latin; parchment roll; single
+                            membrane; 710mm x 240mm; written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOE">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/13</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light and Macray's readings are supplied
+                            where the MS is not now legible. Although the manuscripts are badly damaged, all evidence supports an accounting year of Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1423–4</date>; Latin; parchment roll; 2 unnumbered
+                            membranes sewn end to end, mb [1]: 535mm x 230mm, mb [2]: 200mm x 230mm;
+                            written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOD">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/11</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light. Although the manuscripts are badly damaged, all evidence supports
+                            an accounting year of Michaelmas to Michaelmas.
+                        </ab>
+                        <ab type="techDesc"><date>1421–2</date>; Latin; parchment roll; 670mm x
+                            270mm; written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/10</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light. Although the manuscripts are badly damaged, all evidence supports
+                            an accounting year of Michaelmas to Michaelmas.
+                        </ab>
+                        <ab type="techDesc"><date>1420–1</date>; Latin; parchment roll; 540mm x
+                            280mm; written 1 side only; faded and repaired. This MS is the more
+                            legible duplicate of BRO: R/FA2/9.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/1</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light and Macray's readings are supplied
+                            where the MS is not now legible. Although the manuscripts are badly damaged, all evidence supports
+                            an accounting year of Michaelmas to Michaelmas.
+                        </ab>
+                        <ab type="techDesc"><date>1413–14</date>; Latin; parchment roll; 495mm x
+                            270mm; written 1 side only; repaired, almost totally illegible.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCOB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/8</idno>
+                            <msName>Cofferers' Accounts of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early surviving rolls in the 'Cofferers' Accounts'
+                            from 1413–14 to 1428–9 are badly faded, damaged, and in some cases
+                            fragmentary (see Slade, <title>Reading Gild Accounts</title>, pt 1, pp
+                            xi–xii). When they were read by Macray for the Historical Manuscripts
+                            Commission in 1888 ('Corporation of Reading,' pp 161–227), more of the
+                            writing on the rolls was legible than it is now. For this edition, all
+                            were read under ultraviolet light and Macray's readings are supplied
+                            where the MS is not now legible.</ab>
+                        <ab type="techDesc"><date>1419–20</date>; Latin; parchment roll; 630mm x
+                            240mm; written 1 side only; repaired.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCDD">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/81</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1598–9</date>; English; paper; 7 leaves; 405mm x
+                            300mm; written on recto only except f 7 which has on verso a note 'The
+                            Accompte of Mr <rs ref="http://ereed.library.utoronto.ca/eats/entity/76064/" type="Person_Commoner">Edward Birmingham</rs> Mr <rs ref="http://ereed.library.utoronto.ca/eats/entity/76128/" type="Person_Commoner">Robert Harris</rs> beinge <rs ref="http://ereed.library.utoronto.ca/eats/entity/1140/" type="Collective_Occupation">Mayor</rs> 1599';
+                            modern ink foliation on ff 1–6 at the bottom, also modern pencil
+                            foliation struck through; repaired and tied at top in green cardboard
+                            binder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/77</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1592–3</date>; English; paper; 9 leaves; 410mm x
+                            305mm; written on recto only except f 9 which has on verso a note '<rs ref="http://ereed.library.utoronto.ca/eats/entity/76194/" type="Person_Commoner">Mr
+                            Tilleze</rs> accompte 1592 To Michis 1593' and some Latin notes in a
+                            different hand from the account text; modern pencil foliation on ff 1–8,
+                            done twice in the top right-hand corner and at the bottom, also modern
+                            ink foliation with inaccuracies in bottom left corner; f 9 damaged;
+                            repaired and kept in brown paper wrapper.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/76</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1588–9</date>; English; paper; 11 leaves; 415mm x
+                            303mm (except f 8: 210mm x 303mm); modern pencil foliation done twice in
+                            the top right-hand corner and at the bottom (that in the top right- hand
+                            corner accurate), half folio numbered 8 in the top right- hand corner
+                            and 7A at the bottom; repaired and kept in brown paper wrapper.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA2/75</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1587–8</date>; English; paper; 9 leaves; 766mm x
+                            604mm (except f 2: 766mm x 302mm); modern foliation done twice: half
+                            folio not included in first numbering and numbers appear in the top
+                            right- hand corner and at the bottom (numbering used includes f 2; ff 7
+                            and 8 written on both sides); repaired and kept in brown paper
+                            wrapper.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRATT">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/AT1/113</idno>
+                            <msName>Agreement Between the Mayor of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs> and the
+                                Burgesses about Expenses</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">Early evidence indicates that <rs ref="http://ereed.library.utoronto.ca/eats/entity/46700/" type="Place_BoroughParish">Reading</rs> was a stopping place
+                            for all kinds of late medieval entertainers. This agreement made
+                            provision for the head of the Reading <rs ref="http://ereed.library.utoronto.ca/eats/entity/55350/" type="Collective_GuildOccupational">Gild Merchant</rs> (who was called
+                            'mayor') to receive five marks annually from the gild to defray small
+                            payments such as the fees for performers and the cost of entertaining
+                            the abbot and the justices. The wording of the indenture uses terms that
+                            would suggest that the Gild Merchant was a city council making
+                            arrangements for the 'commonalty.' However, this was not the case until
+                            over one- hundred years later when the <rs ref="http://ereed.library.utoronto.ca/eats/entity/46822/" type="Place_Feature">abbey</rs> was dissolved and the town
+                            was incorporated by <rs ref="http://ereed.library.utoronto.ca/eats/entity/43591/" type="Person_Royalty">Henry VIII</rs> in 1542. The so-called mayor was, in
+                            fact, 'Mayre of the Gilde Merchaunde of the burghe of Redyng' (see
+                            Introduction).</ab>
+                        <ab type="techDesc"><date>5 October 1429</date>; Latin; parchment; single
+                            membrane; 345mm x 275mm; bottom folded up 30mm; seals (unidentified)
+                            attached, indenture cuts 11mm.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRACAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">TEMP ACC 245/174</idno>
+                            <msName>Chamberlains' Books</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">At the time of publication, this document was held at the
+                            Berkshire Record Office, where it was on temporary deposit from the
+                            Abingdon County Hall Museum.</ab>
+                        <ab type="techDesc"><date>1557–81</date>; English; paper; ii + 181 + ii;
+                            folios with accounts for the year 1557–8: 415mm x 150mm, rest slightly
+                            irregular in size averaging 300mm x 200mm; modern foliation top
+                            right-hand corner with various other modern numbering at the bottom of
+                            each folio; each year a separate booklet pasted to a stub 15mm wide to
+                            make up the present book; rebound in 1912 in brown cloth with leather
+                            corners and spine, red leather patches on front and spine with title
+                            stamped in gold, title on front cover: 'Borough of Abingdon |
+                            Chamberlains Accounts | 1557–1581,' title on spine: 'Chamberlains |
+                            Accounts | 1557–1581.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRDAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/AC1/1/1</idno>
+                            <msName>Corporation Diaries</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">R/AC1/1/1 is a miscellaneous collection of memoranda. The
+                            early pages contain notes of elections, ordinances, fines, etc. The last
+                            half of the book deals almost entirely with elections. Apparently, the
+                            town government met only quarterly.</ab>
+                        <ab type="techDesc"><date>1431–1602</date>; Latin and English; paper; iii +
+                            348 + i (parchment) + iii; 286mm x 194mm; modern pagination; some
+                            display capitals; repaired; bound in brown leather with clasps intact;
+                            stamped on spine: 'Reading | Corporation Diary | 1431–1602.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRCCAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 97/5/2</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/46722/" type="Place_Feature">St Laurence's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">churchwardens</rs> rendered their accounts on the feast of
+                            the Annunciation (25 March) until 1516 when they adopted the
+                            Michaelmas–Michaelmas pattern rendering their accounts on 29
+                            September.</ab>
+                        <ab type="techDesc"><date>1498–1626</date>; English; paper; 250 leaves;
+                            330mm x 225mm; modern pagination; some display capitals; pp 1–2, 490–3
+                            are separated but have been repaired and put separately in a brown paper
+                            wrapper; bound in boards covered in parchment, title on front cover:
+                            'The Book of the | Church-Wardens Accounts | of the Parish | of | St
+                            Laurence.'</ab>
+                    </msDesc>
+                    <bibl xml:id="BRMPEE">
+                        <title type="edName"><rs ref="http://ereed.library.utoronto.ca/eats/entity/54169/" type="Person_Nobility">Lady Russell's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/40416/" type="Drama_Type">Entertainment</rs> for <rs ref="http://ereed.library.utoronto.ca/eats/entity/11772/" type="Person_Royalty">Queen Elizabeth</rs> at
+                            <rs ref="http://ereed.library.utoronto.ca/eats/entity/71569/" type="Place_BoroughParish">Bisham</rs></title>
+                        <note type="techDesc"><p><title type="sourceName">SPEECHES | DELIVERED TO |
+                                    HER MAIESTIE THIS | LAST PROGRESSE, AT THE | Right Honorable the
+                                    Lady R<hi rend="smallcaps">vssels</hi>, at | Bissam, the Right
+                                    Honorable the Lorde | C<hi rend="smallcaps">handos</hi> at
+                                    Sudley, at the Right | Honorable the Lord N<hi rend="smallcaps"
+                                        >orris</hi>, at | Ricorte. | [McKerrow 336] | At Oxforde,
+                                    Printed by Ioseph Barnes. | 1592.</title></p></note>
+                        <idno type="publication" sameAs="#STC"/>
+                        <idno type="pubNumber">7600</idno>
+                    </bibl>
+                    <msDesc xml:id="BRRDCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/AC1/1/3</idno>
+                            <msName>Corporation Diaries</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">R/AC1/1/2–4 are not elegant books. The writing is hurried
+                            and the jottings often seem to have been made at random.</ab>
+                        <ab type="techDesc"><date>Oct 1628–May 1637</date>; English; paper; x + 229
+                            + x; size varies with size of original booklet from 315mm x 198mm to
+                            320mm x 198mm; 19th-c. pagination, modern foliation; heavily damaged
+                            from damp and repaired; bound in boards covered in vinyl with white
+                            spine and wrap around, title stamped on black patch on spine: 'Reading |
+                            Corporation | Diary | 1628–37.'<lb/></ab>
+                    </msDesc>
+                    <msDesc xml:id="BRMCBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 78/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47389/" type="Place_Feature">St Mary's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This book is not only an account book. The manuscript is
+                            extensively damaged with leaves now missing. It was paginated in ink
+                            after the rebinding. The accounts for 1583–4 and 1585–6 are among the
+                            lost leaves.</ab>
+                        <ab type="techDesc"><date>1582–1849</date>; English; paper; iv (including
+                            table of contents) + 143 + ii; 324mm x 230mm; modern ink pagination done
+                            at the time of the rebinding (followed here), as well as 2 earlier sets
+                            of pagination; heavily damaged and repaired with old gatherings lost in
+                            the repair; rebound in the Public Record Office in tan calf, parts of
+                            old binding preserved, MS now wrapped in grey paper cover.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRDSDD">
+                        <msIdentifier>
+                            <settlement>Chippenham</settlement>
+                            <repository sameAs="#wiltshire-swindon-archives"/>
+                            <idno type="shelfmark">D1/42/10</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/3558/" type="Collective_ClergyAndChurchwardens">Bishop's</rs> Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>November 1587–June 1589</date>; English and Latin;
+                            paper; 58 leaves; 312mm x 215mm; modern foliation; first 5 folios
+                            damaged, ff 1–3 badly torn away; original string stitching apparent at f
+                            30, single booklet now without cover, kept with another booklet in brown
+                            cardboard folder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRATHH">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">SP 16/260</idno>
+                            <msName>Examination of <rs ref="http://ereed.library.utoronto.ca/eats/entity/51324/" type="Person_Commoner">Thomas Hellyar</rs>, <rs ref="http://ereed.library.utoronto.ca/eats/entity/76258/" type="Collective_Occupation">Gardener</rs> and <rs ref="http://ereed.library.utoronto.ca/eats/entity/8709/" type="Entertainer_Type">Minstrel</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>20 February 1633/4</date>; English; paper;
+                            bifolium; 350mm x 195mm; repaired; originally folded twice. Now mounted
+                            on a stub, stamped 159–60, and bound together with other State Paper
+                            documents; bound in grey paper boards with blue cloth corners and spine;
+                            red paper lacquered patch glued on spine with title stamped in gold:
+                            'DOMESTIC CHARLES <hi rend="smallcaps">i</hi> 1633 FEBRUARY.'</ab>
+                    </msDesc>
+                    <bibl xml:id="BRHLNN">
+                        <title type="edName">Liber Niger (A)</title>
+                        <note type="edDesc"><p>These two volumes contain miscellaneous antiquarian
+                                compilations, numbered consecutively. An entry dated 1447 includes
+                                '<rs ref="http://ereed.library.utoronto.ca/eats/entity/40453/" type="Drama_Type">playes</rs>' among the activities of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/48057/" type="Collective_GuildReligious">guild of the Holy Cross </rs>in
+                                <rs ref="http://ereed.library.utoronto.ca/eats/entity/46612/" type="Place_BoroughParish">Abingdon</rs>.</p></note>
+                        <note type="techDesc"><p>Hearne, Thomas (ed). <title type="sourceName">Liber
+                                    Niger Scaccarii, e codice, calamo exarato, sibique ipsi à
+                                    Richardo Gravesio Mickletoniensi donato, descripsit &amp; nunc
+                                    primus edidit . . . Qui &amp; cum duobus aliis Codicibus MSS
+                                    contulit, Wilhelmi que etiam Worcestrii Annales Rerum Anglicarum
+                                    (antehac ineditem ineditos) subjecit. Vol 2</title> (Oxford,
+                                1728).</p></note>
+                        <idno type="authorSurname">Hearne</idno>
+                        <idno type="shortTitle">Liber Niger, vol 2</idno>
+                    </bibl>
+                    <msDesc xml:id="BRASHM">
+                        <msIdentifier>
+                            <settlement>Oxford</settlement>
+                            <repository sameAs="#Bodl."/>
+                            <idno type="shelfmark">Ashmole 1126</idno>
+                            <msName>'<rs ref="http://ereed.library.utoronto.ca/eats/entity/70393/" type="Person_Commoner">Ashmole's</rs> Antiquities of <rs ref="http://ereed.library.utoronto.ca/eats/entity/1751/" type="Place_County">Berkshire</rs>' (A)</msName>
+                        </msIdentifier>
+                        <ab type="edDesc"><rs ref="http://ereed.library.utoronto.ca/eats/entity/70393/" type="Person_Commoner">Elias Ashmole</rs> (1617–92) was appointed Windsor Herald in
+                            1660 and, as he records, 'had <rs ref="http://ereed.library.utoronto.ca/eats/entity/43591/" type="Person_Royalty">Henry <hi rend="smallcaps">viii</hi></rs>
+                            closet assigned for my use.' During the twelve years until his
+                            retirement from the post in 1672, Ashmole compiled this book of excerpts
+                            from <rs ref="http://ereed.library.utoronto.ca/eats/entity/38787/" type="Place_BoroughParish">Windsor</rs> material dated 1474–1659. It was used as the source of his
+                            posthumously published <title>Antiquities of
+                            Berkshire</title>.<lb/></ab>
+                        <ab type="techDesc"><date>1660–72</date>; English and Latin; paper; ii + 247
+                            + ii; 325mm x 204mm; modern pencil foliation 1–134, followed by 85
+                            unnumbered blanks, one numbered 220, followed by 12 more blanks (also
+                            preceded by 16 unnumbered blanks following the 2 flyleaves); good
+                            condition; no decoration but most pages have all 4 margins ruled in red;
+                            bound in soft calf, clasps still intact, large gilt crest stamped
+                            (Ashmole's personal crest?) in centre of both covers, gold-stamped
+                            number 'XXX' on small leather strip, with the gold-stamped title below
+                            still visible: 'ASH: 112<damage><gap unit="chars" extent="1"/></damage>'
+                            (leather strip lost).</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRDBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/AC1/1/2</idno>
+                            <msName>Corporation Diaries</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">R/AC1/1/2–4 are not elegant books. The writing is hurried
+                            and the jottings often seem to have been made at random.</ab>
+                        <ab type="techDesc"><date>Oct 1622–Oct 1628</date>; English; paper; ii + 183
+                            + ii; modern foliation and pagination; 320mm x 220mm; heavily damaged
+                            from damp and repaired; bound in boards covered with white imitation
+                            parchment, title on front cover: 'Borough of Reading | Corporation Diary
+                            | commencing | October 1622 | ending | October 1628 | No | 1.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRTMCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 130/5/1A</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47657/" type="Place_Feature">St Mary's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This book also contains the accounts of the almshouse. The
+                            accounts were rendered on Low Sunday.</ab>
+                        <ab type="techDesc"><date>1561–1633</date>; English; paper; iii + 170 + ii;
+                            302mm x 190mm; modern foliation; gatherings irregular, badly damaged by
+                            damp; bound in cardboard covered with parchment and paper stained to
+                            look like parchment, 2 dark brown leather patches on spine, title on
+                            paper sticker on front cover: 'No 1 Per In | ventory of | Sundries |
+                            Churchwardens | account Book | from 1561 to 1633.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRPPCC">
+                        <msIdentifier>
+                            <settlement>Oxford</settlement>
+                            <repository sameAs="#Bodl."/>
+                            <idno type="shelfmark">MS. Top. Berks c.44</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47290/" type="Place_Feature">St Peter and St Paul's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The rendering dates of the accounts are not tied to feast
+                            days. Before 1600 they were rendered mostly in April but in the
+                            seventeenth century they were sometimes rendered later in the year. Four
+                            <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">churchwardens</rs> were elected each year – two from <rs ref="http://ereed.library.utoronto.ca/eats/entity/47268/" type="Place_BoroughParish">Wantage</rs> and one each
+                            from the village of <rs ref="http://ereed.library.utoronto.ca/eats/entity/74602/" type="Place_BoroughParish">Grove</rs> and the combined communities of <rs ref="http://ereed.library.utoronto.ca/eats/entity/74625/" type="Place_BoroughParish">Charlton</rs> and
+                            (West) <rs ref="http://ereed.library.utoronto.ca/eats/entity/74648/" type="Place_BoroughParish">Lockinge</rs>. The date when the new wardens were elected and the date
+                            when they received the accounts for the preceding year from the old
+                            wardens is often not the same, so it is not always possible to provide
+                            exact accounting years. The dates of the election of the chuchwardens
+                            have been noted in endnotes when they are known.</ab>
+                        <ab type="techDesc"><date>1565–1656</date>; English; paper; i + 154 + i;
+                            296mm x195mm; modern foliation (including ff 32a and 32b, 36a and 36b);
+                            bound in boards with modern maroon vinyl covering, gold-stamped title on
+                            spine: 'Wantage Churchwardens Accounts | MS | Top. Berks. | C.44.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRBLRR">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Additional Ch. 19641</idno>
+                            <msName>Account Roll of Brother <rs ref="http://ereed.library.utoronto.ca/eats/entity/76647/" type="Person_Clergy">John de Chippenham</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The account runs from Michaelmas to Michaelmas.</ab>
+
+
+                        <ab type="techDesc"><date>1345–6</date>; Latin; parchment; 2 membranes, tied
+                            sequentially; mb [1]: 500mm x 269mm (495mm x 225mm), mb [2]: 485mm x
+                            280mm (380mm x 230mm); unnumbered; some writing on dorse but complete
+                            account on recto, left hand marginal headings; some repair, tear in top
+                            right corner, natural hole in vellum between 'In' and 'I.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c42</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1599–1600</date>; Latin and English; paper; 290
+                            leaves (including end-papers); modern pencil foliation; 285mm x 190mm;
+                            original parchment front cover used as front end-paper, original back
+                            cover missing; now bound into dark-brown-cloth–covered boards with light
+                            brown leather spine and binding, title stamped in gold on spine: 'LIBER
+                            | ACTORUM | 1599–1600 | Berks c.42.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRTMBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">W/AC1/1/1</idno>
+                            <msName>Town Minute Book</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The Town Book is a miscellany volume. It contains some
+                            decisions of the burghmote court, some accounts, copies of wills,
+                            indentures, deeds, etc. There is no apparent order or logic to the
+                            entries.</ab>
+                        <ab type="techDesc"><date>1507–1683</date>; English and Latin; paper; iv +
+                            202 + iv; 400mm x 270mm; 18th-c. foliation; bound in cardboard covered
+                            with soft leather, now in a purpose made carboard box, no title.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRGCAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 96/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/46965/" type="Place_Feature">St Giles'</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">These accounts begin with an accounting year based on
+                            Easter. The first three accounts run from Good Friday to Good Friday.
+                            Good Friday in 1521 fell on March 29, only four days after the fixed
+                            feast of the Annunciation (Lady Day), March 25. The <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">churchwardens</rs> took
+                            advantage of this small discrepancy and, despite the fact that the
+                            heading for the 1520–1 accounts specifies that the account would run
+                            until Good Friday 1521, the account for 1521–2 clearly states that it
+                            begins March 25. Dating from March 25 became the custom of the parish
+                            from that year. <rs ref="http://ereed.library.utoronto.ca/eats/entity/73312/" type="Place_BoroughParish">St Giles</rs> was a parish that followed the custom of
+                            wardens serving staggered two year terms. It is likely that the warden
+                            who served both these years, <rs ref="http://ereed.library.utoronto.ca/eats/entity/58486/" type="Person_Commoner">Richard Hayne</rs>, was instrumental in making
+                            the change.<lb/> This volume is very fragile and was consulted only by
+                            special permission. The transcriptions were made from a microfilm copy.
+                            The first four folios are taken up with rents suggesting that the parish
+                            had considerable property holdings. The accounts indicate a full
+                            liturgical life with processions on <rs ref="http://ereed.library.utoronto.ca/eats/entity/42968/" type="CalendarDay_Liturgical">Ascension Day</rs> and <rs ref="http://ereed.library.utoronto.ca/eats/entity/41497/" type="CalendarDay_Liturgical">Corpus Christi</rs>
+                            with streamers and the ringing of bells. The patronal <rs ref="http://ereed.library.utoronto.ca/eats/entity/76292/" type="CalendarDay_Liturgical">feast day for St
+                            Giles</rs> was also celebrated with a procession with banners. The bells were
+                            rung when royalty passed through.</ab>
+                        <ab type="techDesc"><date>1518–1808</date>; English; paper; i + c 500 + i;
+                            402mm x 287mm; unnumbered; display capitals; binding now broken,
+                            originally boards covered in white imitation parchment, title written in
+                            script on front cover: 'St Giles P<ex>ar</ex>ish in Reading beginning |
+                            1518,' followed by printed title: 'Churchwardens | Register |
+                            1518.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRJBCA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/XP 149/1/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47042/" type="Place_Feature">St John the Baptist's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This volume was used by <rs ref="http://ereed.library.utoronto.ca/eats/entity/70393/" type="Person_Commoner">Elias Ashmole</rs> for his antiquarian
+                            work but then was lost. At the beginning of research for this
+                            collection, the editor wrote to all the rectors of ancient parishes in
+                            Berkshire explaining her work. In response, the Rev. D.N. Griffiths,
+                            then rector of the parish church in Windsor, undertook a search for the
+                            book and located it among the documents of the <rs ref="http://ereed.library.utoronto.ca/eats/entity/76325/" type="Collective_GuildOccupational">Ironmongers of the City
+                            of London</rs> in the Guildhall Library (Ironmongers 17,142). The editor
+                            consulted the book there, but it has since been deposited in the
+                            BRO.<lb/> The dating in these accounts is uncertain. The churchwardens
+                            often served for two or three years and their accounting was done at the
+                            end of their term of service with only the rendering date given.</ab>
+                        <ab type="techDesc"><date>1531–84</date>; English; paper; 47 leaves; 300mm x
+                            210mm; pencil pagination on first gathering, foliation in 18th-c. hand
+                            to f 37 where writing ends; original parchment binding much tattered and
+                            disintegrating, no title.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRMCAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 35/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47389/" type="Place_Feature">St Mary's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The normal accounting year was from Low Sunday (the first
+                            Sunday after Easter) to Low Sunday. The book served the parish for many
+                            years not only as an account book but also as a place to record
+                            important financial transactions.</ab>
+                        <ab type="techDesc"><date>1568–1688</date>; English; paper; iv + 203 + ii;
+                            305mm x 200mm; modern ink pagination to p 195 (blank pages unnumbered);
+                            bound in cardboard covered with thin tooled brown soft leather tattered
+                            at edges.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRMCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 98/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47389/" type="Place_Feature">St Mary's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The yearly accounts, in our period rendered on Good
+                            Friday, begin on p 33 with the accounts for 1555–6. The accounts to 1675
+                            then follow on numbered pages. Subsequent accounts are also not
+                            paginated. The later parts of the book contain miscellaneous church
+                            records, including coloured plans for the church bound into the book at
+                            the year 1837. At the year 1885 there is a note on the improvement of
+                            the churchyard with a coloured plan.</ab>
+                        <ab type="techDesc"><date>1547–1907</date>; English; paper with parchment
+                            flyleaves; ii + 415 + ii; 385mm x 275mm; modern pagination (4 unnumbered
+                            leaves, 128 leaves paginated 1–255 followed by 217 unnumbered leaves
+                            taking the accounts to 1907, these are followed by 66 blank leaves);
+                            some display capitals, later entries ruled in red; bound in tooled brown
+                            leather fraying at the edges, title stamped on front cover: 'Parish of
+                            St Mary | Reading | Churchwardens' Register | 1547 to (blank).'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRWBCA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">WI/FA1/1</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">After the beginning of the reign of <rs ref="http://ereed.library.utoronto.ca/eats/entity/23984/" type="Person_Royalty">Edward VI</rs>, the
+                            accounts become more and more summary until the accession of <rs ref="http://ereed.library.utoronto.ca/eats/entity/11772/" type="Person_Royalty">Elizabeth</rs>
+                            when proper accounting procedures begin.</ab>
+                        <ab type="techDesc"><date>1514–59</date>; English; paper; iv + 75 + iv;
+                            305mm x 215mm; modern ink foliation 6–79; display capitals on f 71;
+                            bound in parchment, repaired with brown leather patches on spine, title
+                            in display letters on cover: '<damage><gap unit="chars" extent="3"
+                                /></damage> Gild | aul N<ex>o</ex>v<ex>u</ex>m Wy<ex>n</ex>dsor |
+                            A,' and in an 18th-c. hand: 'Book of Accompts of Guild Hall | Beginning
+                            on Friday on the Morrow of St | Edward 6th H 8 | Ending Michaelmas in
+                            the 2d of Elizth Inspected 8th April 1772 <damage><gap unit="chars"
+                                    extent="2"/></damage>.' The accounts are now kept in a green box
+                            with a gold leather patch on the spine stamped in red: 'Chamberlains'
+                            Account Book 1514–1559.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRUNTO">
+                        <msIdentifier>
+                            <settlement>Leicester</settlement>
+                            <repository sameAs="#record-office-leicestershire-leicester-rutland"/>
+                            <idno type="shelfmark">26D53/2583</idno>
+                            <msName>Inventory of Sir <rs ref="http://ereed.library.utoronto.ca/eats/entity/68070/" type="Person_Gentry">Henry Unton</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1596</date>; English; paper; 6 sheets written on
+                            one side; 410mm x 370mm; contemporary ink numbering; some damage to
+                            right edges causing lost text, holes in sheet 5.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRTLOO">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/AG 1/4</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/60290/" type="Collective_GuildOccupational">Tanners' and Leathersellers'</rs> Ordinances</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>c 1570</date>; English; paper; 19 leaves; 207mm x
+                            157mm; modern foliation, foliated 1c–18c, last folio unnumbered; some
+                            decorated capitals; folios conserved and tied into grey cardboard
+                            untitled covers with green cloth spine, on f 1c is the title: 'The Booke
+                            of the names and | mannes of the Tanners &amp; Lethersellers
+                            Companye.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRSMCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 23/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/47558/" type="Place_Feature">St Michael's</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This account book is haphazardly kept. No accounting years
+                            are given.</ab>
+                        <ab type="techDesc"><date>1602–1707</date>; English; paper and parchment; i
+                            + 206 + 2 loose leaves; 300mm x 195mm; modern foliation; worm holes
+                            penetrate throughout MS; bound in tooled leather badly frayed at edges,
+                            no title.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRSCCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 8/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/76382/" type="Place_Feature">St Clements'</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year was from Easter to Easter.</ab>
+                        <ab type="techDesc"><date>1611–1888</date>; English; paper; ii + 137; 2
+                            booklets sewn together, first booklet (1611–1751): 315mm x 200mm, second
+                            booklet (1754–1888): 318mm x 200mm; modern foliation 3–20; bound in
+                            marble boards with soft leather corners and spine, red patch on spine
+                            stamped 'Parish Register' with 'No. 2' written in black ink. The
+                            original end-papers have the accounts for 1884–5; the accounts for
+                            1886–8 are written on blue paper pasted in at the end of the
+                            volume.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCJJ">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA3/11</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1631–2</date>; English; paper; 12 leaves, 2 of
+                            which form original cover with a letter inscribed on back cover, f 12;
+                            410mm x 155mm; pencil foliation 1–12 at top right corner, also 1–6 at
+                            bottom; ff 7–8, 11 blank, f 10 written one side only; kept in cardboard
+                            binder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCII">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA3/9</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1627–8</date>; English; paper; 3 leaves; 410mm x
+                            305mm; numbered 1, 2, and 4 [3]; mb 1 written on both sides, mbs 2, 4
+                            one side only; written continuously as a roll, now single sheets sewn at
+                            the top; kept in blue folder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCHH">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA3/8</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1626–7</date>; English; paper; bifolium;
+                            unnumbered; 410mm x 153mm.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCGG">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA3/5</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1619–20</date>; English; paper; bifolium; 410mm x
+                            155mm; unnumbered; f [2v] blank; repaired; kept in cardboard
+                            folder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCFF">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA3/4</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1618–19</date>; English; paper; bifolium; 415mm x
+                            145mm; no foliation or pagination; repaired; kept in a cardboard
+                            folder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRCEE">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/FA3/1</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year is Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1606–7</date>; English; paper; 5 leaves; 400mm x
+                            303mm; modern pencil foliation 1–5 at the bottom; repaired and tied at
+                            top into green cardboard binder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BROXJM">
+                        <msIdentifier>
+                            <settlement>Oxford</settlement>
+                            <repository sameAs="#oxfordshire-history-centre"/>
+                            <idno type="shelfmark">MS Oxon. Archd. Papers, Oxon.c.174</idno>
+                            <msName>Letter of <rs ref="http://ereed.library.utoronto.ca/eats/entity/70028/" type="Person_Commoner">John Marten</rs> to <rs ref="http://ereed.library.utoronto.ca/eats/entity/69965/" type="Person_Commoner">Master Jones</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1 February 1620/1</date>; English; paper;
+                            bifolium; writing on ff [1–1v], endorsed on f [2v]; 285mm x 170mm; good
+                            condition (small tear at centre outside edge of f 200v where seal (with
+                            initials R.E.) affixed; orange seal intact at inner edge of f [2v];
+                            endorsed: 'To my loving friend Mr Jones, one of the proctours in the
+                            officialls Court for barkshyre. | Mr Martin of Windsore.' Now foliated
+                            199–200 in modern pencil and mounted on a binding strip and bound with
+                            other archdeaconry court papers in modern light brown cloth over board
+                            with gold stamped title on spine: 'ALLEGATIONS, | DEPOSITIONS, | &amp;c.
+                            | 1617–1620.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRBSLO">
+                        <msIdentifier>
+                            <settlement>Chippenham</settlement>
+                            <repository sameAs="#wiltshire-swindon-archives"/>
+                            <idno type="shelfmark">D1/2/5</idno>
+                            <msName>Register of <rs ref="http://ereed.library.utoronto.ca/eats/entity/65115/" type="Person_Clergy">John Waltham, Bishop of Salisbury</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The Register of <rs ref="http://ereed.library.utoronto.ca/eats/entity/65115/" type="Person_Clergy">John Waltham, bishop of Salisbury</rs>, is
+                            grouped into letters, licences, institutions, visitations, judicial
+                            acta, and ordinations. The relevant entry (ff 222–3v) is a judicial
+                            act.</ab>
+                        <ab type="techDesc"><date>1388–95</date>; Latin; parchment; ii + 235 + ii;
+                            folio size variable, average 300–20mm x 215–30mm; modern pencil
+                            foliation beginning from f 1 replacing irregular 17th-c. ink foliation;
+                            leaves attached to stubs; bound in brown cloth- covered boards, modern
+                            black leather spine, title stamped on spine: 'EP:REG: | Waltham |
+                            1388.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRBDBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c40</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1597–1601</date>; Latin and English; paper; ii +
+                            250 + i; 292mm x 193mm; modern pencil foliation; bottom right-hand
+                            corner of leaves from f 199 torn away and repaired; title stamped on
+                            spine: 'LIBER | ACTORUM | 1597–1601 | Berks | c.40.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRACCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">TEMP ACC 245/176</idno>
+                            <msName>Chamberlains' Books</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">At the time of publication, this document was held at the
+                            Berkshire Record Office, where it was on temporary deposit from the
+                            Abingdon County Hall Museum.</ab>
+                        <ab type="techDesc"><date>1633–85</date>; English; paper and parchment; size
+                            varies from 306mm x 205mm to 330mm x 210mm; unnumbered; various
+                            booklets, many retaining their original parchment covers bound together
+                            into beige boards with a green leather spine, title on spine:
+                            'CHAMBERLAINS ACCOUNTS | VOL. 1.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRACBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">TEMP ACC 245/175</idno>
+                            <msName>Chamberlains' Books</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">At the time of publication, this document was held at the
+                            Berkshire Record Office, where it was on temporary deposit from the
+                            Abingdon County Hall Museum.</ab>
+                        <ab type="techDesc"><date>1581–8</date>; English; paper; ii + 91 + ii; 204mm
+                            x 16mm; modern foliation top right-hand corner with various other modern
+                            foliations at bottom of each folio; various booklets bound together;
+                            bound in brown cloth with leather corners and spine, title stamped on
+                            spine: 'Borough | of | Abingdon | Chamberlains Accounts | Michs 1582 |
+                            to | Michs 1588.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRWJSS">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A1/118/142b</idno>
+                            <msName>Inventory of <rs ref="http://ereed.library.utoronto.ca/eats/entity/64999/" type="Person_Commoner">James Shylard</rs>, <rs ref="http://ereed.library.utoronto.ca/eats/entity/1243/" type="Entertainer_Type">Musician</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The will was probated 8 October 1630.</ab>
+                        <ab type="techDesc"><date>7 October 1630</date>; English; paper; bifolium;
+                            182mm x 112mm; unnumbered; inventory written on f [1] only; f [2v] has a
+                            note of the value of the goods at £11 1s 8d; f [1v] has a note of the
+                            exhibiting of the inventory.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRWSGA">
+                        <msIdentifier>
+                            <settlement>Windsor</settlement>
+                            <repository sameAs="#st-george-chapel"/>
+                            <idno type="shelfmark">XV 34 44</idno>
+                            <msName>Accounts of <rs ref="http://ereed.library.utoronto.ca/eats/entity/75610/" type="Place_Feature">St George's Chapel</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The early membranes of this document that would have provided the dates of the accounting year are missing.</ab>
+                        <ab type="techDesc"><date>1451–2</date>; Latin; parchment; 2 mbs; 295mm x
+                            140mm; earlier membranes missing; faded, ink has run in places causing
+                            obliteration of words, patch at the top edge.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRWIBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A1/86/154/1</idno>
+                            <msName>Will and Inventory of <rs ref="http://ereed.library.utoronto.ca/eats/entity/61652/" type="Person_Commoner">Blanche Jackson</rs></msName>
+                        </msIdentifier>
+                        <ab type="edDesc"><rs ref="http://ereed.library.utoronto.ca/eats/entity/61652/" type="Person_Commoner">Blanche Jackson</rs> was the widow of <rs ref="http://ereed.library.utoronto.ca/eats/entity/61748/" type="Person_Commoner">William Jackson</rs>,
+                            <rs ref="http://ereed.library.utoronto.ca/eats/entity/1243/" type="Entertainer_Type">musician</rs>. The will was probated on 16 September 1628.</ab>
+                        <ab type="techDesc"><date>1 and 15 September 1628</date>; English; paper; 2
+                            bifolia; 300mm x 192mm (will), 400mm x 150mm (inventory); unnumbered;
+                            written on 1 side of each bifolium only; no decoration or seal; will
+                            endorsed: '1628 | T<ex>es</ex>t<ex>a</ex>ment<ex>a</ex> Blanch Iackson |
+                            parochia s<ex>anc</ex>te Marie in | Reading | 12 li. 11 s. 4 d.';
+                            inventory endorsed: '1628 | Blanch Iackson p<ex>ar</ex>oc<ex>hi</ex>a
+                                s<ex>anc</ex>t<ex>e</ex> | Marie in Reading | 12 li. 11 s. 4
+                            d.'<lb/></ab>
+                    </msDesc>
+                    <bibl xml:id="BRWHWW">
+                        <title type="edName">History of <rs ref="http://ereed.library.utoronto.ca/eats/entity/47591/" type="Place_BoroughParish">Wallingford</rs> (A)</title>
+                        <note type="techDesc"><p>Hedges, <title type="sourceName">History of
+                                    Wallingford</title>.</p></note>
+                        <idno type="authorSurname">Hedges</idno>
+                        <idno type="shortTitle">Wallingford</idno>
+                    </bibl>
+                    <msDesc xml:id="BRWBBB">
+
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">W/FAB 3</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/10976/" type="Collective_Occupation">Bailiffs'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1621–2</date>; English; paper; single sheet; 325mm
+                            x 215mm; unnumbered; some fraying at edges, otherwise in good condition.
+                            Originally part of W/FAB 1.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRWBAB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">WI/FA1/2</idno>
+                            <msName>Chamberlains' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The account runs from Michaelmas to Michaelmas.</ab>
+                        <ab type="techDesc"><date>1635–1735</date>; English; paper; v + 286 + iv
+                            (first and final leaves modern); 362mm x 210mm; modern foliation; bound
+                            in white boards, old parchment cover pasted inside new binding, title
+                            stamped on spine in black: '1637–1735.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRWBAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">W/FAB 1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/10976/" type="Collective_Occupation">Bailiffs'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The accounting year ran from Michaelmas to
+                            Michaelmas.</ab>
+                        <ab type="techDesc"><date>1584–1620, 1622–37</date>; English; paper; i + 96;
+                            345mm x 220mm; modern foliation; many elaborate capitals in black ink
+                            now eating through the paper; last 2 leaves torn out, now fastened to
+                            the preceding page with a rusted pin; original binding in parchment with
+                            dark brown patches, title in centre near top of front cover in 17th-c.
+                            hand: 'Wallingford | The Baliff<ex>es</ex> Account<ex>es</ex> |
+                            1584.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRSHPP">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c58</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1615–16</date>; Latin and English; paper; ii + 272
+                            + i; 290mm x 188mm; modern pencil foliation to 275 (including
+                            end-papers); some damage on corners of folios; paper booklets sewn
+                            together, original parchment front cover used as end-paper, original
+                            back cover missing, stamped on spine: 'LIBER | ACTORUM | 1615–1616 |
+                            Berks | c. 58.'</ab>
+                    </msDesc>
+                    <bibl xml:id="BRSHCC">
+                        <title type="edName"><rs ref="http://ereed.library.utoronto.ca/eats/entity/47499/" type="Place_Feature">St Helen's </rs><rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts (A)</title>
+                        <note type="edDesc"><p>The records were lost some time after their
+                                publication in the first issue of <title>Archaeologia</title> in
+                                1770.</p></note>
+                        <note type="techDesc"><p>Ward, <title type="sourceName">'Parish of St
+                                    Helen's,'</title> pp 11–23.</p></note>
+                        <idno type="authorSurname">Ward</idno>
+                        <idno type="shortTitle">'St Helen's''</idno>
+                    </bibl>
+                    <msDesc xml:id="BRSDSS">
+                        <msIdentifier>
+                            <settlement>Chippenham</settlement>
+                            <repository sameAs="#wiltshire-swindon-archives"/>
+                            <idno type="shelfmark">D5/28/4 [sheet 9]</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Presentments</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1576</date>; English; paper; single sheet; 308mm x
+                            200mm; numbered 9 in the group of 86 presentments; crumpled in top right
+                            corner, hole in centre bottom (for spike or string to hold the
+                            presentments together?).</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRRNN">
+                        <msIdentifier>
+                            <settlement>Chippenham</settlement>
+                            <repository sameAs="#wiltshire-swindon-archives"/>
+                            <idno type="shelfmark">D1/2/9</idno>
+                            <msName>Register of <rs ref="http://ereed.library.utoronto.ca/eats/entity/75960/" type="Person_Clergy">Robert Neville</rs>, <rs ref="http://ereed.library.utoronto.ca/eats/entity/3558/" type="Collective_ClergyAndChurchwardens">Bishop</rs> of <rs ref="http://ereed.library.utoronto.ca/eats/entity/71901/" type="Place_BoroughParish">Salisbury</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1427–38</date>; Latin; parchment; iii + 216 + ii;
+                            355mm x 266mm; numbering irregular: ff 1–80 in modern pencil replacing
+                            contemporary ink numbering to f lxxiiij, numbering begins again ff 1–115
+                            in 18th-c. ink, f 116 unnumbered, f 117 numbered f 116, ff 118–36 in
+                            modern pencil; some large ornate initials; little damage or repair;
+                            modern buckle intact, bound in brown cloth- covered boards, modern black
+                            leather spine, stamped on spine: 'EP:REG: | NEVILL | 1427–1438.' A heavy
+                            parchment sheet, 515mm x 170mm, containing a short index written in
+                            18th-c. script is sewn in at the second run of foliation, f 2, with a
+                            contemporary index, ff 3v–6.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRFRR">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/RF1/1</idno>
+                            <msName>Freemen's Roll</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1603–1714</date>; English; paper; v + 420; 316mm x
+                            204mm; contemporary ink foliation (many blank leaves); display letters;
+                            bound in brown leather now crumbling, once handsomely tooled, spine
+                            gone.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRMARR">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/ESK/M27</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/76405/" type="Place_Feature">Cookham Manor</rs> Court Leet (View of Frankpledge)</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1506</date>; Latin; parchment; 2 membranes
+                            stitched together at the top; mb 1: 705mm x 274mm written on 2 sides top
+                            to bottom, mb 2: 755mm x 270–80mm written on 1 side; unnumbered; on mb
+                            [2d] in the centre: 'Cokeham | Rotuli Cure Annorum RR | Henrici septimi
+                            | Cokeham.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRIWDD">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A1/186/091</idno>
+                            <msName>Inventory of <rs ref="http://ereed.library.utoronto.ca/eats/entity/60481/" type="Person_Commoner">Walter Davys</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>19 October 1609</date>; English; paper; single
+                            sheet; 450mm x 150mm; no decoration or seal; signed on dorse by
+                                '<rs ref="http://ereed.library.utoronto.ca/eats/entity/76429/" type="Person_Commoner">W<ex>i</ex>llia<ex>m</ex> Thorne</rs>' and '<rs ref="http://ereed.library.utoronto.ca/eats/entity/76491/" type="Person_Commoner">John Goddard</rs>.'<lb/></ab>
+                    </msDesc>
+                    <msDesc xml:id="BRIAAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A1/76/213</idno>
+                            <msName>Inventory of <rs ref="http://ereed.library.utoronto.ca/eats/entity/52688/" type="Person_Commoner">Alice Hyde</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>21 November 1583</date>; English; paper; 5 sheets;
+                            420mm x 150mm; written top to bottom recto only; now secured at the top
+                            with a ribbon.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BREXTB">
+                        <msIdentifier>
+                            <settlement>Oxford</settlement>
+                            <repository sameAs="#exeter-college-archives"/>
+                            <idno type="shelfmark">ECB/RA1/21</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/75533/" type="Place_Feature">Exeter College</rs> Archives Rectors' Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">The evidence of a <rs ref="http://ereed.library.utoronto.ca/eats/entity/40453/" type="Drama_Type">play</rs> from the village of <rs ref="http://ereed.library.utoronto.ca/eats/entity/46943/" type="Place_BoroughParish">West Wittenham</rs>
+                            (now Long Wittenham southeast of <rs ref="http://ereed.library.utoronto.ca/eats/entity/46612/" type="Place_BoroughParish">Abingdon</rs>) is the earliest external
+                            evidence so far discovered by research undertaken by Records of Early
+                            English Drama that documents drama at a parish level. It dates from 1361
+                            and survives in a compotus roll of <rs ref="http://ereed.library.utoronto.ca/eats/entity/75533/" type="Place_Feature">Exeter College</rs>, <rs ref="http://ereed.library.utoronto.ca/eats/entity/73905/" type="Place_Feature">Oxford</rs>, who held the
+                            advowson of the parish of West Wittenham.</ab>
+                        <ab type="techDesc"><date>1361</date>; Latin; parchment; single sheet; 695mm
+                            x 276mm; damaged in bottom right-hand corner by a tear or rodent, 60mm x
+                            100mm missing; dated in modern pencil. Flat in box with other sheets of
+                            accounts removed from guardbook with brown morocco cover, tooled leather
+                            corners and spine.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRDCAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P 118/5/1</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/46866/" type="Place_Feature">St Denys'</rs> <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Accounts</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">This is a very tidy and well-kept book. On the end-papers
+                            are various handwritten notes about the church and a printed version of
+                            the inventory made for <rs ref="http://ereed.library.utoronto.ca/eats/entity/23984/" type="Person_Royalty">Edward VI's</rs> commissioners. Written on the inside
+                            cover are the words 'for <rs ref="http://ereed.library.utoronto.ca/eats/entity/76555/" type="Person_Clergy">Chr. Wordsworth</rs> DD | <rs ref="http://ereed.library.utoronto.ca/eats/entity/9186/" type="Collective_ClergyAndChurchwardens">vicar</rs> of
+                            <rs ref="http://ereed.library.utoronto.ca/eats/entity/46844/" type="Place_BoroughParish">Stanford-in-the-Vale</rs> | Gt Faringdon | Diocese Oxon | County Berks | to
+                            be kept in the Parish Chest.' The book proper begins with a
+                            mid-sixteenth–century inventory of vestments and books (including the
+                            paraphrases of Erasmus). Then follow several cancelled folios of names
+                            with sums and fees attached from the 1560s. There are also two other
+                            unusual sections: the first is a rent roll of all the lands owned by the
+                            parish; the second is, apparently, a communion register. The
+                            <rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">churchwardens'</rs> accounts proper then occupy the rest of the book. The
+                            dating is not tied to any feast day. The accounts were rendered for the
+                            most part in April.</ab>
+                        <ab type="techDesc"><date>1552–1725</date>; English; paper; ii + 131 + ii;
+                            412mm x 140mm; modern foliation, first 11 ff unnumbered; bound in tooled
+                            brown leather, title stamped in gold on spine: 'Stanford | in the | Vale
+                            | Church- | Wardens | Accounts | 1552–1725.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRBMBB">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">TEMP ACC 245/1</idno>
+                            <msName>Borough Minute Book</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">At the time of publication, this document was held at the
+                            Berkshire Record Office, where it was on temporary deposit from the
+                            Abingdon County Hall Museum.</ab>
+                        <ab type="techDesc"><date>1575–1686</date>; English, some Latin; paper; ii +
+                            278 + vi; 430mm x 235mm; modern foliation; rebound in 1912 in brown kid
+                            with calf spine, 2 buckles intact, red leather patch on front stamped in
+                            gold: 'Borough | of Abingdon | Minutes | to | May 1686 | I,' same on the
+                            spine without 'I.' The first folios are 17th-c. orders, decrees, oaths,
+                            and freedoms. The minutes begin at the fifth gathering.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABGG">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c32</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1593</date>; Latin and English; paper; ii + 182 +
+                            i; 293mm x 191mm; modern pencil foliation to 185 (end-papers included);
+                            some water damage and worm holes; original parchment covers used as
+                            end-papers, now bound into dark-brown-cloth–covered boards with light
+                            brown leather spine and binding; title stamped in gold on spine: 'LIBER
+                            | ACTORUM | 1593 | Berks | c.32.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABFF">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/e5</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1560–2</date>; Latin and English; paper; ii +
+                            original vellum front cover + 58 + ii; 295mm x 205mm; modern pencil
+                            foliation; some repair; bound into dark grey boards with brown leather
+                            corners and spine, title stamped on spine: 'VISITATION AND ACT BOOK.
+                            1560–62.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABFA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c5</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1561–5</date>; Latin and English; paper; i + 331 +
+                            i; 295mm x 205mm; modern pencil foliation; bound into dark grey boards
+                            with brown leather corners and spine, title stamped on spine: 'LIBER |
+                            ACTORUM | 1561–1565 | Berks e | c.5.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABEE">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c43</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1600–1</date>; Latin and English; paper; i + 268 +
+                            i; modern pencil foliation with double system of foliation on first 103
+                            folios on both damaged sheets and repaired sheets; 295mm x 194mm; first
+                            103 folios badly damaged by fire and repaired, first 7 folios fragments
+                            only (f 8 paper stub): 230mm x 60mm at widest gradually increasing to
+                            the width of the booklet; title on spine: 'LIBER | ACTORUM | 1600–1601 |
+                            Berks | c.43.' Since the smaller numbers in the double foliation are on
+                            the leaves that survived the fire and the larger ones on the leaves that
+                            have been repaired by newer paper, the smaller number has been
+                            chosen.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABCC">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c54</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1609–11</date>; Latin and English; paper; 389
+                            leaves; modern pencil foliation; approximately 291mm x 186mm (ff 182–3:
+                            310mm x 202mm, ff 347–89: 320mm x 190mm); large folios dog-eared;
+                            original parchment front cover front end-paper (original back cover
+                            missing), originally bound with irregular size folios since the folio
+                            size changes in mid-session, now bound into dark-brown-cloth–covered
+                            boards with light brown leather spine and binding, title stamped on
+                            spine: 'LIBER | ACTORUM | 1609–1611 | Berks | c.54.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRABAA">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/A2/c16</idno>
+                            <msName>Archdeaconry of Berkshire Act Book</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1578–81</date>; Latin and English; paper; 183
+                            leaves (including end-papers); 290mm x 196mm; modern pencil foliation;
+                            original parchment front cover f 2; end cover missing, title stamped in
+                            gold on spine: 'LIBER | ACTORUM | 1578-1581 | Berks | c.16.'</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRDSPP">
+                        <msIdentifier>
+                            <settlement>Chippenham</settlement>
+                            <repository sameAs="#wiltshire-swindon-archives"/>
+                            <idno type="shelfmark">D5/28/4 [sheet 4]</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/3576/" type="Collective_ClergyAndChurchwardens">Churchwardens'</rs> Presentments</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1576</date>; English; paper; single sheet; 320mm x
+                            214mm; numbered 4 in the group of 86 presentments; tattered top and
+                            right edge; no endorsement, decoration, or seal.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRRDDD">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">R/AC1/1/4</idno>
+                            <msName>Corporation Diaries</msName>
+                        </msIdentifier>
+                        <ab type="edDesc">R/AC1/1/2–4 are not elegant books. The writing is hurried
+                            and the jottings often seem to have been made at random.</ab>
+                        <ab type="techDesc"><date>Jun 1637–Sep 1647</date>; English; paper; ii + 180
+                            + iii; 304mm x 200mm; modern pagination; bound in boards covered in
+                            white vinyl, no title, and kept in a box.<lb/></ab>
+                    </msDesc>
+                    <msDesc xml:id="BRSLPP">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P5/25/16</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/76605/" type="Place_BoroughParish">St Laurence's</rs> Deeds and Indentures</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1571</date>; Latin; parchment; single membrane;
+                            250mm x 510mm (242mm x 510mm); display capitals; indented tabs but no
+                            seals.<lb/></ab>
+                    </msDesc>
+                    <msDesc xml:id="BRSLPQ">
+                        <msIdentifier>
+                            <settlement>Reading</settlement>
+                            <repository sameAs="#BRO"/>
+                            <idno type="shelfmark">D/P5/6/2</idno>
+                            <msName><rs ref="http://ereed.library.utoronto.ca/eats/entity/76605/" type="Place_BoroughParish">St Laurence's</rs> Deeds and Indentures</msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1603</date>; English; parchment; single membrane;
+                            313mm x 583mm (302mm x 583mm); display capitals; indented, one
+                            seal.<lb/></ab>
+                    </msDesc>
+                    <msDesc xml:id="BRAHAA">
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository sameAs="#BL"/>
+                            <idno type="shelfmark">Cotton Cleopatra F.iv</idno>
+                            <msName>Household Accounts of <rs ref="http://ereed.library.utoronto.ca/eats/entity/44444/" type="Person_Royalty">Henry VI</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1422–41</date>; Latin; parchment, some paper; iv +
+                            149 + iii; 270mm x 196mm pasted on larger sheet of parchment 282mm x
+                            205mm; modern foliation (followed here) in pencil; no decoration.
+                            Miscellaneous collection of documents with individual documents bound on
+                            stubs and bound in brown cloth with leather edges and tooled leather
+                            spine; stamped in gold on black patch on the spine: 'Acts of the | Privy
+                            Council | 1–19 Henry VI | Brit Mus | Cotton MS | Cleopatra f
+                            iv.'<lb/></ab>
+                    </msDesc>
+                    <msDesc xml:id="BRAHBB">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">E 28/50</idno>
+                            <msName>Household Accounts of <rs ref="http://ereed.library.utoronto.ca/eats/entity/44444/" type="Person_Royalty">Henry VI</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1428</date>; Anglo-Norman; parchment; single mb;
+                            272mm x 278mm. Now bound with others in green cardboard-covered
+                            binder.</ab>
+                    </msDesc>
+                    <msDesc xml:id="BRQADD">
+                        <msIdentifier>
+                            <settlement>Kew</settlement>
+                            <repository sameAs="#TNA"/>
+                            <idno type="shelfmark">E 315/107</idno>
+                            <msName>Household Accounts of <rs ref="http://ereed.library.utoronto.ca/eats/entity/17336/" type="Person_Female">Anne of Denmark</rs></msName>
+                        </msIdentifier>
+                        <ab type="techDesc"><date>1615</date>; English; paper; ii + 40 + ii with 1
+                            small leaf of additional expenses bound in at the end; 451mm x 371mm
+                            (414mm x 200mm); modern foliation; originally written on folios top to
+                            bottom and bottom to top as a roll (the MS must be reversed to consult
+                            the accounts sequentially); 5 ruled columns, only right 3 written in;
+                            ink used for ruling has eaten through many pages, condition fragile;
+                            bound in brown cloth with kid corners and spine, stamped on spine in
+                            gold: 'E/315 | AUGMN | OFFICE | ACCOUNT | OF | RECEIVER | GENERAL | OF |
+                            QUEEN ANNE | A.D.1615 | 107 | 107.'</ab>
                     </msDesc>
                 </listBibl>
             </div>
