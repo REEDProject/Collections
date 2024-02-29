@@ -447,7 +447,15 @@
                         </sense>
                     </entry>
                     
-                  
+                    <entry xml:id="americanus">
+                        <form>
+                            <orth> americanus, -a, -um</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="americanus-1"> American
+                        </sense>
+                    </entry>
+                    
                     <entry xml:id="armorarius">
                         <form>
                             <orth>armorarius, -i</orth>
@@ -464,6 +472,14 @@
                         </form>
                         <sense xml:id="assetum-1"><hi rend="italic">var of</hi> acetum 
                             <ref>[<hi rend="italic">OLD, DML</hi>]</ref>
+                        </sense>
+                    </entry>
+                    <entry xml:id="auffugere">
+                        <form>
+                            <orth>auffugere</orth> 
+                            <gram>v inf</gram> 
+                        </form>
+                        <sense xml:id="auffugere-1"> <hi rend="italic">var of</hi> affugere <ref>[<hi rend="italic">DML</hi></ref>] 
                         </sense>
                     </entry>
                     
@@ -495,8 +511,9 @@
                             <orth>baliuus, -i</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="baliuus-1"><hi rend="italic">var of</hi> baillivus <ref>[<hi
-                                    rend="italic">DML</hi>]</ref>
+                        <sense xml:id="baliuus-1"><hi rend="italic">var of</hi> baillivus; <form>
+                            <orth>ballius</orth></form>
+                            <ref>[<hi rend="italic">DML</hi>]</ref>
                         </sense>
                     </entry>
 
@@ -773,6 +790,14 @@
 
                 </div>
                 <div n="D" xml:id="gloss-la-D">
+                    
+                    <entry xml:id="deviso">
+                        <form>
+                            <orth>deviso, -are</orth>
+                            <gram>v</gram> 
+                        </form>
+                        <sense xml:id="deviso-1"><hi rend="italics">var of</hi> diviso <ref>[<hi rend="italics">DML</hi>, divisare]</ref> in phr <form>devisavit aut non devisavit</form> (whether) s/he has bequeathed or not bequeathed; the equivalent of <hi rend="italics">devisavit vel non</hi>, the name of an issue from a court of chancery to a court of law that questions the validity of a document purported to be a will <ref>[<hi rend="italics">see Black’s</hi> devisavit vel non]</ref></sense></entry> 
+                    
                     <entry xml:id="Dublenia">
                         <form>
                             <orth>Dublenia, -ie</orth>
@@ -847,6 +872,8 @@
                         <sense xml:id="exhennium-1"><hi rend="italic">var of</hi> exenium <ref>[<hi rend="italic">DML</hi>]</ref>
                         </sense>
                     </entry>
+ 
+                    
                     
                 </div>
 
@@ -1868,7 +1895,15 @@
                         </form>
                         <sense xml:id="aboef-1">above</sense>
                     </entry>
-                   
+                    
+                    <entry xml:id="aboughtes">
+                        <form>
+                            <orth>aboughtes</orth> 
+                            <gram>prep</gram>
+                        </form> 
+                        <sense xml:id="aboughtes-1"> about</sense> 
+                    </entry>
+                    
                     <entry xml:id="abridgis">
                         <form>
                             <orth>a bridgis</orth>
@@ -1894,7 +1929,14 @@
                         <sense xml:id="ackte-1">act; here possibly an entertainment of some
                             kind</sense>
                     </entry>
-
+                    <entry xml:id="acteon">
+                        <form>
+                            <orth>acteon</orth>
+                            <gram> n</gram> 
+                        </form>
+                        <sense xml:id="acteon-1"> action </sense>
+                    </entry>
+                    
                     <entry xml:id="adossyne">
                         <form>
                             <orth>adossyne</orth>
@@ -2114,7 +2156,15 @@
                         </form>
                         <sense xml:id="ascustemyd-1">accustomed</sense>
                     </entry>
-
+                    <entry xml:id="aseure">
+                        <form>
+                            <orth>aseure</orth>
+                            <gram> v</gram>
+                        </form>
+                        <sense xml:id="aseure-1"> asure; 
+                            <form><orth>assuer</orth></form></sense>
+                    </entry>
+                    
                     <entry xml:id="asselar">
                         <form>
                             <orth>asselar</orth> 
@@ -2138,6 +2188,11 @@
                             <gram>n</gram>
                         </form>
                         <sense xml:id="assice-1">assize</sense>
+                    </entry>
+                    <entry xml:id="atoretie">
+                        <form><orth>atoretie</orth>
+                            <gram>n</gram></form>
+                        <sense xml:id="atoretie-1">authority</sense> 
                     </entry>
                     
                     <entry xml:id="attaynte">
@@ -2231,6 +2286,12 @@
                         </form>
                         <sense xml:id="baene-1"> ban, a public proclamation <ref>[<hi rend="italic">OEDO</hi> n.1]</ref>; <form><orth>bayne</orth></form>
                         </sense>
+                    </entry>
+                    <entry xml:id="bancate">
+                        <form><orth>bancate</orth>
+                            <gram>n</gram>
+                        </form>
+                            <sense xml:id="bancate-1">banquet</sense>
                     </entry>
                     
                     <entry xml:id="bancketeth">
@@ -2558,6 +2619,15 @@
                         </form>
                         <sense xml:id="bokenard-1">soup,<hi rend="italic">here possibly</hi> broth or stock
                             <ref>[<hi rend="italic">OEDO</hi> bukenade]</ref>
+                        </sense>
+                    </entry>
+                    <entry xml:id="bol">
+                        <form>
+                            <orth>bol</orth> <gram>n</gram>
+                        </form>
+                        <sense xml:id="bol-1">
+                            bull; 
+                            <form><orth>boole</orth>; <orth>boles</orth>, <orth>boulles</orth> <gram>pl</gram></form>
                         </sense>
                     </entry>
                     
@@ -2954,8 +3024,20 @@
                         </form>
                         <sense xml:id="caryour-1">carrier</sense>
                     </entry>
+                    <entry xml:id="cased">
+                        <form>
+                            <orth>cased</orth>
+                            <gram>v pap</gram>
+                        </form>
+                        <sense xml:id="cased-1"> (of an article of clothing) faced or lined </sense>
+                    </entry>
+                    <entry xml:id="castalian">
+                        <form><orth>castalian</orth>
+                            <gram>adj</gram>
+                        </form>
+                        <sense xml:id="castalian-1">castilian</sense> 
+                    </entry>
                     
-                   
                     
                     <entry xml:id="cauderm">
                         <form>
@@ -2975,6 +3057,22 @@
                         </sense>
                     </entry>
                     
+                    <entry xml:id="chaing">
+                        <form>
+                          <orth>chaing</orth>
+                            <gram>v tr</gram>
+                         </form> 
+                        <sense xml:id="chaing-1">change</sense>
+                    </entry>
+                    
+                    <entry xml:id="chakt">
+                        <form>
+                            <orth>chakt</orth> 
+                            <gram>v tr pa</gram>
+                        </form>
+                        <sense xml:id="chakt-1">chacked, snapped at with the teeth</sense>
+                    </entry>
+                    
                     <entry xml:id="chaplyn"><!-- I think we can omit this now: the only instances of this variant spelling in Hamps as of 2019-09-29 are part of a man's name (Stephen Chaplyn)--> 
                         <form>
                             <orth>chaplyn</orth>
@@ -2990,6 +3088,12 @@
                         <sense xml:id="charete-1"> chariot </sense>
                     </entry>
                     
+                    <entry xml:id="charle">
+                        <form><orth>charle</orth> 
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="charle-1">churl</sense>
+                    </entry>
                     <entry xml:id="chawden">
                         <form>
                             <orth>chawden</orth>
@@ -3198,12 +3302,21 @@
                         </form>
                         <sense xml:id="condicon-1">condition</sense>
                     </entry>
+                    
+                    <entry xml:id="connyvauncie">
+                        <form>
+                            <orth>connyvauncie</orth> 
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="connyvauncie-1">connivency, connivance, action of conniving</sense> 
+                    
+                    </entry>
                     <entry xml:id="cont">
                         <form>
                             <orth>cont</orth>
                             <gram>n</gram>
                         </form>
-                        <sense xml:id="cont-1"> count</sense>
+                        <sense xml:id="cont-1"> count, action or process of counting</sense>
                     </entry>
                     
                     <entry xml:id="conteray">
@@ -3220,6 +3333,14 @@
                             <gram>n</gram>
                         </form>
                         <sense xml:id="conuaiaunce-1">conveyance</sense>
+                    </entry>
+                    
+                    <entry xml:id="convenaunt">
+                        <form>
+                            <orth>convenaunt</orth> 
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="convenaunt-1">covenant</sense>
                     </entry>
                     
                     <entry xml:id="conyngges">
@@ -3381,6 +3502,14 @@
                         <sense xml:id="crosers-1"> crosiers </sense>
                     </entry>
                     
+                    <entry xml:id="crossant">
+                        <form>
+                            <orth>crossant</orth> 
+                            <gram>n and adj</gram>
+                        </form> 
+                        <sense xml:id="crossant-1">a nonce word, punning on 'crescent' (as a heraldic device, and possibly as an adjective meaning 'growing') and 'cross' <ref>[<hi rend="italics">OEDO</hi>, crescent n. 3; crescent, adj.]</ref></sense>
+                    </entry>
+                    
                     <entry xml:id="cullar">
                         <form>
                             <orth>cullar</orth>
@@ -3388,7 +3517,12 @@
                         </form>
                         <sense xml:id="cullar-1">colour; outward appearance, show, semblance</sense>
                     </entry>
-                    
+                    <entry xml:id="cullumes">
+                        <form>
+                            <orth>cullumes</orth>
+                            <gram>n pl</gram>
+                        </form><sense xml:id="cullumes-1">columns</sense>
+                    </entry>
                     <entry xml:id="cund">
                         <form>
                             <orth>cund</orth>
@@ -3553,6 +3687,14 @@
                         </form>
                         <sense xml:id="diuors-1">divers</sense>
                     </entry>
+                    
+                    <entry xml:id="dodges">
+                        <form>
+                            <orth>dodges</orth>
+                            <gram>n pl</gram>
+                        </form>
+                        <sense xml:id="dodges-1">dogs</sense>
+                    </entry>
 
                     <entry xml:id="dogge">
                         <form>
@@ -3619,6 +3761,15 @@
                         <sense xml:id="droncnes-1">drunkness, drunkenness</sense>
                     </entry>
                     
+                    <entry xml:id="dwe">
+                        <form>
+                            <orth>dwe</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="dwe-1"> due
+                        </sense>
+                    </entry>
+                    
                     <entry xml:id="dysarde">
                         <form>
                             <orth>dysarde</orth>
@@ -3648,7 +3799,22 @@
                         </form>
                         <sense xml:id="eale-1">eel</sense>
                     </entry>
-                    
+                    <entry xml:id="eand">
+                        <form>
+                            <orth>eand</orth>
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="eand-1">end</sense> 
+                    </entry>
+                    <entry xml:id="eande">
+                        <form>
+                            <orth>eande</orth>
+                            <gram>v</gram>
+                        </form> 
+                        <sense xml:id="eande-1">end, conclude
+                        </sense> 
+                    </entry>
+                    <entry xml:id="easlier"><form><orth>easlier</orth> <gram>adv</gram></form> <sense xml:id="easlier-1">comparative of easily, more easily <ref>[<hi rend="italics">cp OEDO</hi>, easierly]</ref></sense></entry>
                     <entry xml:id="eccerise">
                         <form>
                             <orth>eccerise</orth>
@@ -3817,7 +3983,13 @@
                         </form>
                         <sense xml:id="fares-1"> fairies' </sense>
                     </entry>
-                    
+                    <entry xml:id="fe">
+                        <form>
+                            <orth>fe</orth> 
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="fe-1">fee</sense>
+                    </entry>
                     <entry xml:id="fead">
                         <form>
                             <orth>fead</orth>
@@ -3866,10 +4038,10 @@
                     </entry>
                     <entry xml:id="ferpolowes">
                         <form>
-                            <orth>ferpolowes</orth>
+                            <orth>ferpelowes</orth>
                             <gram>n pl</gram>
                         </form>
-                        <sense xml:id="ferpelowes-1"> furbelows, flounces, pleated borders on gowns or petticoats </sense>
+                        <sense xml:id="ferpelowes-1"> furbelows, flounces, pleated borders on gowns or petticoats; <form><orth>serpelowes</orth></form> in error</sense>
                     </entry>
                     
                     <entry xml:id="fett">
@@ -3904,7 +4076,13 @@
                         <sense xml:id="fewellyng-1">fuelling, feeding with fuel
                         </sense>
                     </entry>
-                    
+                    <entry xml:id="feyght">
+                        <form>
+                            <orth>feyght</orth> 
+                            <gram>v</gram>
+                        </form> 
+                        <sense xml:id="feyght-1">fight</sense>
+                    </entry>
                     <entry xml:id="feyse">
                         <form>
                             <orth>feyse</orth>
@@ -3991,7 +4169,13 @@
                         </form>
                         <sense xml:id="fostyan-1">fustian</sense>
                     </entry>
-                    
+                    <entry xml:id="fothe">
+                        <form>
+                            <orth>fothe</orth>
+                            <gram>prep phr</gram>
+                        </form> 
+                        <sense xml:id="fothe-1"><hi rend="italics">contraction of</hi> for the</sense>
+                    </entry>
                     <entry xml:id="fouttmen">
                         <form>
                             <orth>fouttmen</orth>
@@ -4024,7 +4208,13 @@
                         <sense xml:id="freature-1"> fritter; <form><orth>fritour</orth></form>
                         </sense>
                     </entry>
-                    
+                    <entry xml:id="freyghtes">
+                        <form>
+                            <orth>freyghtes</orth> 
+                            <gram>n pl</gram>
+                        </form> 
+                        <sense xml:id="freyghtes-1">frights</sense>
+                    </entry> 
                     <entry xml:id="frindg">
                         <form>
                             <orth>frindg</orth> 
@@ -4319,7 +4509,7 @@
                             <orth>gyrketruses</orth>
                             <gram>n pl</gram>
                         </form>
-                        <sense xml:id="gyrketruses-1"> jerkin-trousers (?)</sense>
+                        <sense xml:id="gyrketruses-1"> jerkin trusses; jerken ties</sense>
                     </entry>
                     
                     <entry xml:id="gysse">
@@ -4340,7 +4530,13 @@
                         </form>
                         <sense xml:id="hable-1"> able</sense>
                     </entry>
-                    
+                    <entry xml:id="hadomee"> 
+                        <form>
+                            <orth>hadomee</orth> 
+                            <gram>vb phr</gram>
+                        </form> 
+                        <sense xml:id="hadomee-1"><hi rend="italics">contraction of</hi> had of me</sense>
+                    </entry> 
                     <entry xml:id="haey">
                         <form>
                             <orth>haey</orth>
@@ -4532,6 +4728,13 @@
                         </form>
                         <sense xml:id="herwodes-1"> heralds'</sense>
                     </entry>
+                    <entry xml:id="hethnicall">
+                        <form>
+                            <orth>hethnicall</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="hethnicall-1">ethnical, ethnic, <hi rend ="italics">here (loosely)</hi> pagan, heathen, not Christian</sense>
+                    </entry>
                     
                     <entry xml:id="heuynge">
                         <form>
@@ -4551,6 +4754,14 @@
                             <gram>v pa</gram>
                         </form>
                         <sense xml:id="hevyd-1">heaved 
+                        </sense>
+                    </entry>
+                    <entry xml:id="hey">
+                        <form>
+                            <orth>hey</orth> 
+                            <gram>adv</gram> 
+                        </form>
+                        <sense xml:id="hey-1">high, highly
                         </sense>
                     </entry>
                     
@@ -4631,6 +4842,15 @@
                         </form>
                         <sense xml:id="hower-1">our</sense>
                     </entry>
+                   
+                    <entry xml:id="howholdstuffe">
+                        <form>
+                            <orth>howhold stuffe</orth> 
+                            <gram>n phr</gram>
+                        </form> 
+                        <sense xml:id="howholdstuffe-1">household-stuff, the moveable contents of a house; <form><orth>howhould stuffe</orth></form></sense>
+                    </entry>
+                    
                     <entry xml:id="hussher">
                         <form>
                             <orth>hussher</orth>
@@ -4717,8 +4937,19 @@
                             <orth>incontagion</orth>
                             <gram>n</gram>
                         </form>
-                        <sense xml:id="incontagion-1">contagion, possibly with a play on 'incantation'</sense>
+                        <sense xml:id="incontagion-1">contagion, possibly with a play on 'incantation'
+                        </sense>
                     </entry>
+                    
+                    <entry xml:id="indorcement">
+                        <form>
+                            <orth>indorcement</orth> 
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="indorcement-1">endorsement
+                        </sense>
+                    </entry>
+                    
                     
                     <entry xml:id="ingrowenmembers">
                         <form>
@@ -4745,7 +4976,15 @@
                         </form>
                         <sense xml:id="insomutch-1">insomuch</sense>
                     </entry>
+                    <entry xml:id="intresse">
+                        <form>
+                            <orth>intresse</orth>
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="intresse-1">entress, the entering into possession of land or property</sense>
+                    </entry>
                     
+                    <entry xml:id="interst"><form><orth>interst</orth> <gram>n</gram></form><sense xml:id="interst-1">interest</sense></entry>
                     <entry xml:id="ioggeler">
                         <form>
                             <orth>ioggeler</orth>
@@ -4753,7 +4992,8 @@
                         </form>
                         <sense xml:id="ioggeler-1">juggler</sense>
                     </entry>
-
+                    
+                    
                     <entry xml:id="ioyaunt">
                         <form>
                             <orth>ioyaunt</orth>
@@ -4761,7 +5001,14 @@
                         </form>
                         <sense xml:id="ioyaunt-1">giant</sense>
                     </entry>
-                    
+                    <entry xml:id="ioynct">
+                        <form>
+                            <orth>ioynct</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="ioynct-1">joint, made up of parts <ref>[<hi rend="italic">OEDO</hi>, joint, adj. 4]</ref>
+                        </sense>
+                    </entry>
                     <entry xml:id="iulj">
                         <form>
                             <orth>iulj</orth>
@@ -4890,7 +5137,14 @@
                         </form>
                         <sense xml:id="larges-1">largesse</sense>
                     </entry>
-                    
+                    <entry xml:id="lat">
+                        <form>
+                            <orth>lat</orth> 
+                            <gram>adv</gram> 
+                        </form>
+                        <sense xml:id="lat-1">late, recently, of late
+                        </sense>
+                    </entry>
                     <entry xml:id="lavolto">
                         <form>
                             <orth>lavolto</orth>
@@ -5194,7 +5448,15 @@
                         </form>
                         <sense xml:id="mayesgowne-1">May's gown, a gown belonging to a character in a May game(?)</sense>
                     </entry>
-
+                    
+                    <entry xml:id="mease">
+                        <form>
+                            <orth>mease</orth> 
+                            <gram>n</gram>
+                        </form> 
+                        <sense xml:id="mease-1">mese, messuage</sense>
+                    </entry>
+                    
                     <entry xml:id="medswett">
                         <form>
                             <orth>medswett</orth>
@@ -5530,7 +5792,7 @@
                     
                     <entry xml:id="orlates">
                         <form>
-                            <orth>oraltes</orth>
+                            <orth>orlates</orth>
                             <gram>n poss</gram>
                         </form>
                         <sense xml:id="orlates-1">harlot's</sense>
@@ -5783,9 +6045,22 @@
                         </form>
                         <sense xml:id="picter-1"> picture</sense>
                     </entry>
+                    <entry xml:id="pide">
+                        <form>
+                            <orth>pide</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="pide-1">pied, piebald
+                        </sense>
+                    </entry>
                     
-                    
-
+                    <entry xml:id="piramen">
+                        <form>
+                            <orth>piramen</orth>
+                            <gram>n</gram> 
+                        </form>
+                        <sense xml:id="piramen-1">pirament, pediment</sense>
+                    </entry>
                     <entry xml:id="plad">
                         <form>
                             <orth>plad</orth>
@@ -5821,6 +6096,14 @@
                         </form>
                         <sense xml:id="plaiare-1">player</sense>
                     </entry>
+                    <entry xml:id="plasant">
+                        <form>
+                            <orth>plasant</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="plasant-1">pleasant
+                        </sense>
+                    </entry>
                     
                     <entry xml:id="plesuer">
                         <form>
@@ -5840,6 +6123,15 @@
                         <sense xml:id="poynte-1">point, tagged ribbon or cord used to attach hose to
                             a doublet, lace a garment, fasten a shoe, etc <ref>[<hi rend="italic"
                                 >OEDO</hi> point <hi rend="italic">n.1</hi> II.23.a]</ref>; <form><orth>poynte</orth></form>
+                        </sense>
+                    </entry>
+                    
+                    <entry xml:id="poke">
+                        <form>
+                            <orth>poke</orth>
+                            <gram>n</gram>
+                        </form>
+                        <sense xml:id="poke-1">pocket; bag or wallet
                         </sense>
                     </entry>
                     
@@ -5902,6 +6194,18 @@
                         </form>
                         <sense xml:id="potsugures-1">pot sugars; a form of sugar suitable for dissolving in a pot of liquid(?)</sense>
                     </entry>
+                    
+                    <entry xml:id="pretened">
+                        <form>
+                            <orth>pretened</orth>
+                            <gram>v pa</gram>
+                        </form> 
+                        <sense xml:id="pretened-1">pretended; 
+                            <ref>[<hi rend="italics">cp OEDO</hi>, pretend v. forms]</ref>
+                        </sense>
+                    </entry>
+                    
+                    
 
                     <entry xml:id="prymust">
                         <form>
@@ -6062,6 +6366,15 @@
                         </form>
                         <sense xml:id="redelede-1">red lead</sense>
                     </entry>
+                    
+                    <entry xml:id="reposseede">
+                        <form>
+                            <orth>reposseede</orth> 
+                            <gram>v tr</gram>
+                        </form> 
+                        <sense xml:id="reposseede-1">repossede, to regain possession of
+                        </sense>
+                    </entry> 
 
                     <entry xml:id="reseued">
                         <form>
@@ -6149,7 +6462,13 @@
                                     <hi rend="italic">n.2</hi> 1.b]</ref>
                         </sense>
                     </entry>
-                    
+                    <entry xml:id="romthe">
+                        <form>
+                            <orth>romthe</orth> 
+                            <gram>n</gram>
+                        </form>
+                        <sense xml:id="romthe-1">roomth, physical space, chamber</sense>
+                    </entry>
                     <entry xml:id="roo">
                         <form>
                             <orth>roo</orth> 
@@ -6168,6 +6487,16 @@
                         <sense xml:id="rosyn-1">rosin, a kind of powder, used here for
                             fire-making</sense>
                     </entry>
+                    
+                    <entry xml:id="rotuntious">
+                        <form>
+                            <orth>rotuntious</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="rotuntious-1">rotundious, round, rotund
+                        </sense>
+                    </entry>
+                    
 
                     <entry xml:id="rouge">
                         <form>
@@ -6330,6 +6659,14 @@
                             <gram>v inf</gram>
                         </form>
                         <sense xml:id="sayke-1"> to seek</sense>
+                    </entry>
+                    <entry xml:id="scantelouse">
+                        <form>
+                            <orth>scantelouse</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="scantelouse-1"> scandalous  
+                        </sense>
                     </entry>
                     
 
@@ -6510,6 +6847,16 @@
                         </form>
                         <sense xml:id="shroshere-1">Shropshire</sense>
                     </entry>
+                    
+                    <entry xml:id="shuch">
+                        <form>
+                            <orth>shuch</orth> 
+                            <gram>adj</gram> 
+                        </form>
+                        <sense xml:id="shuch-1"> such
+                        </sense>
+                    </entry>
+                    
 
                     <entry xml:id="shueterooll">
                         <form>
@@ -6751,7 +7098,7 @@
                             <orth>strasers</orth>
                             <gram>n pl</gram>
                         </form>
-                        <sense xml:id="strasers-1"> trousers <ref>[<hi rend="italics">OEDO</hi> strosser, <hi rend="italics">n.</hi>]</ref></sense>
+                        <sense xml:id="strasers-1"> trousers <ref>[<hi rend="italics">OEDO</hi> strosser, <hi rend="italics">n.</hi>]</ref>; <form><orth>strocers</orth></form></sense>
                     </entry>
                     
                     
