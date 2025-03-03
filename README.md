@@ -1,6 +1,6 @@
 # REED Online Collection Files
 
-This repository contains the TEI XML files that populate [REED Online](https://ereed.library.utoronto.ca/).
+This repository contains the TEI XML files that populate [REED Online](https://ereed.org/).
 
 ## Directory Structure
 
@@ -16,7 +16,7 @@ Even without a GitHub account, you can download the files.
 
 We welcome contributions to help improve the project; however, the files here are only copies of the files populating REED Online. Changes to the GitHub files do not affect the site. This is why we are not accepting pull requests at this time.
 
-To suggest corrections to content or TEI encoding, please visit https://ereed.library.utoronto.ca/contact/.
+To suggest corrections to content or TEI encoding, please visit https://ereed.org/contact/.
 
 ## License
 
