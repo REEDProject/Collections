@@ -798,7 +798,7 @@
                             <orth>cocus, -a, -m</orth>
                             <gram>adj</gram>
                         </form>
-                        <sense xml:id="cocus-1"> <hi rend="italics">var of</hi> caecus <ref>[<hi rend="italics">OLD, DML</hi>]</ref></sense>
+                        <sense xml:id="cocus-1"> <hi rend="italic">var of</hi> caecus <ref>[<hi rend="italic">OLD, DML</hi>]</ref></sense>
                     </entry>
                     <entry xml:id="coma">
                         <form>
@@ -860,13 +860,13 @@
                             <orth>deviso, -are</orth>
                             <gram>v</gram>
                         </form>
-                        <sense xml:id="deviso-1"><hi rend="italics">var of</hi> diviso <ref>[<hi
-                                    rend="italics">DML</hi>, divisare]</ref> in phr <form>devisavit
+                        <sense xml:id="deviso-1"><hi rend="italic">var of</hi> diviso <ref>[<hi
+                                    rend="italic">DML</hi>, divisare]</ref> in phr <form>devisavit
                                 aut non devisavit</form> (whether) s/he has bequeathed or not
-                            bequeathed; the equivalent of <hi rend="italics">devisavit vel non</hi>,
+                            bequeathed; the equivalent of <hi rend="italic">devisavit vel non</hi>,
                             the name of an issue from a court of chancery to a court of law that
                             questions the validity of a document purported to be a will <ref>[<hi
-                                    rend="italics">see Black’s</hi> devisavit vel non]</ref></sense>
+                                    rend="italic">see Black’s</hi> devisavit vel non]</ref></sense>
                     </entry>
                     <entry xml:id="diocensis">
                         <form>
@@ -883,7 +883,7 @@
                         <orth>disgrado, -are</orth>
                         <gram>v tr</gram>
                     </form>
-                    <sense xml:id="disgrado-1"> <hi rend="italics">var of</hi> degrado <ref>[<hi rend="italics">DML</hi>]</ref></sense>
+                    <sense xml:id="disgrado-1"> <hi rend="italic">var of</hi> degrado <ref>[<hi rend="italic">DML</hi>]</ref></sense>
                     </entry>
                     <entry xml:id="donewicum"><form><orth>donewicum -i</orth> <gram>n nt</gram></form> <sense xml:id="donewicum-1">Dunwich</sense></entry>
 
@@ -1016,7 +1016,7 @@
                             <orth>exto, -are, -titi, -titum</orth>
                             <gram>v</gram>
                         </form>
-                        <sense xml:id="exto-1"><hi rend="italics">var of</hi> exsto <ref>[<hi rend="italic">DML</hi>
+                        <sense xml:id="exto-1"><hi rend="italic">var of</hi> exsto <ref>[<hi rend="italic">DML</hi>
                             exstare, exsistere]</ref>
                         </sense>
                     </entry>
@@ -1296,7 +1296,7 @@
                             <orth>marescallus, -i</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="marescallus-1"><hi rend="italic">var of</hi> marescalcus <ref>[<hi rend="italics">DML</hi>]</ref></sense>
+                        <sense xml:id="marescallus-1"><hi rend="italic">var of</hi> marescalcus <ref>[<hi rend="italic">DML</hi>]</ref></sense>
                     </entry>
                     
                     <entry xml:id="michaelis">
@@ -1358,7 +1358,7 @@
                         <sense xml:id="Northumberlandia-1">Northumberland </sense>
                     </entry>
 
-
+                
                 </div>
                 <div n="O" xml:id="gloss-la-O">
                     <!-- all of the entries for O -->
@@ -1442,7 +1442,7 @@
                             <orth>parochialis, -e</orth>
                             <gram>adj</gram>
                         </form>
-                        <sense xml:id="parochialis-1"><hi rend="italic">var of</hi> paroecialis <ref>[<hi rend="italics">DML</hi>]</ref></sense>
+                        <sense xml:id="parochialis-1"><hi rend="italic">var of</hi> paroecialis <ref>[<hi rend="italic">DML</hi>]</ref></sense>
                     </entry>
 
                     <entry xml:id="pedotriba">
@@ -1450,7 +1450,7 @@
                             <orth>pedotriba, -e</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="pedotriba-1">a teacher of children <ref>[<hi rend="italics"
+                        <sense xml:id="pedotriba-1">a teacher of children <ref>[<hi rend="italic"
                                     >cp DML</hi> paedotribes]</ref>
                         </sense>
                     </entry>
@@ -1564,7 +1564,7 @@
                             <orth>recompensacio, -onis</orth>
                             <gram>n f</gram>
                         </form>
-                        <sense xml:id="recompensacio-1"><hi rend="italics">var of</hi> recompensio <ref>[<hi rend="italics">DML</hi>]</ref></sense>
+                        <sense xml:id="recompensacio-1"><hi rend="italic">var of</hi> recompensio <ref>[<hi rend="italic">DML</hi>]</ref></sense>
                     </entry>
                     <entry xml:id="redeliberacio">
                         <form>
@@ -1584,7 +1584,7 @@
                             <gram>prp dat</gram>
                         </form>
                         <sense xml:id="salianti-1"><hi rend="italic">var of</hi> salienti; <hi
-                            rend="italic">cp</hi> salio, salire <ref>[<hi rend="italics">OLD, DML</hi>]</ref> </sense>
+                            rend="italic">cp</hi> salio, salire <ref>[<hi rend="italic">OLD, DML</hi>]</ref> </sense>
                     </entry>
 
                     <entry xml:id="seisina">
@@ -1661,7 +1661,7 @@
                             <orth>sitheredus, -i</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="sitheredus-1"><hi rend="italics">var of </hi> citharoedus [<ref>DML</ref>]; <form><orth>chitharedus</orth></form>
+                        <sense xml:id="sitheredus-1"><hi rend="italic">var of </hi> citharoedus [<ref>DML</ref>]; <form><orth>chitharedus</orth></form>
                         </sense>
                     </entry>
                     
@@ -1681,7 +1681,7 @@
                             <orth>sivis, -is</orth>
                             <gram>n f</gram>
                         </form>
-                        <sense xml:id="sivis-1"><hi rend="italics">var of </hi> civisv <ref>[<hi rend="italics">DML, OLD</hi>]</ref>; <form><orth>chitharedus</orth></form>
+                        <sense xml:id="sivis-1"><hi rend="italic">var of </hi> civisv <ref>[<hi rend="italic">DML, OLD</hi>]</ref>; <form><orth>chitharedus</orth></form>
                         </sense>
                     </entry>
 
@@ -1719,7 +1719,7 @@
                             <orth>taberarius, -i</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="taberarius-1"><hi rend="italics">var of</hi> taburarius <ref>[<hi rend="italics">DML</hi>]</ref></sense>
+                        <sense xml:id="taberarius-1"><hi rend="italic">var of</hi> taburarius <ref>[<hi rend="italic">DML</hi>]</ref></sense>
                     </entry>
                     
                     
@@ -1739,7 +1739,7 @@
                             <orth>trepidator, -oris</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="trepidator-1"><hi rend="italic">var of</hi> tripudiator <ref>[<hi rend="italics">DML</hi>]</ref></sense>
+                        <sense xml:id="trepidator-1"><hi rend="italic">var of</hi> tripudiator <ref>[<hi rend="italic">DML</hi>]</ref></sense>
                     </entry>
                     
                     <entry xml:id="tripideum">
@@ -1755,7 +1755,7 @@
                             <orth>tubum, -i</orth>
                             <gram>n nt</gram>
                         </form>
-                        <sense xml:id="tubum-1">trumpet; <hi rend="italics">cp</hi> <ref>[<hi rend="italics">OLD</hi>, <hi rend="italics">DML</hi>]</ref> </sense>
+                        <sense xml:id="tubum-1">trumpet; <hi rend="italic">cp</hi> <ref>[<hi rend="italic">OLD</hi>, <hi rend="italic">DML</hi>]</ref> </sense>
                     </entry>
                     
                    
@@ -1814,7 +1814,7 @@
                             <orth>urseus, -i</orth>
                             <gram>n m</gram>
                         </form>
-                        <sense xml:id="urseus-1"><hi rend="italics">var of </hi>ursus <ref>[<hi rend="italic">cp</hi>
+                        <sense xml:id="urseus-1"><hi rend="italic">var of </hi>ursus <ref>[<hi rend="italic">cp</hi>
                             ursarius <hi rend="italic">DML</hi>]</ref>
                         </sense>
                     </entry>
@@ -1923,7 +1923,7 @@
                             <orth>zabulum</orth>
                             <gram>n nt</gram>
                         </form>
-                        <sense xml:id="zabulum-1"> <hi rend="italics">var of</hi> sabulum</sense> <ref>[<hi rend="italics">DML</hi>]</ref>
+                        <sense xml:id="zabulum-1"> <hi rend="italic">var of</hi> sabulum</sense> <ref>[<hi rend="italic">DML</hi>]</ref>
                     </entry>
                     
                 </div>
@@ -2060,7 +2060,7 @@
                             <orth>deodose</orth>
                             <gram>adj</gram>
                         </form>
-                        <sense xml:id="deudose-1"> freshwater (<hi rend="italics">d'eau douce</hi>)
+                        <sense xml:id="deudose-1"> freshwater (<hi rend="italic">d'eau douce</hi>)
                         </sense>
                     </entry>
 
@@ -2189,7 +2189,7 @@
                             <gram>n phr</gram>
                         </form>
                         <sense xml:id="reysyngisdeCoraunce-1"> raisins of Corinth, <hi
-                                rend="italics">ie</hi>, currants <ref>[<hi rend="italic">see
+                                rend="italic">ie</hi>, currants <ref>[<hi rend="italic">see
                                     OEDO</hi> currant]</ref>
                         </sense>
                     </entry>
@@ -4070,7 +4070,7 @@
                         </form>
                         <sense xml:id="crossant-1">a nonce word, punning on 'crescent' (as a
                             heraldic device, and possibly as an adjective meaning 'growing') and
-                            'cross' <ref>[<hi rend="italics">OEDO</hi>, crescent n. 3; crescent,
+                            'cross' <ref>[<hi rend="italic">OEDO</hi>, crescent n. 3; crescent,
                                 adj.]</ref></sense>
                     </entry>
 
@@ -4419,7 +4419,7 @@
                         <form><orth>easlier</orth>
                             <gram>adv</gram></form>
                         <sense xml:id="easlier-1">comparative of easily, more easily <ref>[<hi
-                                    rend="italics">cp OEDO</hi>, easierly]</ref></sense>
+                                    rend="italic">cp OEDO</hi>, easierly]</ref></sense>
                     </entry>
                     <entry xml:id="eccerise">
                         <form>
@@ -4829,7 +4829,7 @@
                             <orth>fothe</orth>
                             <gram>prep phr</gram>
                         </form>
-                        <sense xml:id="fothe-1"><hi rend="italics">contraction of</hi> for
+                        <sense xml:id="fothe-1"><hi rend="italic">contraction of</hi> for
                             the</sense>
                     </entry>
                     <entry xml:id="fouttmen">
@@ -4966,7 +4966,7 @@
                             <orth>gastel</orth>
                             <gram>n</gram>
                         </form>
-                        <sense xml:id="gastel-1"> <hi rend="italics">var of</hi> wastel; a loaf of bread or a cake made of fine flour <ref>[<hi>AND</hi> gastel, <hi rend="italics">MED</hi> wastel, <hi rend="italics">OED</hi> wastel, <hi rend="italics">DML</hi> wastellus</ref>]</sense>
+                        <sense xml:id="gastel-1"> <hi rend="italic">var of</hi> wastel; a loaf of bread or a cake made of fine flour <ref>[<hi>AND</hi> gastel, <hi rend="italic">MED</hi> wastel, <hi rend="italic">OED</hi> wastel, <hi rend="italic">DML</hi> wastellus</ref>]</sense>
                     </entry>
                     
 
@@ -5229,7 +5229,7 @@
                             <orth>hadomee</orth>
                             <gram>vb phr</gram>
                         </form>
-                        <sense xml:id="hadomee-1"><hi rend="italics">contraction of</hi> had of
+                        <sense xml:id="hadomee-1"><hi rend="italic">contraction of</hi> had of
                             me</sense>
                     </entry>
                     <entry xml:id="haey">
@@ -5414,7 +5414,7 @@
                             <orth>hethnicall</orth>
                             <gram>adj</gram>
                         </form>
-                        <sense xml:id="hethnicall-1">ethnical, ethnic, <hi rend="italics">here
+                        <sense xml:id="hethnicall-1">ethnical, ethnic, <hi rend="italic">here
                                 (loosely)</hi> pagan, heathen, not Christian</sense>
                     </entry>
                     <entry xml:id="heuynge">
@@ -6437,7 +6437,8 @@
                         <sense xml:id="ny-1"> nigh; in <form><gram>adv phr</gram>
                                 <orth>ny vppon</orth></form> near or close to </sense>
                     </entry>
-
+ 
+                    
                     <entry xml:id="nyʒth">
                         <form>
                             <orth>nyʒth</orth>
@@ -6445,7 +6446,14 @@
                         </form>
                         <sense xml:id="nyʒth-1">night</sense>
                     </entry>
-
+ 
+                    <entry xml:id="nysiprius">
+                        <form>
+                            <orth>nysi prius</orth>
+                            <gram>n phr</gram>
+                        </form>
+                        <sense xml:id="nysiprius-1">a legal action tried under a writ of nisi prius <ref>[<hi rend="italic">OEDO</hi> nisi prius]</ref></sense>
+                    </entry>
                 </div>
 
                 <div n="O" xml:id="gloss-eng-O">
@@ -6521,7 +6529,15 @@
                         </form>
                         <sense xml:id="one-1">on</sense>
                     </entry>
-
+ 
+                    <entry xml:id="onelesse">
+                        <form>
+                            <orth>onelesse</orth>
+                            <!-- specifically the instance on f38 of Hampshire appendix-->
+                            <gram>adv</gram>
+                        </form>
+                        <sense xml:id="onelesse-1">unless</sense>
+                    </entry>
                     <entry xml:id="onor">
                         <form>
                             <orth>onor</orth>
@@ -6997,7 +7013,7 @@
                             <orth>pretened</orth>
                             <gram>v pa</gram>
                         </form>
-                        <sense xml:id="pretened-1">pretended; <ref>[<hi rend="italics">cp OEDO</hi>,
+                        <sense xml:id="pretened-1">pretended; <ref>[<hi rend="italic">cp OEDO</hi>,
                                 pretend v. forms]</ref>
                         </sense>
                     </entry>
@@ -7348,7 +7364,7 @@
                             <orth>rowche</orth>
                             <gram>n</gram>
                         </form>
-                        <sense xml:id="rowche-1"><hi rend="italics">possiblly</hi>rouge, fine iron oxide powder or similar used for polishing metals<hi rend="italics">or</hi> roche, alum</sense>
+                        <sense xml:id="rowche-1"><hi rend="italic">possibly</hi> rouge, fine iron oxide powder or similar used for polishing metals <hi rend="italic">or</hi> roche, alum</sense>
                     </entry>
 
                     <entry xml:id="rowghte">
@@ -7867,6 +7883,15 @@
                         </form>
                         <sense xml:id="speetes-1"> spits</sense>
                     </entry>
+                     
+ 
+                    <entry xml:id="spetiall">
+                        <form>
+                            <orth>spetiall</orth>
+                            <gram>adj</gram>
+                        </form>
+                        <sense xml:id="spetiall-1"> special</sense>
+                      </entry>
  
                     <entry xml:id="splentes">
                         <form>
@@ -7905,8 +7930,8 @@
                         </form>
                         <sense xml:id="stayers-1"> stairs, in <form><gram>n ph</gram>
                                 <orth>payer of stayers</orth></form> a flight of stairs or a
-                            portable set of steps <ref>[<hi rend="italics">OEDO</hi> stair, pair <hi
-                                    rend="italics">n.1., 9.</hi>]</ref></sense>
+                            portable set of steps <ref>[<hi rend="italic">OEDO</hi> stair, pair <hi
+                                    rend="italic">n.1., 9.</hi>]</ref></sense>
                     </entry>
 
 
@@ -8016,8 +8041,8 @@
                             <orth>strasers</orth>
                             <gram>n pl</gram>
                         </form>
-                        <sense xml:id="strasers-1"> trousers <ref>[<hi rend="italics">OEDO</hi>
-                                strosser, <hi rend="italics">n.</hi>]</ref>;
+                        <sense xml:id="strasers-1"> trousers <ref>[<hi rend="italic">OEDO</hi>
+                                strosser, <hi rend="italic">n.</hi>]</ref>;
                                     <form><orth>strocers</orth></form></sense>
                     </entry>
 
@@ -8112,7 +8137,7 @@
                             <orth>sursulphuryfe</orth>
                             <gram>n</gram>
                         </form>
-                        <sense xml:id="sursulphuryfe-1"><hi rend="italics">variant (with first syllable otiose) of </hi> sulphur-vive <ref>[<hi rend="italics">MED</hi> ]</ref></sense>
+                        <sense xml:id="sursulphuryfe-1"><hi rend="italic">variant (with first syllable otiose) of </hi> sulphur-vive <ref>[<hi rend="italic">MED</hi> ]</ref></sense>
                     </entry>
 
                     <entry xml:id="summersawt">
