@@ -3055,7 +3055,7 @@
                 type="foot">Robert Darnton, <title>The Great Cat Massacre and Other Episodes In
                   French Cultural History</title> (New York, 2009), 92.</note> The inhabitants of
               Paris, Saint Charmond, Burgundy, Lorraine, and Metz were attested to celebrate the
-              feast of Saint John the Baptist (24 June) regularly with bonfires, into which they
+              feast of Saint John the Baptist (24 June) regularly with <rs ref="eats:40735" type="Entertainment_FolkCustom">bonfires</rs>, into which they
               would cast cats:</p>
 
             <p>'Crowds made bonfires, jumped over them, danced around them, and threw into them
@@ -3969,15 +3969,15 @@
               <head>ff 30v–32 <supplied>(20 July) (St George Play receipts)</supplied></head>
               <pb n="30v-32" type="folio"/>
 
-              <ab>M<ex>emoran</ex>d<ex>um</ex> Rec<ex>eived</ex> atte the <rs ref="eats:326774"
+              <ab>M<ex>emoran</ex>d<ex>um</ex> Rec<ex>eived</ex> atte the <rs ref="eats:326774 eats:40380"
                   type="Drama_TitledWork">playe</rs> had on <rs ref="eats:307504"
                   type="CalendarDay_Liturgical">seynte Margar<ex>etes</ex> daye</rs> a<ex>nn</ex>o
                   d<ex>omi</ex>ni .M<hi rend="superscript">l</hi>. v<hi rend="superscript">C</hi>.
                 &amp; xj<hi rend="superscript">mo</hi>. and the iij<hi rend="superscript">de</hi>
                 yer off the Reign off <rs ref="eats:43591" type="Person_Royalty">kyng harrye the
                   viij</rs><hi rend="superscript">th</hi>. had i<ex>n</ex>
-                <rs ref="eats:326134" type="Place_PA_Settlement">bassingburn</rs> off the holy
-                  m<ex>ar</ex>tir seynt georg. Att þ<ex>a</ex>t tyme <rs ref="eats:3576"
+                <rs ref="eats:326134" type="Place_PA_Settlement">bassingburn</rs> off <rs ref="eats:352713" type="Drama_Character">the holy
+                  m<ex>ar</ex>tir seynt georg</rs>. Att þ<ex>a</ex>t tyme <rs ref="eats:3576"
                   type="Collective_Office">Chirchewardeyns</rs>
                 <rs ref="eats:307538" type="Person_Male">Iohn ayworthe</rs> &amp; <rs
                   ref="eats:307603" type="Person_Male">Iohn good than the eld<ex>er</ex></rs>
@@ -4161,8 +4161,7 @@
                 <row>
                   <cell>It<ex>e</ex>m rec<ex>eived</ex> off the townshype off <rs ref="eats:326134"
                       type="Place_PA_Settlement">bass<ex>ingbourne</ex></rs> on the mondaye. and on
-                    the Tewysday next afft<ex>er</ex> the <rs ref="eats:326774"
-                      type="Drama_TitledWork">playe</rs>. S<ex>um</ex>ma toged<ex>er</ex>
+                    the Tewysday next afft<ex>er</ex> the playe. S<ex>um</ex>ma toged<ex>er</ex>
                       w<ex>i</ex>t<ex>h</ex> other com<ex>m</ex>er<ex>es</ex> vn the mondaye</cell>
                   <cell rend="right">xiiij s. v d.</cell>
                 </row>
@@ -6642,14 +6641,14 @@
               <ab><rs ref="eats:306208" type="Person_Male">Rob<ex>er</ex>tus Goodwin</rs>.
                   P<ex>rese</ex>ntat<ex>ur</ex> p<ex>er</ex>
                 <rs ref="eats:306245" type="Person_Male">M<ex>agist</ex>r<ex>u</ex>m Gyles</rs>
-                  vic<ex>arium</ex> de <rs ref="eats:324390" type="Place_PA_Settlement">Elme</rs>
+                <rs ref="eats:9186"
+                  type="Collective_Clergy">vic<ex>arium</ex></rs> de <rs ref="eats:324390" type="Place_PA_Settlement">Elme</rs>
                 <foreign xml:lang="eng">for strikeinge &amp; <rs ref="eats:29681"
                     type="Entertainer_Type">playinge vpon a drum<ex>m</ex>e</rs> in Elme vpon a <rs
                     ref="eats:45652" type="CrimesMisdemeanors">sundaie morninge a little before
                     prayere time</rs>, when they were at service every where rounde aboute, &amp; he
                   to the grate scandall of those that were well disposed, continued that sport<note
-                    type="marginal" place="margin_left">+</note> till the <rs ref="eats:9186"
-                    type="Collective_Clergy">minister</rs> there sent word to leave.</foreign> Et 2
+                    type="marginal" place="margin_left">+</note> till the minister there sent word to leave.</foreign> Et 2
                 Decembris 1607<note type="foot">1607: <hi rend="italic">underlined</hi></note>
                   ex<ex>hibi</ex>ta Citac<ex>i</ex>o<ex>n</ex>e or<ex>igina</ex>li p<ex>er</ex>
                 <rs ref="eats:304272" type="Person_Clergy">W<ex>illelmu</ex>m Olecorne</rs>
@@ -7695,7 +7694,7 @@
                     ref="eats:322628" type="Place_F_Church">Cathedrall Church of Ely</rs> by the <rs
                     ref="eats:330974" type="Entertainment_AnimalSport">Roasting of a Catt</rs> tyed
                   to a spitt by one <rs ref="eats:314473" type="Person_Male">Will<ex>ia</ex>m
-                    Smith</rs> &amp; there a fire made about it. whereby much people were gathered
+                    Smith</rs> &amp; there a <rs ref="eats:40735" type="Entertainment_FolkCustom">fire</rs> made about it. whereby much people were gathered
                   together &amp; a great <rs ref="eats:45652" type="CrimesMisdemeanors"
                       >p<ex>ro</ex>phanac<ex>i</ex>on</rs> made both of day &amp; place.</foreign>
                 <handShift/><ex>contra</ex> s<ex>i</ex>c co<ex>mparuit</ex> et fatet<ex>ur</ex>
@@ -10371,8 +10370,8 @@
 
               <table>
                 <row>
-                  <cell>Al' putto chi m'insegna il<note type="foot">il: <hi rend="italics">for</hi>
-                      a <hi rend="italics">(?)</hi></note> ballare</cell>
+                  <cell>Al' putto chi m'insegna il<note type="foot">il: <hi rend="italic">for</hi>
+                      a <hi rend="italic">(?)</hi></note> ballare</cell>
                   <cell rend="right">2 s.</cell>
                 </row>
               </table>
@@ -10595,7 +10594,7 @@
               <gap reason="omitted"/>
 
               <ab>sta matina, comincia con Ionsono, il meso<note type="foot">meso: <hi
-                    rend="italics">for</hi> mese</note>./.</ab>
+                    rend="italic">for</hi> mese</note>./.</ab>
 
               <gap reason="omitted"/>
             </div>
@@ -10638,7 +10637,7 @@
 
               <table>
                 <row>
-                  <cell>At a play (<hi rend="italics">or</hi> comedy)</cell>
+                  <cell>At a play (<hi rend="italic">or</hi> comedy)</cell>
                   <cell rend="right">1s</cell>
                 </row>
                 <row>
@@ -10675,7 +10674,7 @@
 
               <table>
                 <row>
-                  <cell>To see certain strange (<hi rend="italics">or</hi> new <hi rend="italics"
+                  <cell>To see certain strange (<hi rend="italic">or</hi> new <hi rend="italic"
                       >or</hi> wonderful) things in Fleet Street</cell>
                   <cell rend="right">1s</cell>
                 </row>
@@ -10880,7 +10879,7 @@
                 </row>
                 <row>
                   <cell>And in the street there were two of the Queen's dwarves, whom I watched and
-                    gave (<hi rend="italics">or</hi> I saw them and gave them) </cell>
+                    gave (<hi rend="italic">or</hi> I saw them and gave them) </cell>
                   <cell rend="right">12d</cell>
                 </row>
               </table>
@@ -10893,7 +10892,7 @@
 
               <table>
                 <row>
-                  <cell>To Browne, for mending (<hi rend="italics">or</hi> restringing, preparing)
+                  <cell>To Browne, for mending (<hi rend="italic">or</hi> restringing, preparing)
                     the lute, and for a ribbon (<hi rend="italic">or</hi> a little cord, a lace) of
                     gold</cell>
                   <cell rend="right">8s</cell>
@@ -11393,7 +11392,7 @@
                           type="Place_PA_Settlement">Woolpit</rs>, <rs ref="eats:2273"
                           type="Place_County">Suffolk</rs></hi></note>, a <rs ref="eats:313077"
                       type="Place_PA_Settlement">Berri</rs><note type="foot">Berri: <hi
-                        rend="italics">Bury St Edmunds, Suffolk</hi></note> 6. miglia, &amp; iui
+                        rend="italic">Bury St Edmunds, Suffolk</hi></note> 6. miglia, &amp; iui
                         comp<damage><gap unit="chars" extent="1"/></damage>raua corde da liuto
                     costandomi</cell>
                   <cell rend="right">xvj d.</cell>
@@ -11575,7 +11574,7 @@
 
               <ab>Hoggi si marito il <rs ref="eats:318934" type="Person_StatusOther">S<ex>igno</ex>r
                     Sturto<ex>n</ex></rs> gentilluomo<note type="foot">gentilluomo: mo <hi
-                    rend="italics">written above the line in the same hand due to lack of space at
+                    rend="italic">written above the line in the same hand due to lack of space at
                     the right edge of the leaf</hi></note> con la <rs ref="eats:319057"
                   type="Person_StatusOther">figlia</rs> della <rs ref="eats:318996"
                   type="Person_StatusOther">s<ex>igno</ex>ra Stafford</rs> la grande e alta</ab>
@@ -11664,7 +11663,7 @@
 
               <table>
                 <row>
-                  <cell>In the mending (<hi rend="italics">or</hi> restringing) of an old
+                  <cell>In the mending (<hi rend="italic">or</hi> restringing) of an old
                     lute</cell>
                   <cell rend="right">4s</cell>
                 </row>
@@ -15569,7 +15568,7 @@
                       extent="2"/></damage>b<ex>us</ex>: <hi rend="italic">letters blotted; for</hi>
                   speciebus</note> iij s. vij d.</ab>
 
-              <ab>It<ex>e</ex>m i<ex>n</ex> igne xij d. i<ex>n</ex> salo j d. ob. It<ex>e</ex>m
+              <ab>It<ex>e</ex>m i<ex>n</ex> <rs ref="eats:40735" type="Entertainment_FolkCustom">igne</rs> xij d. i<ex>n</ex> salo j d. ob. It<ex>e</ex>m
                   i<ex>n</ex> ouis vj d. It<ex>e</ex>m i<ex>n</ex> vineg<ex>ra</ex> iiij d.
                   It<ex>e</ex>m i<ex>n</ex> lak<ex>te</ex> &amp; crem<ex>io</ex> xij d.</ab>
 
@@ -16148,7 +16147,7 @@
                 <foreign xml:lang="eng"><rs ref="eats:331061" type="Collective_Occupations"
                       >sander<ex>es</ex></rs></foreign> j d. Item p<ex>ro</ex>
                 <rs ref="eats:331883" type="Collective_Occupations">lauac<ex>i</ex>onis</rs><note
-                  type="foot">lauac<ex>i</ex>onis: <hi rend="italics">for</hi> lauacione </note>
+                  type="foot">lauac<ex>i</ex>onis: <hi rend="italic">for</hi> lauacione </note>
                 <term ref="gloss:panis-1">panis</term> iiij d.</ab>
 
               <gap reason="omitted"/>
@@ -16226,9 +16225,9 @@
                     >for</hi> aucis</note> p<ex>re</ex>ciu<ex>m</ex> le <term ref="gloss:pesse-1"
                   >pesse</term> ii d. ob. Som<ex>m</ex>a iiij s. ij d.</ab>
 
-              <ab>Item in ij vetellu'<note type="foot">vetellu': <hi rend="italics">for</hi>
+              <ab>Item in ij vetellu'<note type="foot">vetellu': <hi rend="italic">for</hi>
                   vetullis</note> iiij s. <add place="above">iiij d.</add> viij d.<note type="foot"
-                    ><add place="above">iiij d.</add> viij d.: viij d. <hi rend="italics">presumably
+                    ><add place="above">iiij d.</add> viij d.: viij d. <hi rend="italic">presumably
                     for deletion</hi></note> Item in iij angn<ex>is</ex> iij s. Item in xxiij
                 chekyns xx d.</ab>
 
@@ -16239,7 +16238,7 @@
               <ab>Item in salte j d. Item alleg<ex>ra</ex> &amp; venieg<ex>ra</ex> ij d. ob. Item
                   v<ex>er</ex>iu<ex>s</ex> j d. Item in garleke j d. Item onions j d.</ab>
 
-              <ab>Item in lak<ex>te</ex> &amp; gremio<note type="foot">gremio: <hi rend="italics"
+              <ab>Item in lak<ex>te</ex> &amp; gremio<note type="foot">gremio: <hi rend="italic"
                     >for</hi> crema <hi rend="italic">(?)</hi></note> vj d. Item in honi iiij d.
                 Item in focalib<ex>us</ex> xv d. Item in <foreign xml:lang="eng">fowy<ex>n</ex>g of
                   ye <rs ref="eats:331027" type="Place_F_GuildHall">halle</rs></foreign> &amp;
@@ -19748,7 +19747,7 @@
 
                   <ab rend="center">⸿On the other hande</ab>
 
-                  <ab>Syr <rs ref="eats:305300" type="Person_Male">Thomas howard</rs></ab>
+                  <ab>Syr <rs ref="eats:167132" type="Person_Male">Thomas howard</rs></ab>
 
                   <ab>Syr <rs ref="eats:304871" type="Person_Male">Iohn donne</rs></ab>
 
@@ -19812,7 +19811,7 @@
                   bishop of Worcester, 1486–97, and nephew of <rs ref="eats:304598"
                     type="Person_Nobility">John Morton</rs> (Christopher Harper-Bill, 'Morton,
                   Robert (<hi rend="italic">c</hi>. 1435–1497, bishop of Worcester),'
-                    <title>ODNB</title>, accessed 7 March 2022). Sir <rs ref="eats:305300"
+                    <title>ODNB</title>, accessed 7 March 2022). Sir <rs ref="eats:167132"
                     type="Person_Nobility">Thomas Howard</rs>(1443–1524), later second duke of
                   Norfolk, was a member of <rs ref="eats:44278" type="Person_Royalty">Edward
                   IV</rs>'s household (David M. Head, 'Howard, Thomas, second duke of Norfolk

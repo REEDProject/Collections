@@ -199,7 +199,7 @@
       year. Without her there would be no REED, of course, and for me personally there would have
       been no career doing the work that I love.</p>
 
-     <p>The second is Professor Sally-Beth Maclean, Director of Research and General Editor of the
+     <p>The second is Professor Sally-Beth MacLean, Director of Research and General Editor of the
       REED Project, who, in 1982 became the face of REED (and many times thereafter its saviour)
       when Sandy took on her heavy responsibilities as Principal of Victoria College, University of
       Toronto, before returning to REED. On a personal note, Sally-Beth has been the guiding
@@ -2228,10 +2228,10 @@
       held four manors and a handful of privatized hundreds as the Liberty of St Ethelreda in East
       Suffolk; and the bishopric of Ely held eight Suffolk manors. Several women were comparable
       aristocratic landlords in Suffolk, among them Elizabeth de Burgh who inherited the Clare
-      estate, Alice de Bryne of Acton, and Katherine de Norwich, of Mettingham and Norwich.<note
+      estate, Alice de Bryene of Acton, and Katherine de Norwich, of Mettingham and Norwich.<note
        type="foot">Bailey, <title>Medieval Suffolk</title>, pp 16–18.</note> Performance records
       survive for four of these great landlords (the abbots of Bury, the Howards, Charles Brandon,
-      and Alice de Bryne).</p>
+      and Alice de Bryene).</p>
 
      <p>The medieval aristocracy in Suffolk stood atop a society largely controlled by lesser lay
       landlords that, as superbly analyzed by Mark Bailey, was sophisticated and complex in ways
@@ -3872,7 +3872,7 @@
            because of vagueness in the records.</p>
           
           <p>The earliest possible evidence occurs in payments made at Ipswich on 1 January 1296/7
-           to three minstrels named 'Grisecote / Visage, &amp; Magote Menestrall{i}s performing
+           to three minstrels named 'Grisecote/ Visage, &amp; Magote Menestrall{i}s performing
            [before the Lady Elizabeth].' Their names sound like characters rather than given names,
            suggesting that their minstrelsy involved role-playing of some kind, pehaps farcical,
            before the royal bride-to-be. Also at this celebration, among a group of minstrels paid
@@ -5014,7 +5014,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>To <rs ref="eats:469955" type="Person_Male">Robert Hind</rs> for a <term
            ref="gloss:gyrcken-1">Iyrken</term> a paire of briches for making linyng &amp; buttons
@@ -5606,7 +5606,7 @@
         <row>
          <cell>p<ex>ai</ex>d for the <rs ref="eats:366829" type="Collective_Office">waites</rs>
           vittelles <del>&amp;</del>
-          <term ref="gastel-1">gatesls</term><note type="foot">gatesls: <hi rend="italics">likely
+          <term ref="gastel-1">gatesls</term><note type="foot">gatesls: <hi rend="italic">likely
             for</hi> gastels</note> at <rs ref="eats:41461" type="CalendarDay_Liturgical"
            >christmes</rs> Court </cell>
          <cell rend="right">xviij d.</cell>
@@ -6354,7 +6354,7 @@
        <head>f 8v <supplied>(29 September–29 September)</supplied></head>
        <pb n="8v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6398,7 +6398,7 @@
        <head>f 25v <supplied>(29 September–25 December) (Payments)</supplied></head>
        <pb n="25v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6448,19 +6448,19 @@
        <head>f 49 <supplied>(29 September–25 December) (Payments)</supplied></head>
        <pb n="49" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
-         <cell>s.</cell>
-         <cell>d.</cell>
+         <cell rend="right">s.</cell>
+         <cell rend="right">d.</cell>
         </row>
         <row>
          <cell><gap reason="omitted"/></cell>
         </row>
         <row>
          <cell>ffor mending of the <rs ref="eats:41063" type="Thing_MusicalInstrument"
-          >drum</rs></cell>
+          >drum</rs>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</cell>
          <cell rend="right">00</cell>
          <cell rend="right">00</cell>
          <cell rend="right">08</cell>
@@ -6473,12 +6473,12 @@
        <head>f 50v <supplied>(Payments)</supplied></head>
        <pb n="50v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
-         <cell>s.</cell>
-         <cell>d.</cell>
+         <cell rend="right">s.</cell>
+         <cell rend="right">d.</cell>
         </row>
         <row>
          <cell rend="right"><gap reason="omitted"/></cell>
@@ -6507,7 +6507,7 @@
        <head>f 65v <supplied>(25 December–25 December) (Payments)</supplied></head>
        <pb n="65v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6534,7 +6534,7 @@
        <head>f 68 <supplied>(Payments)</supplied></head>
        <pb n="68" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6566,10 +6566,10 @@
       <seg ana="taxon:SUAL02">SUAL02</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid47-transcription">
       <div>
-       <head>f 81v <supplied>(25 December–25 December)(Payments)</supplied></head>
+       <head>f 81v <supplied>(25 December–25 December) (Payments)</supplied></head>
        <pb n="81v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6594,12 +6594,12 @@
        <head>f 88v</head>
        <pb n="88v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
-         <cell>s.</cell>
-         <cell>d.</cell>
+         <cell rend="right">s.</cell>
+         <cell rend="right">d.</cell>
         </row>
         <row>
          <cell><gap reason="omitted"/></cell>
@@ -6631,7 +6631,7 @@
        <head>f 116v <supplied>(25 December–25 December)</supplied></head>
        <pb n="116v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6685,7 +6685,7 @@
        <head>f 127 <supplied>(25 December–25 December)</supplied></head>
        <pb n="127" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6728,7 +6728,7 @@
        <head>f 138v <supplied>(25 December–25 December)</supplied></head>
        <pb n="138v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6753,7 +6753,7 @@
        <head>f 139v</head>
        <pb n="139v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6778,7 +6778,7 @@
        <head>f 139Bv</head>
        <pb n="139Bv" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6830,7 +6830,7 @@
        </head>
        <pb n="149" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6863,7 +6863,7 @@
        <head>f 181 <supplied>(25 December-25 December)</supplied></head>
        <pb n="181" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -6880,8 +6880,8 @@
            type="Thing_MusicalInstrument">drum</rs> six seu<ex>er</ex>all tymes and for a head as
            p<ex>er</ex> bill appeereth</cell>
          <cell rend="right">00</cell>
-         <cell>14</cell>
-         <cell>00</cell>
+         <cell rend="right">14</cell>
+         <cell rend="right">00</cell>
         </row>
        </table>
 
@@ -6901,12 +6901,12 @@
        <head>f 220v</head>
        <pb n="220v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
-         <cell>s.</cell>
-         <cell>d.</cell>
+         <cell rend="right">s.</cell>
+         <cell rend="right">d.</cell>
         </row>
         <row>
          <cell><gap reason="omitted"/></cell>
@@ -6939,12 +6939,12 @@
        <head>f 221</head>
        <pb n="221" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
-         <cell>s.</cell>
-         <cell>d.</cell>
+         <cell rend="right">s.</cell>
+         <cell rend="right">d.</cell>
         </row>
         <row>
          <cell><gap reason="omitted"/></cell>
@@ -7100,7 +7100,7 @@
         shall be ready att your wor<ex>shipfu</ex>ll Comand: Soe with my Sirvice to your
          wor<ex>shipfu</ex>ll rem<ex>em</ex>b<ex>rance</ex>: I ‸<add place="above">leave</add> you:
         to the protitic<ex>i</ex>on:<note type="foot">protitici<ex>i</ex>on: <hi rend="italics"
-          >for</hi> protection<hi rend="italics">?</hi></note> of the most heigh: and Rest</ab>
+          >for</hi> protection<hi rend="italic">?</hi></note> of the most heigh: and Rest</ab>
 
        <table>
         <row>
@@ -7157,24 +7157,24 @@
       <seg ana="taxon:SUCW03">SUCW03</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid147-transcription">
       <div>
-       <head>p 4 <supplied>(2 November–2 November)(List of Brothers and Sisters of the Guild of St
+       <head>p 4 <supplied>(2 November–2 November) (List of Brothers and Sisters of the Guild of St
          Peter)</supplied></head>
        <pb n="4" type="page"/>
 
        <gap reason="omitted"/>
 
-       <ab><rs ref="eats:386607" type="Person_Male">Wyllia<ex>m</ex> blomeffeld</rs></ab>
+       <ab><rs ref="eats:386607" type="Person_Male">Wyllia<ex>m</ex> blomeffeld</rs><lb/>
 
-       <ab>owre <rs ref="eats:367586" type="Collective_Troupe">menstrell</rs> to</ab>
+       owre <rs ref="eats:367586" type="Collective_Troupe">menstrell</rs> to<lb/>
 
-       <ab>to<note type="foot">to to: <hi rend="italic">dittography</hi></note> owre <term
-         ref="gloss:gyeld-1">gelde</term> he</ab>
+       to<note type="foot">to to: <hi rend="italic">dittography</hi></note> owre <term
+         ref="gloss:gyeld-1">gelde</term> he<lb/>
 
-       <ab>to haue ffor hys</ab>
+       to haue ffor hys<lb/>
 
-       <ab>mede xij d. &amp;</ab>
+       mede xij d. &amp;<lb/>
 
-       <ab>hys chece<note type="foot">Wyllia<ex>m</ex> … chece: <hi rend="italic">These six lines
+       hys chece<note type="foot">Wyllia<ex>m</ex> … chece: <hi rend="italic">These six lines
           are bracketed together on the left.</hi></note></ab>
 
        <gap reason="omitted"/>
@@ -7189,12 +7189,12 @@
 
        <gap reason="omitted"/>
 
-       <ab><del>Crystofur</del></ab>
+       <ab><del>Crystofur</del><lb/>
 
-       <ab><rs ref="eats:387679" type="Person_Male">Crystofur ‸<add place="above"
-          >frat<ex>er</ex></add> Cagge</rs> mynstrall</ab>
+       <rs ref="eats:387679" type="Person_Male">Crystofur ‸<add place="above"
+          >frat<ex>er</ex></add> Cagge</rs> mynstrall<lb/>
 
-       <ab>he to haue hys wag<ex>es</ex> xvj d.</ab>
+       he to haue hys wag<ex>es</ex> xvj d.</ab>
 
        <gap reason="omitted"/>
       </div>
@@ -7337,18 +7337,7 @@
      <div type="endnote">
       <p> This account was declared on 10 January 1529/30.</p>
 
-      <!-- IN: Should this en be moved to a EdDesc instead? Seems like at least parts of it apply to records below as well -->
-      <p> The hokepott (hock pot or hoc pot) appears annually through 1546–7 among amounts received.
-       It is usually positioned near the Plough Monday receipts, but is always distinct from them,
-       and the hocpot amounts always far exceed those from ales or Plough Monday gatherings. It
-       seems likely that the hocpot refers to the kind of gathering activity traditionally held at
-       Hocktide (on the Monday and/or Tuesday after Easter, thus between 31 March and 4 May). It
-       might be a one or a two-day event. If the latter, men imprisoned (or bound) women on Monday
-       (or confiscated their shoes) until the women paid release money. Women similarly captured the
-       men on Tuesdays. The money raised by the women always far exceeded that raised by the
-       men.</p>
-
-      <p> In Boxford the event involved the contribution of a considerable amount of grain used for
+ <p> In Boxford the event involved the contribution of a considerable amount of grain used for
        brewing. Traditionally the event was inherently mimetic in that its premises and actions
        involved comic combat or ambush (the capturing and ransoming) as in <rs ref="eats:35310"
         type="Entertainment_FolkCustom">Robin Hood games</rs>. At Kenilworth Castle in 1575, for
@@ -7718,7 +7707,7 @@
         </row>
        </table>
 
-       <pb n="32" type="page"/>
+       <ab><pb n="32" type="page"/></ab>
 
        <table>
         <row>
@@ -7855,14 +7844,14 @@
         </row>
        </table>
 
-       <pb n="33" type="page"/>
+       <ab><pb n="33" type="page"/></ab>
 
        <ab>And it is to be remembryd that all the p<ex>er</ex>sons ‸<add place="above">of the
          towne</add> beforeseid (which brought in money <del>at</del> to the p<ex>ro</ex>fight of
         the pley) dyd ffynde all the townshippes <rs ref="eats:40978" type="Thing_FoodDrink"
          >mete</rs> &amp; <rs ref="eats:40997" type="Thing_FoodDrink">drynk</rs> of ther
          p<ex>ro</ex>per Cost &amp; charge w<ex>i</ex>t<ex>h</ex>owt any maner of alow<ex>a</ex>ns
-        to the<ex>m</ex> made for any man<ex>er</ex> of Charge / by which meanys <del>the tow</del>
+        to the<ex>m</ex> made for any man<ex>er</ex> of Charge/ by which meanys <del>the tow</del>
         there is no maner of alow<ex>a</ex>nns owt of this pley but onely xxx s to the
         p<ex>ro</ex>pyrte pleyer &amp; xv s to dyu<ex>er</ex>se pleyers which cam owt of strange
         placys So that ther was made of the same pley clerely to the p<ex>ro</ex>fyght of the <rs
@@ -7871,10 +7860,10 @@
        <ab>M<ex>emoran</ex>d<ex>um</ex> all the Whoole accompt of wyll<ex>ia</ex>m Coo &amp; Iohn
         Skott Chirche wardeyns of Boxford made the Sunday after the xij<hi rend="superscript"
          >th</hi> day in the xxvij yere of kyng henry the viij<hi rend="superscript">th</hi> of all
-        suche Sum<ex>m</ex>es of money as they haue receyvid &amp; payd this yere past / than it is
+        suche Sum<ex>m</ex>es of money as they haue receyvid &amp; payd this yere past/ than it is
         fownd that they haue receyvid of the gatheryng vpon <rs ref="eats:259650"
-         type="CalendarDay_Liturgical">plough mu<ex>n</ex>day</rs> / the <rs ref="eats:40815"
-         type="Entertainment_FolkCustom"><term ref="gloss:hockpot-1">hockpot</term></rs> / the
+         type="CalendarDay_Liturgical">plough mu<ex>n</ex>day</rs>/ the <rs ref="eats:40815"
+         type="Entertainment_FolkCustom"><term ref="gloss:hockpot-1">hockpot</term></rs>/ the
          p<ex>ro</ex>ffyght of iij alys/ &amp; of the Chirche land as apperyth in the receyte v li.
         xviij s. v d. ob./ And of the p<ex>ro</ex>fett<ex>es</ex> of the pley xvij li. xij s. ix d.
         ob. <del>beside</del>
@@ -7913,11 +7902,11 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>It<ex>e</ex>m r<ex>eceyvid</ex> of The proffet of the <rs ref="eats:40815"
            type="Entertainment_FolkCustom"><term ref="gloss:hockpot-1">hockepoot</term></rs> beseyd
-          the viij s viij d gatheryd on <rs ref="eats:259650" type="CalendarDay_Liturgical">plowe
+          the viij s. viij d. gatheryd on <rs ref="eats:259650" type="CalendarDay_Liturgical">plowe
            mondaye</rs></cell>
          <cell rend="right">xlviij s. ij d.</cell>
         </row>
@@ -7925,8 +7914,8 @@
          <cell><gap reason="omitted"/></cell>
         </row>
         <row>
-         <cell>It<ex>e</ex>m rec<ex>eyvid</ex> of petyr ffen in p<ex>ar</ex>t of payment of xxvj s
-          viij d which he rec<ex>eyvid</ex> at the <rs ref="eats:40453" type="Drama_Type"
+         <cell>It<ex>e</ex>m rec<ex>eyvid</ex> of petyr ffen in p<ex>ar</ex>t of payment of xxvj s.
+          viij d. which he rec<ex>eyvid</ex> at the <rs ref="eats:40453" type="Drama_Type"
           >pley</rs></cell>
          <cell rend="right">vj s. viij d.</cell>
         </row>
@@ -8022,8 +8011,8 @@
        <table>
         <row>
          <cell>It<ex>e</ex>m receyvid of the p<ex>ro</ex>fyght of the <rs ref="eats:40815"
-           type="Entertainment_FolkCustom"><term ref="gloss:hockpot-1"><term ref="gloss:hockpot-1"
-             >hocpot</term></term></rs> clerely</cell>
+           type="Entertainment_FolkCustom"><term ref="gloss:hockpot-1"
+             >hocpot</term></rs> clerely</cell>
          <cell rend="right">liij s. iiij d.</cell>
         </row>
        </table>
@@ -8110,7 +8099,7 @@
         </row>
         <row>
          <cell>Re<ex>sseyuyd</ex> of <rs ref="eats:399513" type="Person_Male">rychard clark</rs> for
-          a motheter<note type="foot">motheter: <hi rend="italics">for</hi> motheten</note>
+          a motheter<note type="foot">motheter: <hi rend="italic">for</hi> motheten</note>
           <rs ref="eats:71388" type="Thing_TheatricalCostume">cot</rs> of red of <rs
            ref="eats:21537 eats:368485" type="Drama_Character">saynt necolas</rs><note type="foot"
            >necolas: co <hi rend="italic">written over other letters</hi></note></cell>
@@ -8203,7 +8192,7 @@
          <cell>It<ex>em</ex> Ress<ex>eyuyd</ex> of the <rs ref="eats:40815"
            type="Entertainment_FolkCustom"><term ref="gloss:hockpot-1">hocpot</term></rs>
           clerly</cell>
-         <cell rend="right">xxv s </cell>
+         <cell rend="right">xxv s.</cell>
         </row>
        </table>
       </div>
@@ -8498,7 +8487,7 @@
          ref="eats:403338" type="Person_Male">Iohn wodcok</rs> and dyu<ex>er</ex>s other euyl
         aduisyd p<ex>er</ex>sons arreyed as <rs ref="eats:45576" type="CrimesMisdemeanors"
           >Riotto<ex>ur</ex>s</rs> and in Riottous man<ex>ner</ex> at Bungey aforeyd<note
-         type="foot">aforeyd: <hi rend="italics">for</hi> aforseyd</note> at xj of the clok on the
+         type="foot">aforeyd: <hi rend="italic">for</hi> aforseyd</note> at xj of the clok on the
         frydaye at nyght nex aft<ex>er</ex>
         <rs ref="eats:41497" type="CalendarDay_Liturgical">Corpus chr<ex>ist</ex>i day</rs> in the
         sixthe yere of the most noble reygn of Kyng Henry tha now is and at that tyme the seyd
@@ -8598,7 +8587,7 @@
       <seg ana="taxon:SUCW02">SUCW02</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid142-transcription">
       <div>
-       <head>p 18 <supplied>(26 December–25 December)(Payments)</supplied></head>
+       <head>p 18 <supplied>(26 December–25 December) (Payments)</supplied></head>
        <pb n="18" type="page"/>
 
        <gap reason="omitted"/>
@@ -8978,7 +8967,7 @@
       <seg ana="taxon:SUCW02">SUCW02</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid144-transcription">
       <div>
-       <head>p 63 <supplied>(26 December–25 December)(Payments)</supplied></head>
+       <head>p 63 <supplied>(26 December–25 December) (Payments)</supplied></head>
        <pb n="63" type="page"/>
 
        <gap reason="omitted"/>
@@ -9020,7 +9009,7 @@
       <seg ana="taxon:SUCW02">SUCW02</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid145-transcription">
       <div>
-       <head>p 68 <supplied>(26 December–25 December)(Payments)</supplied></head>
+       <head>p 68 <supplied>(26 December–25 December) (Payments)</supplied></head>
        <pb n="68" type="page"/>
 
        <gap reason="omitted"/>
@@ -9265,7 +9254,7 @@
        <gap reason="omitted"/>
       </div>
       <div>
-       <head>pp 34–5</head>
+       <head>pp 34–6</head>
        <pb n="34" type="page"/>
 
        <table>
@@ -9334,7 +9323,7 @@
         </row>
        </table>
 
-       <pb n="35" type="page"/>
+       <ab><pb n="35" type="page"/></ab>
 
        <table>
         <row>
@@ -9433,8 +9422,7 @@
          <cell rend="right">ij s. </cell>
         </row>
        </table>
-       <pb/>
-
+       <ab><pb n="36" type="page"/></ab>
 
        <table>
         <row>
@@ -9670,7 +9658,7 @@
         </row>
        </table>
 
-       <pb n="42" type="page"/>
+       <ab><pb n="42" type="page"/></ab>
 
        <table>
         <row>
@@ -9792,7 +9780,7 @@
         </row>
        </table>
 
-       <pb n="43" type="page"/>
+       <ab><pb n="43" type="page"/></ab>
 
        <table>
         <row>
@@ -10117,11 +10105,11 @@
         </row>
         <row>
          <cell>It<ex>e</ex>m paid for Bere when the Boothes were made </cell>
-         <cell rend="right">iiij d. <pb n="50" type="page"/>
+         <cell rend="right">iiij d. 
          </cell>
         </row>
        </table>
-
+       <ab><pb n="50" type="page"/></ab>
        <table>
         <row>
          <cell>It<ex>e</ex>m for ij quayer whight paper </cell>
@@ -10223,9 +10211,6 @@
          <cell>It<ex>e</ex>m to the same for ij lambz </cell>
          <cell rend="right">v s. vj d. </cell>
         </row>
-       </table>
-
-       <table>
         <row>
          <cell>It<ex>e</ex>m to <rs ref="eats:414050" type="Person_Male">Iohn Bowbright</rs> for vj
            Barrell<ex>es</ex> of Bere </cell>
@@ -10244,7 +10229,7 @@
         </row>
        </table>
 
-       <pb n="51" type="page"/>
+      <ab> <pb n="51" type="page"/></ab>
 
        <table>
         <row>
@@ -10440,7 +10425,7 @@
       <seg ana="taxon:SUCW01">SUCW01</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid139-transcription">
       <div>
-       <head>p 95 <supplied>(26 December–25 December)(Payments)</supplied></head>
+       <head>p 95 <supplied>(26 December–25 December) (Payments)</supplied></head>
        <pb n="95" type="page"/>
 
        <gap reason="omitted"/>
@@ -10513,9 +10498,9 @@
         ‸ <add place="above">thre</add> Allmes houses in <rs ref="eats:372934"
          type="Place_PA_Settlement">Bu<ex>n</ex>gay</rs> Agaynst <rs ref="eats:373153"
          type="Place_PA_Settlement">o<ex>u</ex>r Lady churche</rs><note type="foot">o<ex>u</ex>r
-         Lady churche: <hi rend="italic">Bungay St Mary Parish Church</hi></note> / for the twoo
-        churche howses that Ryvet &amp; graygose dwelle in / and for <rs ref="eats:373450"
-         type="Place_F_OpenArea">nettylh<ex>a</ex>m medowe</rs> / &amp; a dede of estate Annexed to
+         Lady churche: <hi rend="italic">Bungay St Mary Parish Church</hi></note>/ for the twoo
+        churche howses that Ryvet &amp; graygose dwelle in/ and for <rs ref="eats:373450"
+         type="Place_F_OpenArea">nettylh<ex>a</ex>m medowe</rs>/ &amp; a dede of estate Annexed to
          M<ex>ist</ex>res whartons will for the fyve Allmes howses. &amp; also all the game players
          App<ex>ar</ex>ell</ab>
       </div>
@@ -11080,7 +11065,7 @@
          man<ex>er</ex> &amp; forme &amp; be the auctoryt<damage><gap unit="chars" extent="1"
          /></damage> afornrehersyd ordeynyd &amp; p<ex>ro</ex>vydyd that no p<ex>er</ex>sone fro
         this dey forward take vp on hym to sette vp any loomes or to occupie the seyd Crafte
-         w<ex>i</ex>t<ex>h</ex>in the sey<note type="foot">sey: <hi rend="italics">for</hi>
+         w<ex>i</ex>t<ex>h</ex>in the sey<note type="foot">sey: <hi rend="italic">for</hi>
          seyd</note> Toun of Bury but suche p<ex>er</ex>sones as haue be <rs ref="eats:55239"
          type="Collective_Occupations">app<ex>re</ex>ntyses</rs> to the seyd Crafte And haue
         sufficient kunnyng And vnderstondyng in þe <pb n="2" type="membrane"/> same and so be
@@ -11348,7 +11333,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>The sayde<note type="foot">The sayde: <hi rend="italic">in display script</hi></note>
           <rs ref="eats:331091" type="Collective_Occupations">Accomptant</rs> prayeth Allowance
@@ -11880,7 +11865,7 @@
        <head>sheet [2] <supplied>(Rendered 20 March) (Allowances)</supplied></head>
        <pb n="[2]" type="sheet"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -11945,7 +11930,7 @@
        <head>p 7 <supplied>(25 March–25 March)</supplied></head>
        <pb n="7" type="page"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -12168,7 +12153,7 @@
         celebrated at York, 12d.</ab>
 
        <ab>Likewise to two runners of the Exchequer, one of whom was called William Brown, 5s.
-        Likewise given around Shrove Tuesday (<hi rend="italics">or</hi> Septuagesima) to a taborer
+        Likewise given around Shrove Tuesday (<hi rend="italic">or</hi> Septuagesima) to a taborer
         of the earl of Northampton called William of Wandur, 3s 4d.</ab>
 
        <ab>Likewise given to minstrels/a minstrel on Easter day at Chevington, 16d.</ab>
@@ -12283,7 +12268,7 @@
        <head>single membrane verso</head>
        <pb n="1" type="membrane"/>
 
-       <ab>Assist my beginning, holy Mary. Every animal condemns the raven of perfidy.!</ab>
+       <ab>Assist my beginning, holy Mary. Every animal condemns the raven of perfidy.</ab>
 
        <ab>Now listen, dear lords,</ab>
 
@@ -12609,7 +12594,7 @@
 
        <gap reason="omitted"/>
 
-       <ab>Given to the bishop of Saint Nicholas this year, 12d. Likewise given to minstrels / a
+       <ab>Given to the bishop of Saint Nicholas this year, 12d. Likewise given to minstrels/ a
         minstrel on Saint Edmund's day, 3s<gap reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -13336,7 +13321,7 @@
         </row>
         <row>
          <cell>It<ex>e</ex>m solut<ex>um</ex><rs ref="eats:172928" type="Collective_Troupe">
-            Minstell<ex>is</ex><note type="foot">Minstell<ex>is</ex>: <hi rend="italics">for</hi>
+            Minstell<ex>is</ex><note type="foot">Minstell<ex>is</ex>: <hi rend="italic">for</hi>
             minstrellis</note> d<ex>omi</ex>ni Reg<ex>is</ex></rs> &amp; alior<ex>um</ex>
            Magnatu<ex>m</ex> ad vices</cell>
          <cell rend="right">vj s. viij d.</cell>
@@ -13618,7 +13603,7 @@
       </div>
      </div>
      <div type="endnote">
-      <p> Sir Roger Woodhouse (Wodehouse)(<hi rend="italic">c</hi> 1541–88), of Kimberley, Norfolk,
+      <p> Sir Roger Woodhouse (Wodehouse) (<hi rend="italic">c</hi> 1541–88), of Kimberley, Norfolk,
        was MP for Aldeborough, Suffolk. He was the son of Thomas Wodehouse and Margaret Shelton and
        was married to Mary Corbet, daughter of John Corbet (1514-59) of Sprowston, Norfolk.</p>
 
@@ -15055,7 +15040,7 @@
    <text type="record" xml:id="suffk-rid188" ana="taxon:Family_Household">
     <body>
      <head><rs ref="eats:2273" type="Place_County">Suffolk</rs>, <rs ref="eats:373774"
-       type="Place_PA_Settlement">De Bryene</rs>
+       type="Place_PA_Manor">Acton Hall</rs>
       <date when-iso="1412">1412</date>
       <seg ana="taxon:SUDB01">SUDB01</seg></head>
      <div xml:lang="lat" type="transcription" xml:id="suffk-rid188-transcription">
@@ -15086,8 +15071,7 @@
        <pb n="9" type="folio"/>
 
        <ab><gap reason="omitted"/>j harpo<ex>ur</ex>
-        <rs ref="eats:438493" type="Person_Male">Ric<ex>ardi</ex> Sc<ex>ri</ex>uen<ex>er</ex></rs>
-         p<ex>er</ex> tot<ex>um</ex> diem<gap reason="omitted"/></ab>
+        <gap reason="omitted"/> p<ex>er</ex> tot<ex>um</ex> diem<gap reason="omitted"/></ab>
 
        <gap reason="omitted"/>
       </div>
@@ -15098,8 +15082,7 @@
        <gap reason="omitted"/>
 
        <ab><gap reason="omitted"/>j hapo<ex>ur</ex><note type="foot">hapo<ex>ur</ex>: <hi
-          rend="italic">for</hi> harpo<ex>ur</ex></note> &amp; Ric<ex>ardus</ex>
-         Sc<ex>ri</ex>uen<ex>er</ex> p<ex>er</ex> tot<ex>um</ex> die<ex>m</ex><gap reason="omitted"
+        rend="italic">for</hi> harpo<ex>ur</ex></note> <gap reason="omitted"/> p<ex>er</ex> tot<ex>um</ex> die<ex>m</ex><gap reason="omitted"
         /></ab>
 
        <gap reason="omitted"/>
@@ -15110,7 +15093,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>j harpo<ex>ur</ex> Ric<ex>ardi</ex> Sc<ex>ri</ex>uen<ex>er</ex>
+       <ab><gap reason="omitted"/>j harpo<ex>ur</ex> <gap reason="omitted"/>
          p<ex>er</ex> tot<ex>um</ex> diem<gap reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15163,7 +15146,7 @@
        <head>f 9 <supplied>(27 December)</supplied></head>
        <pb n="9" type="folio"/>
 
-       <ab><gap reason="omitted"/>one harper of Richard Scrivener for the whole day<gap
+       <ab><gap reason="omitted"/>one harper <gap reason="omitted"/> for the whole day<gap
          reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15174,7 +15157,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>one harper and Richard Scrivener for the whole day<gap
+       <ab><gap reason="omitted"/>one harper <gap reason="omitted"/> for the whole day<gap
          reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15185,7 +15168,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>one harper of Richard Scrivener for the whole day<gap
+       <ab><gap reason="omitted"/>one harper <gap reason="omitted"/> for the whole day<gap
          reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15213,19 +15196,13 @@
        <gap reason="omitted"/>
       </div>
      </div>
-     <div type="endnote">
-      <p> Richard Scrivener (f 9) often appears in the accounts as a guest in December and January.
-       His name immediately follows or precedes a payment to a harper a number of times, but only in
-       this entry are he and the harper connected by an ampersand. Scrivener remains unidentified,
-       but Swabey assumes that he was a scrivener who performed important service for Agnes de
-       Bryene (<title>Medieval Gentlewoman</title>, p 127). </p>
-     </div>
+     
     </body>
    </text>
    <text type="record" xml:id="suffk-rid189" ana="taxon:Family_Household">
     <body>
      <head><rs ref="eats:2273" type="Place_County">Suffolk</rs>, <rs ref="eats:373774"
-       type="Place_PA_Settlement">De Bryene</rs>
+       type="Place_PA_Manor">Acton Hall</rs>
       <date when-iso="1413">1412/13</date>
       <seg ana="taxon:SUDB01">SUDB01</seg></head>
      <div xml:lang="lat" type="transcription" xml:id="suffk-rid189-transcription">
@@ -15237,7 +15214,7 @@
 
        <ab><gap reason="omitted"/>j <rs ref="eats:30189" type="Entertainer_Type"
          >harpo<ex>ur</ex></rs>
-        <rs ref="eats:438579" type="Person_Female">Agn<ex>etis</ex> Whyte</rs> p<ex>er</ex>
+        <gap reason="omitted"/> p<ex>er</ex>
          tot<ex>um</ex> die<ex>m</ex><gap reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15248,7 +15225,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>j harpo<ex>ur</ex><gap reason="omitted"/></ab>
+       <ab><gap reason="omitted"/>j harpo<ex>ur</ex><gap reason="omitted"/> ad vnu<ex>m</ex> repast<ex>u</ex></ab>
 
        <gap reason="omitted"/>
       </div>
@@ -15261,10 +15238,7 @@
        <ab><gap reason="omitted"/>j <rs ref="eats:376488" type="Collective_Troupe"
           >menstrall<ex>us</ex></rs> do<ex>mi</ex>ni <rs ref="eats:438662" type="Person_Male"
           >Ric<ex>ard</ex>i Waldeg<ex>ra</ex>ue</rs>
-        <rs ref="eats:438872" type="Person_Male">Dag</rs><note type="foot">Dag: <hi rend="italic"
-          >likely John Dag, tenant, <rs ref="eats:375329" type="Collective_Occupations"
-           >thatcher</rs>, <rs ref="eats:375571" type="Collective_Occupations">clock-maker</rs>,
-          guest on 8 December, 24 January, 17 February, and 13 March</hi></note> ad vnu<ex>m</ex>
+        <gap reason="omitted"/> ad vnu<ex>m</ex>
         <rs ref="eats:40978" type="Thing_FoodDrink">repast<ex>um</ex></rs><gap reason="omitted"
         /></ab>
 
@@ -15277,8 +15251,7 @@
        <gap reason="omitted"/>
 
        <ab><gap reason="omitted"/>ij <rs ref="eats:8709" type="Entertainer_Type">menstralli</rs>
-        <rs ref="eats:438998" type="Person_Male">d<ex>omi</ex>no Petro Crek</rs> cu<ex>m</ex>
-         f<ex>rat</ex>re ad vnu<ex>m</ex> repast<ex>um</ex><gap reason="omitted"/></ab>
+        <gap reason="omitted"/> ad vnu<ex>m</ex> repast<ex>um</ex><gap reason="omitted"/></ab>
 
        <gap reason="omitted"/>
       </div>
@@ -15290,7 +15263,7 @@
 
        <ab><gap reason="omitted"/>j hapo<ex>ur</ex><note type="foot">hapo<ex>ur</ex>: <hi
           rend="italic">for</hi> harpour</note>
-        <gap reason="omitted"/> p<ex>er</ex> tot<ex>um</ex> die<ex>m</ex><gap reason="omitted"
+        <gap reason="omitted"/> ad vun<ex>m</ex> repastu<ex>m</ex><gap reason="omitted"
         /></ab>
 
        <gap reason="omitted"/>
@@ -15315,7 +15288,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>one harper of Agnes Whyte for the whole day<gap reason="omitted"
+       <ab><gap reason="omitted"/>one harper <gap reason="omitted"/> for the whole day<gap reason="omitted"
         /></ab>
 
        <gap reason="omitted"/>
@@ -15326,7 +15299,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>one minstrel of Lord Richard Walegrave Dag at one meal<gap
+       <ab><gap reason="omitted"/>one minstrel of Lord Richard Walegrave <gap reason="omitted"/> at one meal<gap
          reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15337,7 +15310,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>Two minstrels to Lord Peter Crek with a brother at one meal<gap
+       <ab><gap reason="omitted"/>Two minstrels <gap reason="omitted"/> at one meal<gap
          reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15348,7 +15321,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>one harper <gap reason="omitted"/> for the whole day<gap
+       <ab><gap reason="omitted"/>one harper <gap reason="omitted"/> at one meal<gap
          reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15366,11 +15339,7 @@
       </div>
      </div>
      <div type="endnote">
-      <p> According to Ffiona Swabey, two women, both named Agnes Whyte or White (f 9v), were
-       occasionally present at the dinners of Alice de Bryene, and were both present on 11 May 1413.
-       Swabey describes Agnes White, wife of John, as a household member who buys and sells produce,
-       and Agnes Whyte, wife of Alex, as a household member who sells produce (pp 127, 180).</p>
-
+       
       <p> Sir Richard Waldegrave (f 10; <hi rend="italic">c</hi> 1380–1435) was the son of another
        Sir Richard Waldegrave (<hi rend="italic">c</hi> 1338–1410), who had been steward of the
        estates of Queen Anne in Norfolk and Suffolk by 1382, was JP for Suffolk and Essex, and was a
@@ -15385,7 +15354,7 @@
    <text type="record" xml:id="suffk-rid190" ana="taxon:Family_Household">
     <body>
      <head><rs ref="eats:2273" type="Place_County">Suffolk</rs>, <rs ref="eats:373774"
-       type="Place_PA_Settlement">De Bryene</rs>
+       type="Place_PA_Manor">Acton Hall</rs>
       <date when-iso="1413">1413</date>
       <seg ana="taxon:SUDB01">SUDB01</seg></head>
      <div xml:lang="lat" type="transcription" xml:id="suffk-rid190-transcription">
@@ -15395,8 +15364,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/><rs ref="eats:439103" type="Person_Male">Ioh<ex>annus</ex>
-         Blake</rs> &amp; j <rs ref="eats:8709" type="Entertainer_Type">menstrall<ex>us</ex></rs>
+       <ab><gap reason="omitted"/> j <rs ref="eats:8709" type="Entertainer_Type">menstrall<ex>us</ex></rs>
          p<ex>er</ex> tot<ex>um</ex> die<ex>m</ex><gap reason="omitted"/></ab>
       </div>
      </div>
@@ -15407,18 +15375,11 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>John Blake and one minstrel for the whole day<gap reason="omitted"
+       <ab><gap reason="omitted"/>one minstrel for the whole day<gap reason="omitted"
         /></ab>
       </div>
      </div>
-     <div type="endnote">
-      <p> John Blake remains unidentified but other references in the account offer glimpses.
-       Between 17 April and 16 May the accounts extraordinarily list Blake as a guest forty-three
-       times, nineteen of those as a guest for the entire day. He is once listed with a minstrel,
-       twice with a member of his household, and once with his son. Otherwise he appears alone in
-       the accounts. In sum, he seems to have been a gentleman of some substance, who had a
-       household of his own, and who was favoured as a guest by Dame Alice. </p>
-     </div>
+     
     </body>
    </text>
    <text type="record" xml:id="suffk-rid191" ana="taxon:Family_Household">
@@ -15449,7 +15410,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><gap reason="omitted"/>one minstrel with <rs ref="eats:297010"
+       <ab><gap reason="omitted"/>one minstrel with a <rs ref="eats:297010"
          type="Collective_Occupations">servant</rs> at one meal<gap reason="omitted"/></ab>
 
        <gap reason="omitted"/>
@@ -15677,7 +15638,7 @@
 
        <gap reason="omitted"/>
 
-       <ab type="exdent">10 Item, whether there be amonge you any <rs ref="eats:45652"
+       <ab type="exdent">10&#160;&#160;Item, whether there be amonge you any <rs ref="eats:45652"
          type="CrimesMisdemeanors">blasphemers</rs> of the name of almighty God, <rs
          ref="eats:45689" type="CrimesMisdemeanors">adulterers</rs>, fornicators, baudes, or
         receauers of such persons. Any suspected of incest or any other notoriouse fault, sin or
@@ -17091,8 +17052,9 @@
        <head>f 125 <supplied>(29 September–29 September)</supplied></head>
        <pb n="125" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -17215,7 +17177,7 @@
        <ab><gap reason="omitted"/> It<ex>e</ex>m vni <del>ci<damage><gap unit="chars" extent="1"
           /></damage>edo</del>
         <rs ref="eats:30189" type="Entertainer_Type">Citharedo</rs> in Conuio<note type="foot"
-         >Conuio: <hi rend="italics">for</hi> Conuiuio<hi rend="italics">; abbreviation mark
+         >Conuio: <hi rend="italic">for</hi> Conuiuio<hi rend="italic">; abbreviation mark
           missing</hi></note> n<ex>ost</ex>ro post <rs ref="eats:40561" type="Entertainment_Type"
           >f<ex>estu</ex>m</rs>
         <rs ref="eats:239365" type="CalendarDay_Liturgical">Nat<ex>iuitatis</ex></rs>
@@ -17580,7 +17542,7 @@
          ref="eats:376795" type="Person_Female">Mary</rs> his wief, <rs ref="eats:376844"
          type="Person_Male">Hulllock Everard</rs> of the same towne yeoman and <rs ref="eats:376886"
          type="Person_Male">Thomas Chapman</rs>
-        <rs ref="eats:376928" type="Person_Male">Thomas Meryman</rs> al<ex>ia</ex>s Vyn / <rs
+        <rs ref="eats:376928" type="Person_Male">Thomas Meryman</rs> al<ex>ia</ex>s Vyn/ <rs
          ref="eats:376970" type="Person_Male">Robert Vennell</rs>
         <rs ref="eats:377012" type="Person_Male">Christofer Nelson</rs>
         <rs ref="eats:377057" type="Person_Male">Iohn Palmer</rs>
@@ -18744,9 +18706,7 @@
          </cell>
          <cell rend="right">iiij d.</cell>
         </row>
-       </table>
-
-       <table>
+      
         <row>
          <cell>It<ex>e</ex>m geuyn to A <del>febe</del>
           <rs ref="eats:12982" type="Entertainer_Type">fedeler</rs> the sayd day at nyte </cell>
@@ -20935,7 +20895,7 @@
        <gap reason="omitted"/>
 
        <ab><gap reason="omitted"/>It<ex>em</ex> toone cauwode &amp; þe brotheier<note type="foot"
-         >brotheier: <hi rend="italics">for</hi> botheier<hi rend="italics">(?); ie, boat-hire
+         >brotheier: <hi rend="italic">for</hi> botheier<hi rend="italic">(?); ie, boat-hire
          </hi></note> xx d<gap reason="omitted"/>.</ab>
 
        <gap reason="omitted"/>
@@ -21407,7 +21367,7 @@
         </row>
         <row>
          <cell>It<ex>em</ex> for <term ref="gloss:sursulphuryfe-1">Sursulphuryfe</term><note
-           type="foot">Sursulphuryfe: p <hi rend="italics">written over </hi> l</note></cell>
+           type="foot">Sursulphuryfe: p <hi rend="italic">written over </hi> l</note></cell>
          <cell rend="right">j d.</cell>
         </row>
         <row>
@@ -21827,7 +21787,7 @@
        <ab>Here ffoloweth the iiij<add place="above">te</add>. parte of yis<note type="foot">Here …
          yis: <hi rend="italic">in display script; elaborated intitial</hi> H </note>
         p<ex>re</ex>sent Booke wheryn<ex>e</ex> is conteigned the constituc<ex>i</ex>on ffor <rs
-         ref="eats:403978" type="Entertainment_Type">Corpus Chr<ex>ist</ex>i
+         ref="eats:487838" type="Entertainment_Type">Corpus Chr<ex>ist</ex>i
           p<ex>ro</ex>cession<ex>e</ex></rs> and in what man<ex>er</ex> the Maundy Shulde yerely be
         kepte with other dyu<ex>er</ex>s Remembraunc<ex>es</ex> Requesyte to be had in memory And
         firste foloweth the constitucion<ex>e</ex> for corpus chr<ex>ist</ex>i procession<ex>e</ex>
@@ -21850,7 +21810,7 @@
        <head>col 1</head>
        <pb n="1"/>
 
-       <table>
+       <table rend="fixedwidth">
         <row>
          <cell><del>Generosi</del>
           <lb/>
@@ -21910,13 +21870,14 @@
              ><del>S<ex>an</ex>ct<ex>us</ex> Thom<ex>as</ex></del>: <hi rend="italic">in red
             ink</hi></note></cell>
         </row>
+        
        </table>
       </div>
       <div>
        <head>col 2</head>
        <pb n="2"/>
 
-       <table>
+       <table rend="fixedwidth">
         <row>
          <cell><rs ref="eats:405365" type="Collective_GuildsOccupational">Glasiers</rs>. <lb/>
           <rs ref="eats:401701" type="Collective_GuildsOccupational">Peyntours</rs>
@@ -21982,7 +21943,7 @@
        <head>col 1</head>
        <pb n="1"/>
 
-       <table>
+       <table rend="fixedwidth">
         <row>
          <cell><rs ref="eats:401272" type="Collective_GuildsOccupational">Bochers</rs> &amp; <lb/>
           <rs ref="eats:401309">Talowch<ex>a</ex>undelers</rs><note type="foot">Bochers &amp;
@@ -22061,7 +22022,7 @@
        <head>col 2</head>
        <pb n="2"/>
 
-       <table>
+       <table rend="fixedwidth">
         <row>
          <cell><rs ref="eats:443248" type="Collective_GuildsReligious">ffratres
            Carmelit<ex>e</ex></rs>
@@ -22107,7 +22068,7 @@
        <head>ff 122, col 2</head>
        <pb n="122" type="folio"/>
 
-       <table>
+       <table rend="fixedwidth">
         <row>
          <cell>Carmelite friars<lb/> Friars minor <lb/> Friars preachers </cell>
          <cell><hi rend="italic">(blank)</hi></cell>
@@ -22152,7 +22113,7 @@
        <head>f 72v, col 1</head>
        <pb n="72v" type="folio"/>
 
-       <ab rend="center">Le <rs ref="eats:403978" type="Drama_Type">pagent</rs> p<ex>ro</ex>
+       <ab rend="center">Le <rs ref="eats:487838" type="Drama_Type">pagent</rs> p<ex>ro</ex>
          corp<ex>or</ex>e Chr<ex>ist</ex>i</ab>
 
        <table>
@@ -22402,7 +22363,7 @@
        <pb n="72" type="folio"/>
 
        <ab>s<note type="foot">s: <hi rend="italic">for erasure (?)</hi></note> lez <rs
-         ref="eats:403978" type="Drama_Type">pagentz</rs></ab>
+         ref="eats:487838" type="Drama_Type">pagentz</rs></ab>
 
        <ab><span rend="special-character">⸿</span> Saynt George</ab>
 
@@ -22482,7 +22443,7 @@
          vsq<ex>ue</ex> ad fine<ex>m</ex> &amp; t<ex>ermi</ex>nu<ex>m</ex> triu<ex>m</ex>
          Annoru<ex>m</ex> p<ex>ro</ex>x<ex>ime</ex> sequ<ex>entium</ex> complend<ex>orum</ex> Ad
          Sustentac<ex>ion</ex>em &amp; rep<ex>ar</ex>ac<ex>i</ex>o<ex>n</ex>em de lez <rs
-         ref="eats:403978" type="Drama_Type">pagent<ex>is</ex></rs>
+         ref="eats:487838" type="Drama_Type">pagent<ex>is</ex></rs>
         <rs ref="eats:402310" type="Collective_GuildsReligious">Gild<ex>e</ex> Corp<ex>or</ex>is
           Chr<ex>ist</ex>i</rs> p<ex>re</ex>d<ex>i</ex>cte ville <rs ref="eats:369522"
          type="Place_PA_Settlement">Gippewici</rs></ab>
@@ -22536,7 +22497,7 @@
          fidelit<ex>er</ex> &amp; Assidue s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m suu<ex>m</ex> posse
          attend<ex>et</ex> mi<ex>ni</ex>st<ex>r</ex>abit<note type="foot"
          >mi<ex>ni</ex>st<ex>r</ex>abit: b <hi rend="italic">possibly written over</hi> r</note>
-        &amp; custodiet ornamenta quecu<ex>m</ex>q<ex>ue</ex> de lez <rs ref="eats:403978"
+        &amp; custodiet ornamenta quecu<ex>m</ex>q<ex>ue</ex> de lez <rs ref="eats:487838"
          type="Drama_Type">pagent<ex>es</ex></rs>
         <rs ref="eats:402310" type="Collective_GuildsReligious">Gild<ex>e</ex> Corp<ex>or</ex>is
           Chr<ex>ist</ex>i</rs> ac ordinabit &amp; p<ex>re</ex>uidebit circa
@@ -22714,7 +22675,7 @@
        <ab>Et ordinat<ex>um</ex> est q<ex>uo</ex>d quili<ex>be</ex>t <rs ref="eats:297065"
          type="Collective_Office">Burgens<ex>is</ex></rs> qui non soluit den<ex>arios</ex>
          p<ex>ro</ex>
-        <rs ref="eats:403978" type="Drama_Type">corp<ex>or</ex>e chr<ex>ist</ex>i</rs>
+        <rs ref="eats:487838" type="Drama_Type">corp<ex>or</ex>e chr<ex>ist</ex>i</rs>
          q<ex>uo</ex>d<note type="foot">q<ex>uo</ex>d: <hi rend="italic">for deletion</hi></note>
          solu<ex>er</ex>it den<ex>arios</ex> p<ex>re</ex>dict<ex>os</ex> a<ex>n</ex>te
         d<ex>omi</ex>nicam an<ex>te</ex>
@@ -22800,7 +22761,7 @@
         erit co<ex>m</ex>morans &amp; residens infra villa<ex>m</ex>
         <rs ref="eats:369522" type="Place_PA_Settlement">Gippi<ex>wici</ex></rs> &amp;
          scilic<ex>et</ex> erit auxiliator in om<ex>n</ex>ib<ex>us</ex> p<ex>ro</ex> le <rs
-         ref="eats:403978" type="Drama_Type">pagent</rs> de Corp<ex>or</ex>e Chr<ex>ist</ex>i
+         ref="eats:487838" type="Drama_Type">pagent</rs> de Corp<ex>or</ex>e Chr<ex>ist</ex>i
          s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m suu<ex>m</ex> Ingeniu<ex>m</ex> in faciendo &amp;
          emendand<ex>o</ex>
         <rs ref="eats:328770" type="Thing_BookPlayMusic">libru<ex>m</ex> Corp<ex>or</ex>is
@@ -22913,7 +22874,7 @@
             >Joh<ex>an</ex>ne … Hartt: <hi rend="italic">joined on the right by brace</hi></note>
           <lb/>
           <lb/>
-          <rs ref="eats:403978" type="Entertainment_Type">p<ex>ro</ex> s<ex>an</ex>c<ex>t</ex>o
+          <rs ref="eats:487838" type="Entertainment_Type">p<ex>ro</ex> s<ex>an</ex>c<ex>t</ex>o
            Georgio</rs>
           <lb/>
          </cell>
@@ -23169,7 +23130,7 @@
 
        <ab>Ad hanc Cur<ex>iam</ex> concesserunt <rs ref="eats:402653" type="Collective_Office"
           >Ball<ex>iu</ex>i</rs> Portmanni &amp; tota Co<ex>mmun</ex>itas q<ex>uo</ex>d
-         solua<ex>n</ex>t p<ex>ro</ex> sustentac<ex>i</ex>o<ex>n</ex>e de lez <rs ref="eats:403978"
+         solua<ex>n</ex>t p<ex>ro</ex> sustentac<ex>i</ex>o<ex>n</ex>e de lez <rs ref="eats:487838"
          type="Drama_Type">pagent Corp<ex>or</ex>is Chr<ex>ist</ex>i</rs> p<ex>ro</ex>ut
          Soluer<ex>unt</ex> vltimo anno p<ex>re</ex>t<ex>er</ex>ito ad leuand<ex>um</ex> de
          artificib<ex>us</ex> eiusdem <rs ref="eats:369522" type="Place_PA_Settlement">ville</rs>
@@ -23252,7 +23213,7 @@
 
        <ab>ffower <rs ref="eats:403996" type="Collective_Office">Guild wardens</rs> elected./</ab>
 
-       <ab>Corpus Chr<ex>ist</ex>i <rs ref="eats:403978" type="Drama_Type">pageant</rs> shall be
+       <ab><rs ref="eats:487838" type="Entertainment_Type">Corpus Chr<ex>ist</ex>i pageant</rs> shall be
         provided at the charge of suche as have been used.</ab>
 
        <gap reason="omitted"/>
@@ -23278,7 +23239,7 @@
 
        <ab>Howe eu<ex>er</ex>y occupac<ex>i</ex>on or Crafft<ex>es</ex> men Shuld order them
          Selff<ex>es</ex> in ther going w<ex>i</ex>th ther <rs ref="eats:302248"
-         type="Thing_SetMachinery">pagant<ex>es</ex></rs> in the <rs ref="eats:403978"
+         type="Thing_SetMachinery">pagant<ex>es</ex></rs> in the <rs ref="eats:487838"
          type="Drama_Type">procession</rs> of Corp<ex>us</ex> Chr<ex>ist</ex>i</ab>
       </div>
       <div>
@@ -23510,7 +23471,7 @@
           rend="superscript">r</hi> s. </note> viij d. q<ex>ue</ex> atting<ex>it</ex> ad xxxij s.
         &amp; Resid<ex>uum</ex> v<ex>idelicet</ex> viij s. leu<ex>andi</ex> de
           <del>resid<ex>uis</ex> inh<ex>ab</ex>itand<ex>is</ex></del><note type="foot"
-          >inh<ex>ab</ex>itand<ex>is</ex>: <hi rend="italics">for</hi> inhabitantibus</note>
+          >inh<ex>ab</ex>itand<ex>is</ex>: <hi rend="italic">for</hi> inhabitantibus</note>
         <term ref="gloss:sivis-1">sivib<ex>us</ex></term> xxiiij<hi rend="superscript">r</hi></ab>
 
        <ab>Insup<ex>er</ex> ordinat<ex>um</ex> q<ex>uo</ex>d null<ex>us</ex> Balliuus p<ex>ro</ex>
@@ -23659,7 +23620,7 @@
        <ab><damage><gap unit="chars" extent="3"/></damage> om<ex>n</ex>ia ornamenta p<ex>ro</ex>
         eodem <rs ref="eats:405485" type="Drama_TitledWork">ludo</rs>
         <foreign xml:lang="fra"><damage><gap unit="chars" extent="3"/></damage>es necessaries ‸<add
-          place="above">po<ex>u</ex>r le terme de xij anz</add>&amp; tontz Anz garda a le
+          place="above">po<ex>u</ex>r le terme de xij anz</add> &amp; tontz Anz garda a le
            <damage><gap unit="chars" extent="3"/></damage></foreign></ab>
 
        <gap reason="omitted"/>
@@ -23740,7 +23701,7 @@
        <ab>Et<note type="marginal" place="margin_left">Elec<ex>ci</ex>o</note> elig<ex>er</ex>unt
          <rs ref="eats:447268" type="Person_Male">Ric<ex>ardu</ex>m Blodevell</rs> &amp; <rs
          ref="eats:447329" type="Person_Male">Will<ex>ellmu</ex>m Deade</rs> ad officiu<ex>m</ex>
-        Collectoris p<ex>ro</ex> le <rs ref="eats:403978" type="Drama_Type">pagent Corp<ex>or</ex>is
+        Collectoris p<ex>ro</ex> le <rs ref="eats:487838" type="Drama_Type">pagent Corp<ex>or</ex>is
           Chr<ex>ist</ex>i</rs></ab>
 
        <ab>Precept<ex>i</ex> om<ex>n</ex>es inhabitant<ex>es</ex> &amp;
@@ -23786,7 +23747,7 @@
        <pb n="308" type="page"/>
 
        <ab>Ad hanc Cur<ex>iam</ex> ordinauer<ex>unt</ex>
-        <del>will<ex>elmum</ex> Rivet</del> m<ex>agist</ex>ros de le <rs ref="eats:403978"
+        <del>will<ex>elmum</ex> Rivet</del> m<ex>agist</ex>ros de le <rs ref="eats:487838"
          type="Drama_Type">pagent</rs> s<ex>an</ex>c<ex>t</ex>i Georgij <rs ref="eats:447451"
          type="Person_Male">Thom<ex>am</ex> Cuttinge</rs> &amp; <rs ref="eats:447512"
          type="Person_Male">Ioh<ex>ann</ex>em Smythe</rs> &amp; veq<ex>ue</ex><note type="foot"
@@ -23909,7 +23870,7 @@
 
        <gap reason="omitted"/>
 
-       <ab><rs ref="eats:403978" type="Drama_Type">Corp<ex>us</ex> Chr<ex>ist</ex>i pageant</rs> and
+       <ab><rs ref="eats:487838" type="Entertainment_Type">Corp<ex>us</ex> Chr<ex>ist</ex>i pageant</rs> and
          <rs ref="eats:40561" type="Entertainment_Type">dinner</rs> againe laid aside.</ab>
 
        <gap reason="omitted"/>
@@ -23986,7 +23947,7 @@
        <ab>⸿ Ad hanc Cur<ex>iam</ex> eliger<ex>unt</ex>
         <rs ref="eats:405813" type="Person_Male">Will<ex>elmu</ex>m Nottyngham</rs> &amp; <rs
          ref="eats:405874" type="Person_Male">Ric<ex>ard</ex>um Humfrey</rs> M<ex>agist</ex>ros de
-        le <rs ref="eats:403978" type="Drama_Type">Pagent</rs> de le Shippe p<ex>ro</ex> anno
+        le <rs ref="eats:487838" type="Drama_Type">Pagent</rs> de le Shippe p<ex>ro</ex> anno
          sequ<ex>enti</ex> &amp; concordat<ex>um</ex> est q<ex>uo</ex>d hebebunt<note type="foot"
          >hebebunt: <hi rend="italic">for</hi> habebunt</note> le <rs ref="eats:302248"
          type="Thing_SetMachinery">Shippe</rs> paratu<ex>m</ex> ad <rs ref="eats:41497"
@@ -24174,7 +24135,7 @@
 
        <gap reason="omitted"/>
 
-       <ab>Corp<ex>us</ex> Chr<ex>ist</ex>i play putt off, and the Court adjourned till ffriday
+       <ab><rs ref="eats:405485" type="Drama_TitledWork">Corp<ex>us</ex> Chr<ex>ist</ex>i play</rs> putt off, and the Court adjourned till ffriday
         next. <gap reason="omitted"/></ab>
       </div>
      </div>
@@ -24228,7 +24189,7 @@
       <seg ana="taxon:SUIP13">SUIP13</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid326-transcription">
       <div>
-       <head>mb [8] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>mb [8] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[8]" type="membrane"/>
 
        <ab rend="center">To <rs ref="eats:166322" type="Person_Male">M<ex>aste</ex>r brandon</rs>
@@ -24411,7 +24372,7 @@
 
        <gap reason="omitted"/>
 
-       <ab>Granted to three <rs ref="eats:406229" type="Collective_Office">waites</rs>, 13s 4d a
+       <ab>Granted to three <rs ref="eats:406229" type="Collective_Office">waites</rs>, 13 s. 4 d. a
         peece yerely. <gap reason="omitted"/></ab>
       </div>
      </div>
@@ -24434,21 +24395,21 @@
 
        <gap reason="omitted"/>
 
-       <ab>Every householder, w<ex>i</ex>th their family, shall follow the <rs ref="eats:403978"
+       <ab>Every householder, w<ex>i</ex>th their family, shall follow the <rs ref="eats:487838"
          type="Drama_Type">pageants</rs> of Corp<ex>us</ex> Christi in due order, under penalty of
-         4<hi rend="superscript">d</hi>, if lawfull cause be not shewen, except the 12 portmen and
+         4 d., if lawfull cause be not shewen, except the 12 portmen and
         theire wives, and the 24<hi rend="superscript">ty</hi>.</ab>
 
        <ab>Every <rs ref="eats:403996" type="Collective_Office">Warden</rs> and Master of the Trade
         shall offer to theire Pageants uppon the day of Corp<ex>us</ex> Chr<ex>ist</ex>i, each of
-        them 1d, the one halfe whereof shall goe to ye <rs ref="eats:376239" type="Place_F_Church"
+        them 1 d., the one halfe whereof shall goe to ye <rs ref="eats:376239" type="Place_F_Church"
          >parish</rs>
         <rs ref="eats:9186" type="Collective_Clergy">preist</rs>, the other halfe shall be divided
-        between the Clerk and the Sexton, and every defalter shall loose 4d.</ab>
+        between the Clerk and the Sexton, and every defalter shall loose 4 d.</ab>
 
        <ab>Every <rs ref="eats:297065" type="Collective_Office">Burgess</rs> shall offer on the
         Guild Sunday one halfe penny to the preist, to be divided, the one halfe to the preist, the
-        other to the Clerke and Sexton, and every defalter shall loose 4d.</ab>
+        other to the Clerke and Sexton, and every defalter shall loose 4 d.</ab>
 
        <gap reason="omitted"/>
       </div>
@@ -25261,8 +25222,9 @@
        <head>f 8 <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="8" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -25287,8 +25249,8 @@
            type="CalendarDay_Secular">newe yeres day</rs></cell>
          <cell rend="right">-</cell>
          <cell rend="right">x</cell>
-         <cell rend="right"/>
-         <cell rend="right">x s.</cell>
+   
+        <cell rend="right">x s.</cell>
         </row>
        </table>
 
@@ -25298,8 +25260,9 @@
        <head>f 8v</head>
        <pb n="8v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -25429,7 +25392,7 @@
        <gap reason="omitted"/>
 
        <ab><rs ref="eats:406464" type="Person_Male">Willi<ex>a</ex>m. Martin</rs>, <rs
-         ref="eats:1243" type="Entertainer_Type">Musitian</rs>, shall have 13s 4d for his service at
+         ref="eats:1243" type="Entertainer_Type">Musitian</rs>, shall have 13 s. 4 d. for his service at
         the last <rs ref="eats:40561" type="Entertainment_Type">Guild</rs>, and shall have
         henceforth 20s yerely.</ab>
 
@@ -25753,7 +25716,7 @@
       <seg ana="taxon:SUIP96">SUIP96</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid460-transcription">
       <div>
-       <head>f [4] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f [4] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4]" type="folio"/>
 
        <gap reason="omitted"/>
@@ -26105,8 +26068,9 @@
        <head>f 4v <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="4v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -26128,8 +26092,9 @@
        <head>f 6</head>
        <pb n="6" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -26173,11 +26138,12 @@
       <seg ana="taxon:SUIP62">SUIP62</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid421-transcription">
       <div>
-       <head>f [3v] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f [3v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -26232,8 +26198,9 @@
        <head>f [4]</head>
        <pb n="[4]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -26385,7 +26352,7 @@
          <cell rend="right">iij s. iiij d.</cell>
         </row>
         <row>
-         <cell rend="right"><gap reason="omitted"/></cell>
+         <cell><gap reason="omitted"/></cell>
         </row>
         <row>
          <cell>p<ex>ai</ex>d To <rs ref="eats:406464" type="Person_Male">will<ex>ia</ex>m
@@ -26870,8 +26837,7 @@
         </row>
         <row>
          <cell>p<ex>ai</ex>d to the <rs ref="eats:49912" type="Collective_Troupe">Erle of Sussex
-           players</rs> the iij of August by M<ex>aste</ex>r <del>B</del> ‸<add place="above">
-            Bayliff<ex>es</ex></add> co<ex>m</ex>maundem<ex>en</ex>t </cell>
+           players</rs> the iij of August by M<ex>aste</ex>r <del>B</del> ‸<add place="above">Bayliff<ex>es</ex></add> co<ex>m</ex>maundem<ex>en</ex>t </cell>
          <cell rend="right">xiij s. iiij d.</cell>
         </row>
        </table>
@@ -27715,7 +27681,7 @@
         <del>yt is Agreed</del> where <rs ref="eats:410185" type="Person_Male">Iohn Kyng</rs>
         <rs ref="eats:199711" type="Collective_Occupations">scryven<ex>er</ex></rs> at the Assignes
         of M<ex>aste</ex>r <rs ref="eats:402653" type="Collective_Office">bayliff<ex>es</ex></rs>
-        &amp; others Apoynted / have disbursed in thing<ex>es</ex> touching the setting forthe of
+        &amp; others Apoynted/ have disbursed in thing<ex>es</ex> touching the setting forthe of
          <rs ref="eats:302248" type="Thing_SetMachinery">pagent<ex>es</ex></rs> Ageinst the quenes
          ma<ex>ies</ex>tys co<ex>m</ex>myng to þe so<ex>m</ex>me xs ixd besyd<ex>es</ex> for
         workemens labors <del>&amp; he toke</del> yt by the <rs ref="eats:414480"
@@ -27951,8 +27917,9 @@
        <head>f [3v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -28067,12 +28034,13 @@
       <seg ana="taxon:SUIP35">SUIP35</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid395-transcription">
       <div>
-       <head>f [6v] <supplied>(29 September–29 September))(Payments)</supplied></head>
+       <head>f [6v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[6v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
-         <cell/>
+         <cell></cell>
+       
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -28084,8 +28052,8 @@
          <cell>It<ex>em</ex> p<ex>ai</ex>d to my <rs ref="eats:366967" type="Collective_Troupe"
            >lorde Shefild<ex>es</ex> plaiers</rs></cell>
          <cell rend="right">0</cell>
-         <cell>vj</cell>
-         <cell>viij</cell>
+         <cell rend="right">vj</cell>
+         <cell rend="right">viij</cell>
         </row>
        </table>
 
@@ -28095,8 +28063,9 @@
        <head>f [7v] <supplied>(Payments)</supplied></head>
        <pb n="[7v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -28432,7 +28401,7 @@
         <rs ref="eats:17037" type="Collective_Occupations">scolemaster</rs> in the xvij ten daye of
         november last wherin<note type="marginal" place="margin_right">xl s. geven <lb/>to
          Kyng</note> the Quenes ma<ex>ies</ex>ties reigne newly beganne ageyne was at Charge about
-        certen <rs ref="eats:403978" type="Drama_Type">pageant<ex>es</ex></rs> &amp; <rs
+        certen <rs ref="eats:487838" type="Drama_Type">pageant<ex>es</ex></rs> &amp; <rs
          ref="eats:62012" type="Entertainment_Type">other Shewes</rs> in this <rs ref="eats:369522"
          type="Place_PA_Settlement">Towne</rs> in Ioye of that daye. Item agreed that he shall have
         geven to him out of the Towne <rs ref="eats:414480" type="Collective_Office">Treasur</rs> in
@@ -28443,7 +28412,7 @@
       </div>
      </div>
      <div type="endnote">
-      <p> There is no evidence that John Kyne was schoolmaster at <rs ref="eats:376367"
+      <p> There is no evidence that John Kynge was schoolmaster at <rs ref="eats:376367"
         type="Place_F_School">Ipswich School</rs> and he is more often identified in the records as
        a <rs ref="eats:199711" type="Collective_Occupations">scrivener</rs>, but he was most
        certainly talented in the making of <rs ref="eats:302248" type="Thing_SetMachinery"
@@ -28462,7 +28431,7 @@
       <seg ana="taxon:SUIP36">SUIP36</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid396-transcription">
       <div>
-       <head>f [6] <supplied>(29 September–29 September)(Rewards to players of
+       <head>f [6] <supplied>(29 September–29 September) (Rewards to players of
          interludes)</supplied></head>
        <pb n="[6]" type="folio"/>
 
@@ -28555,7 +28524,7 @@
           the <rs ref="eats:199711" type="Collective_Occupations">Screuen<ex>er</ex></rs> for his
           Chardges of his <rs ref="eats:302248" type="Thing_SetMachinery">Pagent<ex>es</ex></rs>
           made on the <rs ref="eats:411230" type="CalendarDay_Secular">Quenes Daye</rs> the 17<hi
-           rend="superscript">en</hi> of November / 1582. </cell>
+           rend="superscript">en</hi> of November/ 1582. </cell>
          <cell rend="right">2 li.</cell>
         </row>
        </table>
@@ -28664,8 +28633,8 @@
        <gap reason="omitted"/>
       </div>
      </div>
-     <div type="footnote">
-      <p> John Kinge (f [6v]), scrivener and schoolmaster, possessed the ability both to make
+     <div type="endnote">
+      <p> John Kinge (f 89), scrivener and schoolmaster, possessed the ability both to make
        pageants and to stage events that involved pageants. In 1578 the town paid him for both those
        tasks on Guild Day and in its preparations for an expected visit by the Queen. In 1579 he
        again supplied 'the pageant' for Guild Day and for the annual commemoration of the Queen's
@@ -28803,8 +28772,9 @@
        <head>f [4v] <supplied>(29 September–29 September) (Wages and liveries)</supplied></head>
        <pb n="[4v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -28818,8 +28788,8 @@
            type="Thing_LiveryRegalia">lyvers</rs> that is for <rs ref="eats:411339"
            type="Person_Male">w<ex>illia</ex>m gillard</rs> and þe <rs ref="eats:406229"
            type="Collective_Office">4 wayght<ex>es</ex></rs> at 10 s the yard</cell>
-         <cell rend="right">03<hi rend="superscript">li</hi></cell>
-         <cell rend="right">15<hi rend="superscript">s</hi></cell>
+         <cell rend="right">03 li.</cell>
+         <cell rend="right">15 s.</cell>
          <cell rend="right">0</cell>
         </row>
        </table>
@@ -28832,14 +28802,14 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>p<ex>ai</ex>d <rs ref="eats:410185" type="Person_Male">Kinge</rs>
           <rs ref="eats:199711" type="Collective_Occupations"><term ref="gloss:screwener-1"
             >screwener</term></rs> for charges of his <rs ref="eats:302248"
            type="Thing_SetMachinery">pagente</rs>
           <add place="above">by warrant As Apereth by great Court</add></cell>
-         <cell rend="right">03<hi rend="superscript">li</hi></cell>
+         <cell rend="right">03 li.</cell>
          <cell rend="right">06</cell>
          <cell rend="right"><damage><gap unit="chars" extent="1"/></damage><note type="foot"
              ><damage><gap unit="chars" extent="1"/></damage>: <hi rend="italic">edge of page
@@ -29087,8 +29057,9 @@
        <head>f 287 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="287" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29329,7 +29300,7 @@
 
       <p> The 'quenes players being the children' (f [4]) refers to the boys' troupe patronized by
        Elizabeth I (1533-1602/3). The Children of the Chapel was a company of boys first formed in
-       its certain Tudor iteration in 1501, patronize successively by Tudor monarchs through
+       its certain Tudor iteration in 1501, patronized successively by Tudor monarchs through
        Elizabeth I, and thereafter with a revised name by the Stuarts. The company performed both
        musically and in drama, mainly for the Court until <hi rend="italic">c</hi> 1585. Thereafter
        through 1592 it performed both provincially and in the commercial theatres of London. Many of
@@ -29363,7 +29334,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>To <rs ref="eats:406598" type="Person_Male">petter mone</rs> for Repayring of the <rs
            ref="eats:369522" type="Place_PA_Settlement">tovne</rs>
@@ -29433,6 +29404,13 @@
        <gap reason="omitted"/>
       </div>
      </div>
+     <div type="endnote">
+      <p>John Cressey (f 122), alias Minter, was the town drummer between 1587 and 1604–5 (the
+       last time he appears in the records). The city routinely financed his annual wages, his
+       livery, and his repairs to drums. In 1594–5 it also paid him for mending the civic ensigne
+       using levant, white taffeta, and black silk. In 1608–9 the city paid one Richard Minter for
+       two days' service with his drum.</p>
+     </div>
     </body>
    </text>
    <text type="record" xml:id="suffk-rid426" ana="taxon:LocalGov_BoroughCity">
@@ -29446,8 +29424,10 @@
        <head>f [3v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29478,7 +29458,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>It<ex>e</ex>m</cell>
          <cell>to M<ex>is</ex>t<ex>e</ex>r <rs ref="eats:411502" type="Person_Male">Buckenom</rs>
@@ -29497,8 +29477,9 @@
        <head>f [8]</head>
        <pb n="[8]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29522,8 +29503,9 @@
        <head>f [8v] <supplied>(Rewards)</supplied></head>
        <pb n="[8v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29822,8 +29804,9 @@
        <head>f [5] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[5]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29846,8 +29829,9 @@
        <head>f [6]</head>
        <pb n="[6]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29884,8 +29868,9 @@
        <head>f [6v]</head>
        <pb n="[6v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29926,9 +29911,9 @@
        <head>f [8]</head>
        <pb n="[8]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
-         <cell/>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -29939,7 +29924,7 @@
         <row>
          <cell>It<ex>e</ex>m payd by warent to <rs ref="eats:473845" type="Person_Male">Iohn
            mentter</rs> for .3. <rs ref="eats:41063" type="Thing_MusicalInstrument">drome</rs>
-           head<ex>es</ex>.3. ss. &amp; for .3. dayes <rs ref="eats:29681" type="Entertainer_Type"
+           head<ex>es</ex> .3. ss. &amp; for .3. dayes <rs ref="eats:29681" type="Entertainer_Type"
            >playinge on the drome</rs> 6 ss. some of both ys</cell>
          <cell rend="right">000</cell>
          <cell rend="right">09</cell>
@@ -30326,7 +30311,7 @@
       <seg ana="taxon:SUIP2B">SUIP2B</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid257-transcription">
       <div>
-       <head>f [70] <supplied>(29 September)(Treasury warrant)</supplied></head>
+       <head>f [70] <supplied>(29 September) (Treasury warrant)</supplied></head>
        <pb n="[70]" type="folio"/>
 
        <ab rend="center">To <rs ref="eats:414513" type="Person_Male">Thomas Sickemore</rs>
@@ -30828,8 +30813,9 @@
        <head>f [3v] <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -30852,8 +30838,9 @@
        <head>f [9v]</head>
        <pb n="[9v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -30938,7 +30925,7 @@
 
        <gap reason="omitted"/>
 
-       <ab rend="center"><ex>(Rewards to Players)</ex></ab>
+       <ab rend="center">Rewardes to Plaiers</ab>
 
        <table>
         <row>
@@ -31181,7 +31168,7 @@
 
        <gap reason="omitted"/>
 
-       <ab rend="center"><ex>Rewardes to Playeres</ex></ab>
+       <ab rend="center">Rewardes to Playeres</ab>
 
        <table>
         <row>
@@ -31714,8 +31701,9 @@
        <head>f [5] <supplied>(29 September-29 September) (Payments by warrant)</supplied></head>
        <pb n="[5]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -31750,9 +31738,9 @@
        <head> f [5v]</head>
        <pb n="[5v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
-         <cell/>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -31762,7 +31750,7 @@
         </row>
         <row>
          <cell>It<ex>e</ex>m to <rs ref="eats:17169" type="Collective_Troupe">her Maiesties
-           Players</rs></cell>
+          Players</rs>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</cell>
          <cell rend="right">01</cell>
          <cell rend="right">06</cell>
          <cell rend="right">8</cell>
@@ -31796,7 +31784,7 @@
       <seg ana="taxon:SUIP44">SUIP44</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid404-transcription">
       <div>
-       <head>p 5 <supplied>(29 September–29 September)(Payments by warrant)</supplied></head>
+       <head>p 5 <supplied>(29 September–29 September) (Payments by warrant)</supplied></head>
        <pb n="5" type="page"/>
 
        <gap reason="omitted"/>
@@ -31909,7 +31897,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>It<ex>e</ex>m payde to ‸<rs ref="eats:473845" type="Person_Male"><add place="above"
             >Iohn</add> Cressie al<ex>ia</ex>s Mynter</rs> by consente of A grete corte holden the
@@ -32026,8 +32014,9 @@
        <head>f [3v] <supplied>(29 September–29 September) (Payments by warrants)</supplied></head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -32052,8 +32041,9 @@
        <head>f [4]</head>
        <pb n="[4]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -32197,7 +32187,7 @@
       <seg ana="taxon:SUIP46">SUIP46</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid406-transcription">
       <div>
-       <head>f [6] <supplied>29 September–29 September)(Payments to Sergeants and
+       <head>f [6] <supplied>29 September–29 September) (Payments to Sergeants and
         Waits)</supplied></head>
        <pb n="[6]" type="folio"/>
 
@@ -32471,7 +32461,7 @@
       <seg ana="taxon:SUIP48">SUIP48</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid407-transcription">
       <div>
-       <head>f [4] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f [4] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4]" type="folio"/>
 
        <gap reason="omitted"/>
@@ -32563,7 +32553,7 @@
       <seg ana="taxon:SUIP49">SUIP49</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid408-transcription">
       <div>
-       <head>f 4 <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f 4 <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="4" type="folio"/>
 
        <gap reason="omitted"/>
@@ -32595,7 +32585,7 @@
       <seg ana="taxon:SUIP50">SUIP50</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid409-transcription">
       <div>
-       <head>f [4] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f [4] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4]" type="folio"/>
 
        <gap reason="omitted"/>
@@ -32886,7 +32876,7 @@
       <seg ana="taxon:SUIP69">SUIP69</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid427-transcription">
       <div>
-       <head>f [4] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f [4] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4]" type="folio"/>
 
        <gap reason="omitted"/>
@@ -33018,7 +33008,7 @@
       <seg ana="taxon:SUIP52">SUIP52</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid411-transcription">
       <div>
-       <head>f [5v] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head>f [5v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[5v]" type="folio"/>
 
        <table>
@@ -33112,7 +33102,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>It<ex>e</ex>m to <rs ref="eats:417420" type="Person_Male">Thomas Salter</rs> &amp;
           the Rest of the <rs ref="eats:406229" type="Collective_Office">music<ex>i</ex>ons</rs> as
@@ -33129,7 +33119,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>more for ix yard<ex>es</ex> of blewe <rs ref="eats:302518"
            type="Thing_ClothingMaterials">clothe</rs> att x s the yard for v music<ex>i</ex>ons
@@ -33269,6 +33259,10 @@
        <gap reason="omitted"/>
       </div>
      </div>
+     <div type="endnote">
+      <p> Between 1607–8 and the first half of 1613, Salter (f 179v) was master of a company of six
+       waits who served the <rs ref="eats:369522" type="Place_PA_Settlement">town</rs>. </p>
+     </div>
     </body>
    </text>
    <text type="record" xml:id="suffk-rid413" ana="taxon:LocalGov_BoroughCity">
@@ -33282,8 +33276,9 @@
        <head>f [4v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -33357,6 +33352,10 @@
          ref="eats:43439" type="Thing_LiveryRegalia">lyveries</rs> this yere &amp; yerelie afterward
          <del>for</del> during those <del>i</del>ij yeres, clothe for there liveries/</ab>
       </div>
+     </div>
+     <div type="endnote">
+      <p> Between 1607–8 and the first half of 1613, Salter (f 59v) was master of a company of six
+       waits who served the <rs ref="eats:369522" type="Place_PA_Settlement">town</rs>. </p>
      </div>
     </body>
    </text>
@@ -33493,12 +33492,12 @@
       <seg ana="taxon:SUIP56">SUIP56</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid415-transcription">
       <div>
-       <head>f [4v] <supplied>(Payments)(29 September–29 September)</supplied></head>
+       <head>f [4v] <supplied>(Payments) (29 September–29 September)</supplied></head>
        <pb n="[4v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
-         <cell/>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -33528,9 +33527,9 @@
        <head>f [5]</head>
        <pb n="[5]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
-         <cell/>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -33803,11 +33802,12 @@
       <seg ana="taxon:SUIP70">SUIP70</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid428-transcription">
       <div>
-       <head> f [4] <supplied>(29 September–29 September)(Payments)</supplied></head>
+       <head> f [4] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -33933,7 +33933,7 @@
        <head>f 236 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="236" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -33959,7 +33959,7 @@
        <head>f 238v</head>
        <pb n="238v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34036,7 +34036,7 @@
        <head>f 247v <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="247v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34061,7 +34061,7 @@
        <head>f 248</head>
        <pb n="248" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34117,8 +34117,9 @@
        <head>f [3] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[3]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -34149,8 +34150,9 @@
        <head>f [3v]</head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -34227,7 +34229,7 @@
        <head>f 260</head>
        <pb n="260" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34271,8 +34273,9 @@
        <head>f 3 <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="3" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -34317,7 +34320,7 @@
        <head>f 269 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="269" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34343,7 +34346,7 @@
        <head>f 269v</head>
        <pb n="269v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34370,7 +34373,7 @@
        <head>f 272v</head>
        <pb n="272v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34410,8 +34413,9 @@
        <head>f 3 <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="3" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -34453,7 +34457,7 @@
        <head>f 279v <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="279v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34479,7 +34483,7 @@
        <head>f 281v</head>
        <pb n="281v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34513,8 +34517,9 @@
        <head>f [3v] <supplied>(29 September–29 September) (Payments by warrant)</supplied></head>
        <pb n="[3v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -34524,7 +34529,7 @@
         </row>
         <row>
          <cell>It<ex>e</ex>m to the <rs ref="eats:21804" type="Entertainer_Type"
-          >Beareman</rs></cell>
+          >Beareman&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</rs></cell>
          <cell rend="right">000</cell>
          <cell rend="right">06:</cell>
          <cell rend="right">8:</cell>
@@ -34537,8 +34542,9 @@
        <head>f [4]</head>
        <pb n="[4]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -34605,7 +34611,7 @@
        <head>f 292 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="292" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34631,7 +34637,7 @@
        <head>f 294v</head>
        <pb n="294v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34667,7 +34673,7 @@
        <head>f 304 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="304" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34693,7 +34699,7 @@
        <head>f 305</head>
        <pb n="305" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -34825,8 +34831,9 @@
        <head>f [4] <supplied>(29 September–29 September)</supplied></head>
        <pb n="[4]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -35029,7 +35036,7 @@
        <head>f 346 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="346" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35109,7 +35116,7 @@
        <head>f 353v <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="353v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35156,7 +35163,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>Payd the 22<hi rend="superscript">th</hi> of March to the <rs ref="eats:21924"
            type="Collective_Troupe">Lady Eliz<ex>abeth</ex> her companie of players</rs> by
@@ -35174,7 +35181,7 @@
         goods)</supplied></head>
        <pb n="[7]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">l.</cell>
@@ -35245,7 +35252,7 @@
        <head>f 362v <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="362v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35308,7 +35315,7 @@
        <head>f 370 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="370" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35353,7 +35360,7 @@
        <head>f 377v <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="377v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35378,7 +35385,7 @@
        <head>f 378</head>
        <pb n="378" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35420,7 +35427,7 @@
        <head>f [4v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[4v]" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35478,7 +35485,7 @@
        <head>f 384v <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="384v" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35507,7 +35514,7 @@
        <head>f 386</head>
        <pb n="386" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35550,14 +35557,14 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>Payd to <rs ref="eats:417892" type="Person_Male">Thomas Burrage</rs> and the rest of
           the <rs ref="eats:406229" type="Collective_Office">musytions</rs> for theyr atendance on
           Mr <rs ref="eats:402653" type="Collective_Office">Bayliff<ex>es</ex></rs> on the <rs
            ref="eats:423251" type="CalendarDay_Secular">Cronation Daye</rs></cell>
          <cell rend="right">001</cell>
-         <cell>00</cell>
+         <cell rend="right">00</cell>
          <cell rend="right">00</cell>
         </row>
         <row>
@@ -35567,8 +35574,8 @@
          <cell>for giuen <rs ref="eats:25345" type="Collective_Troupe">his Maiesties
             player<ex>es</ex></rs> as p<ex>er</ex> war<ex>rant</ex></cell>
          <cell rend="right">001</cell>
-         <cell>06</cell>
-         <cell>08</cell>
+         <cell rend="right">06</cell>
+         <cell rend="right">08</cell>
         </row>
        </table>
 
@@ -35649,7 +35656,7 @@
        <head>f 395 <supplied>(29 September–29 September) (Treasurer's payments)</supplied></head>
        <pb n="395" type="folio"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell/>
          <cell rend="right">li.</cell>
@@ -35698,7 +35705,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>It<ex>e</ex>m paide to <rs ref="eats:417892" type="Person_Male">Thomas Burrage</rs>
           And the rest of the <rs ref="eats:406229" type="Collective_Office"
@@ -35720,7 +35727,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>Item Given to <rs ref="eats:422773" type="Person_Male">william daniell</rs> and his
           Company <del>his Ma<ex>ies</ex>ties players</del> As a Gratuety bestowed vpon them being
@@ -36072,7 +36079,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>payed <rs ref="eats:422773" type="Person_Male">William Daniell</rs> one of his
            Ma<ex>ies</ex>ties serua<ex>n</ex>t<ex>es</ex> of <rs ref="eats:63920"
@@ -36184,8 +36191,9 @@
        <head>f [7v] <supplied>(29 September–29 September) (Payments)</supplied></head>
        <pb n="[7v]" type="folio"/>
 
-       <table>
+       <table  rend="padded">
         <row>
+         <cell></cell>
          <cell rend="right">li.</cell>
          <cell rend="right">s.</cell>
          <cell rend="right">d.</cell>
@@ -36263,7 +36271,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>p<ex>ai</ex>d <del>vnto one of those <rs ref="eats:331091"
             type="Collective_Occupations">Accomptant<ex>es</ex></rs></del> vppon warrant dated ye
@@ -36779,7 +36787,7 @@
       <seg ana="taxon:SUKI03">SUKI03</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid469-transcription">
       <div>
-       <head>f 34 <supplied>(February rewards)(Brome)</supplied></head>
+       <head>f 34 <supplied>(February rewards) (Brome)</supplied></head>
        <pb n="34" type="folio"/>
 
        <gap reason="omitted"/>
@@ -37545,7 +37553,7 @@
        <gap reason="omitted"/>
       </div>
       <div>
-       <head>f 205 <supplied>(Final week of May)(Hengrave)</supplied></head>
+       <head>f 205 <supplied>(Final week of May) (Hengrave)</supplied></head>
        <pb n="205" type="folio"/>
 
        <gap reason="omitted"/>
@@ -37578,7 +37586,7 @@
        <gap reason="omitted"/>
       </div>
       <div>
-       <head>f 210v <supplied>(July) (Foreign charges)(Hengrave)</supplied></head>
+       <head>f 210v <supplied>(July) (Foreign charges) (Hengrave)</supplied></head>
        <pb n="210v" type="folio"/>
 
        <gap reason="omitted"/>
@@ -37668,7 +37676,7 @@
        <gap reason="omitted"/>
       </div>
       <div>
-       <head>f 224 <supplied>(August)(Hengrave)</supplied></head>
+       <head>f 224 <supplied>(August) (Hengrave)</supplied></head>
        <pb n="224" type="folio"/>
 
        <gap reason="omitted"/>
@@ -37696,7 +37704,7 @@
        <gap reason="omitted"/>
       </div>
       <div>
-       <head>f 224v <supplied>(September)(Hengrave)</supplied></head>
+       <head>f 224v <supplied>(September) (Hengrave)</supplied></head>
        <pb n="224v" type="folio"/>
 
        <gap reason="omitted"/>
@@ -38260,8 +38268,8 @@
          <rs ref="eats:428535" type="Person_Female">Cecilie</rs> haue ben much at Newmarket of late.
         the <rs ref="eats:428892" type="Person_Male">earle of Oxford</rs><note type="foot">Oxford:
           <hi rend="italic">Henry de Vere (1593-1625), eighteenth earl of Oxford</hi></note> came
-        hither yesterday from sea reinfecta,<note type="foot">reinfecta: <hi rend="italics">for</hi>
-         re infecta<hi rend="italics">: 'with the matter unfinished or not done'</hi></note>for
+        hither yesterday from sea reinfecta,<note type="foot">reinfecta: <hi rend="italic">for</hi>
+         re infecta<hi rend="italic">: 'with the matter unfinished or not done'</hi></note>for
         while he was prouiding somwhat he wanted at <rs ref="eats:87185" type="Place_PA_Settlement"
          >Portesmowth</rs> the eastfrdian<note type="foot">eastfrdian: <hi rend="italic">for</hi>
           Eastfordian<hi rend="italic">?</hi></note> ships are saide to haue passed along by the
@@ -38412,11 +38420,11 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>It<ex>e</ex>m for a <rs ref="eats:328770" type="Thing_BookPlayMusic">booke</rs> for
-          exersice on the Sunday </cell>
-         <cell rend="right">0. 0. vj d.</cell>
+          exersice on the Sunday &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</cell>
+         <cell rend="right">0.</cell><cell rend="right"> 0.</cell><cell rend="right"> vj d.</cell>
         </row>
        </table>
 
@@ -40187,7 +40195,7 @@
 
        <table>
         <row>
-         <cell>And in reward given to a certain small minstrel on one occasion this year </cell>
+         <cell>And in reward given to a certain young minstrel on one occasion this year </cell>
          <cell rend="right">8d</cell>
         </row>
         <row>
@@ -40256,7 +40264,7 @@
 
        <table>
         <row>
-         <cell>Likewise to a small minstrel </cell>
+         <cell>Likewise to a young minstrel </cell>
          <cell rend="right">8d</cell>
         </row>
         <row>
@@ -44157,7 +44165,7 @@
 
        <gap reason="omitted"/>
 
-       <ab type="exdent">7. Dicti Inh<ex>ab</ex>itantes<note type="foot">Dicti
+       <ab type="exdent">7.&#160;&#160;&#160;Dicti Inh<ex>ab</ex>itantes<note type="foot">Dicti
          Inh<ex>ab</ex>itantes: <hi rend="italic">in display script</hi></note> ville de <rs
          ref="eats:386439" type="Place_PA_Settlement">walsham</rs> tenent nat<ex>iue</ex>
          vna<ex>m</ex> peciam pastur<ex>e</ex> vocat<ex>am</ex>
@@ -44182,7 +44190,7 @@
 
        <gap reason="omitted"/>
 
-       <ab type="exdent">7. The said inhabitants of the town of Walsham hold as bondsmen one piece
+       <ab type="exdent">7.&#160;&#160;&#160;The said inhabitants of the town of Walsham hold as bondsmen one piece
         of pasture called 'the game place' formerly of Thomas Berne with <pb n="51" type="folio"/> a
         parcel of one piece of pasture situated on the west boundary of the same and lying between
         the last (mentioned, <hi rend="italic">ie,</hi> the game place) on the south side and the
@@ -44391,7 +44399,7 @@
       <seg ana="taxon:SUWD01">SUWD01</seg></head>
      <div xml:lang="eng" type="transcription" xml:id="suffk-rid564-transcription">
       <div>
-       <head>Item [7] <supplied>(Bill of complaint)(6 April)</supplied></head>
+       <head>Item [7] <supplied>(Bill of complaint) (6 April)</supplied></head>
        <pb n="[7]"/>
 
        <ab rend="center">To the king<ex>es</ex> most excellent Ma<ex>ies</ex>tie</ab>
@@ -44644,7 +44652,7 @@
         wrongfully susteyned./</ab>
       </div>
       <div>
-       <head>Item [1] mbs [1-1d] <supplied>(1 October)(Examination of Thomas Hamond, yeoman, of
+       <head>Item [1] mbs [1-1d] <supplied>(1 October) (Examination of Thomas Hamond, yeoman, of
          Wetherden)</supplied></head>
        <pb n="[1]" type="membrane"/>
 
@@ -44875,7 +44883,7 @@
         lyar</ab>
 
        <ab>I have made a playe caulyd <rs ref="eats:441792" type="Drama_TitledWork">a Rude
-         Commynawlte</rs> / I am a making of a nother caulyd, <rs ref="eats:441864"
+         Commynawlte</rs>/ I am a making of a nother caulyd, <rs ref="eats:441864"
          type="Drama_TitledWork">The Woman on the Rokke</rs>, yn the fyer of faythe affynyng, &amp;
         a purgy<ex>n</ex>g yn the trewe purgatory, Never to be seen, but of your lordshyps Eye</ab>
 
@@ -45072,7 +45080,7 @@
         <rs ref="eats:454873" type="Person_Male">Will<ex>elmu</ex>m Guykon</rs>
         <rs ref="eats:39209" type="Collective_Occupations">Carpenter</rs> &amp; <rs
          ref="eats:454938" type="Person_Male">Iacobu<ex>m</ex> Cook</rs> ad
-         gub<ex>er</ex>nand<ex>um</ex> lez <rs ref="eats:403978" type="Entertainment_Type"
+         gub<ex>er</ex>nand<ex>um</ex> lez <rs ref="eats:487838" type="Entertainment_Type"
          >pagent</rs> &amp; ad custodiend<ex>um</ex> om<ex>n</ex>ia &amp; sing<ex>u</ex>la
          eid<ex>e</ex>m p<ex>er</ex>tinenc<ex>ia</ex></ab>
 
@@ -45126,7 +45134,7 @@
         <rs ref="eats:297065" type="Collective_Office">Burgens<ex>is</ex></rs> ad eor<ex>um</ex>
          elecc<ex>i</ex>o<ex>n</ex>em in recompens<ex>ionem</ex> xlv s. j d. quos soluer<ex>unt</ex>
          p<ex>ro</ex> expens<ex>is</ex> de <add place="above">le</add>
-        <rs ref="eats:403978" type="Entertainment_Type">pagent</rs>
+        <rs ref="eats:487838" type="Entertainment_Type">pagent</rs>
         <del><damage><gap unit="chars" extent="1"/></damage>iue</del> Ita quod non sit
          alien<ex>us</ex> neq<ex>ue</ex> ex<ex>tr</ex>anea<note type="foot">ex<ex>tr</ex>anea: <hi
           rend="italic">for</hi> extraneus <hi rend="italic">?</hi></note> aut <rs ref="eats:29018"
@@ -45164,7 +45172,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>p<ex>ro</ex>
           <rs ref="eats:402310" type="Collective_GuildsReligious">Gilda Corp<ex>or</ex>is
@@ -45172,8 +45180,8 @@
          <cell>Et Ordinauer<ex>unt</ex> q<ex>uo</ex>d Gilda Corp<ex>or</ex>is Chr<ex>ist</ex>i
            teneat<ex>ur</ex> sing<ex>u</ex>lis annis d<ex>omi</ex>nice p<ex>ro</ex>x<ex>ime</ex>
           post Octavas <rs ref="eats:41497" type="CalendarDay_Liturgical">Corporis
-           Chr<ex>ist</ex>i</rs></cell>
-        </row>
+           Chr<ex>ist</ex>i</rs></cell></row>
+        <row><cell><lb/></cell></row>
         <row>
          <cell>Et eligerunt <rs ref="eats:455015" type="Person_Male">Rob<ex>er</ex>tum Ioyne</rs>
           &amp; Joh<ex>ann</ex>em Boteler <rs ref="eats:403996" type="Collective_Office"><term
@@ -45181,10 +45189,11 @@
           future.</cell>
         </row>
         <row>
-         <cell/>
+         <cell></cell>
         </row>
+        <row><cell><lb/></cell></row>
         <row>
-         <cell>p<ex>ro</ex> lez <rs ref="eats:403978" type="Entertainment_Type"
+         <cell>p<ex>ro</ex> lez <rs ref="eats:487838" type="Entertainment_Type"
            >pagent<ex>es</ex></rs></cell>
          <cell>Et eliger<ex>unt</ex>
           <rs ref="eats:455160" type="Person_Male">Rob<ex>er</ex>tum Bobat</rs>
@@ -45206,7 +45215,7 @@
 
        <gap reason="omitted"/>
 
-       <table>
+       <table rend="padded">
         <row>
          <cell>For the Corpus Christi guild</cell>
          <cell>And they have ordered that the Corpus Christi guild be held each year on the Sunday
@@ -45494,7 +45503,7 @@
        <gap reason="omitted"/>
 
        <ab>And they assigned Thomas Manser and William Gardener to be masters for the following
-        year, and they would have the <rs ref="eats:403978" type="Entertainment_Type">pageant</rs>
+        year, and they would have the pageant
         ready for the feast of Corpus Christi under penalty of the forfeiture of £10.</ab>
 
        <gap reason="omitted"/>
@@ -46986,7 +46995,7 @@
 
        <gap reason="omitted"/>
 
-       <ab>Likewise to players playing with puppets sent by Thomas Brews 8d.</ab>
+       <ab>Likewise to players playing with puppets sent by Thomas Brews, 8d.</ab>
 
        <gap reason="omitted"/>
       </div>
@@ -47189,7 +47198,7 @@
 
        <gap reason="omitted"/>
 
-       <ab>Likewise to a taborer of the duke of Norfolk 8d.</ab>
+       <ab>Likewise to a taborer of the duke of Norfolk, 8d.</ab>
 
        <gap reason="omitted"/>
       </div>
@@ -49410,13 +49419,30 @@
       <div>
        <head>f 173 <supplied>(10 October-17 April)</supplied></head>
        <pb n="173" type="folio"/>
-
+       
+       <gap reason="omitted"/>
+       
+       <table>
+        <row>
+         <cell>It<ex>em</ex> trib<ex>us</ex> vicib<ex>us</ex> <rs ref="eats:8782" type="Entertainer_Type"
+          >lusorib<ex>us</ex></rs>
+         </cell>
+         <cell rend="right">ij s.</cell>
+        </row>
+       </table>
+       
+       <gap reason="omitted"/>
+      </div>
+     </div>
+       <div xml:lang="eng" type="translation">
+        <div>
+         <head>f 173 <supplied>(10 October-17 April)</supplied></head>
+         <pb n="173" type="folio"/>
        <gap reason="omitted"/>
 
        <table>
         <row>
-         <cell>Likewise on three occasions to <rs ref="eats:8782" type="Entertainer_Type"
-           >players</rs>
+         <cell>Likewise on three occasions to players
          </cell>
          <cell rend="right">2s</cell>
         </row>
@@ -49669,7 +49695,7 @@
          <cell><gap reason="omitted"/></cell>
         </row>
         <row>
-         <cell>It<ex>e</ex>m iiij<add place="above">or</add>
+         <cell>It<ex>e</ex>m iiij<hi rend="superscript">or</hi>
           <rs ref="eats:179330" type="Collective_Troupe">ministrall<ex>is</ex> Duc<ex>is</ex>
            <term ref="gloss:eboracum-1">Eborac<ex>i</ex></term></rs>
          </cell>
@@ -50332,7 +50358,7 @@
 
          <gap reason="omitted"/>
 
-         <table>
+         <table rend="padded">
           <row>
            <cell><rs ref="eats:8709" type="Entertainer_Type"
             >Menestralli</rs>&#160;&#160;&#160;&#160;&#160; </cell>
@@ -50350,9 +50376,9 @@
           </row>
          </table>
 
-         <pb type="folio" n="8v"/>
+         <ab><pb type="folio" n="8v"/></ab>
 
-         <table>
+         <table rend="padded">
           <row>
            <cell>Menestralli&#160;&#160;&#160;&#160;&#160;</cell>
            <cell><rs ref="eats:459774" type="Person_Female">Matill<ex>de</ex> Makeioie</rs>
@@ -50400,7 +50426,7 @@
           </row>
          </table>
 
-         <pb type="folio" n="8v"/>
+         <ab><pb type="folio" n="8v"/></ab>
 
          <table>
           <row>
@@ -50813,11 +50839,18 @@
 
          <gap reason="omitted"/>
 
-         <ab>Orgia Iuridicæ spectate Boalia Musæ Proxima pars pompæ mulier devota Iuvencum Sedula
-          nunc sequitur, nu<ex>n</ex>c bla<ex>n</ex>dula passibus æquis It comes. Ille simul (ceu
-          Iuppiter esset in illo) Lacteolum latus &amp; palearia pendula præbet Fœmineâ palpanda
-          manu. Quos tramite longo subsequitur sacris induti sacra <rs ref="eats:302317"
-           type="Thing_TheatricalCostume">canentes</rs> Tota cohors <rs ref="eats:27258"
+         <ab>Orgia Iuridicæ spectate Boalia Musæ</ab>
+         <ab>Proxima pars pompæ mulier devota Iuvencum</ab>
+         <ab>Sedula
+          nunc sequitur, nu<ex>n</ex>c bla<ex>n</ex>dula passibus æquis</ab>
+         <ab>It comes. Ille simul (ceu
+          Iuppiter esset in illo)</ab>
+         <ab>Lacteolum latus &amp; palearia pendula præbet</ab>
+         <ab>Fœmineâ palpanda
+          manu. Quos tramite longo</ab>
+         <ab>subsequitur sacris induti sacra <rs ref="eats:302317"
+           type="Thing_TheatricalCostume">canentes</rs></ab>
+         <ab>Tota cohors <rs ref="eats:27258"
            type="Collective_Clergy">Monachoru<ex>m</ex></rs>. Ità, quæ Processio dici <pb
            type="page" n="58"/></ab>
 

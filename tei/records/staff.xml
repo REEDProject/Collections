@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="staff" xml:lang="eng">
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="staff" xml:lang="eng">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1511,7 +1513,7 @@
                 answer the p<ex>re</ex>misses &amp; to stande to &amp; abide such further Trial
                 &amp; direcc<ex>i</ex>on therein as to yo<ex>ur</ex> Ma<ex>ies</ex>ty &amp; the
                 right hono<ex>ura</ex>ble the lord<ex>es</ex> of yo<ex>ur</ex>
-                  ma<ex>ies</ex>t<ex>ies</ex> most ho<ex>noura</ex>ble prevy counsell shall seeme to
+                ma<ex>ies</ex>t<ex>ies</ex> most ho<ex>noura</ex>ble <rs ref="eats:351822" type="Collective_Office">prevy counsell</rs> shall seeme to
                 bee moste agreeable to lawe &amp; iustice.</ab>
 
               <ab><seg type="signed" rend="right"><damage><gap unit="chars" extent="3"/></damage></seg><note type="foot"><damage><gap unit="chars" extent="3"/></damage>: <hi rend="italic">signature illegible</hi></note></ab>
@@ -1863,7 +1865,7 @@
                 inserted into this informa<ex>c</ex>ion as they shalbe made knowne and discovered,
                 thereby Commanding them and every of them at a Certayne day and vnder a Certayne
                 paine therein to be limitted p<ex>er</ex>sonallie to be and appeare before your
-                  Ma<ex>ies</ex>tie and your most honorable privie Counsell in your
+                  Ma<ex>ies</ex>tie and your most honorable <rs ref="eats:351822" type="Collective_Office">privie Counsell</rs> in your
                 Ma<ex>ies</ex>ties high Court of Star Chamber then and there to answere the
                   p<ex>re</ex>misses and to abide such further order and censure therein as to your
                   Ma<ex>ies</ex>ties sayd honorable Councell shalbe thought fitt and most agreable
@@ -4338,7 +4340,7 @@
                 Com<ex>m</ex>aundinge them ‸<add place="above">and every of them therebye</add> at A
                 certeyne daie and vnder A certeyne payne therein to be limitted p<ex>er</ex>sonally
                 to be and appeare before yo<ex>ur</ex> Ma<ex>ies</ex>tie and ‸<add place="above">the
-                    lord<ex>es</ex> and others of</add> yo<ex>ur</ex> heignes Counsell in
+                  lord<ex>es</ex> and others of</add> yo<ex>ur</ex> heignes <rs ref="eats:351822" type="Collective_Office">Counsell</rs> in
                   yo<ex>ur</ex> most honnorable Cort of Starchamber then and there to make direct
                 Aunsweare to the p<ex>re</ex>misses. And to stande to and abide such further order
                   direcc<ex>i</ex>on and Censure therein for yo<ex>ur</ex> Subiect<ex>es</ex>
@@ -8098,7 +8100,7 @@ table. The (blank) above is the second cell of that row -->the
               <ab><rs ref="http://ereed.library.utoronto.ca/eats/entity/26801/" type="Person_Commoner">Wyll<ex>ia</ex>m Colman</rs> of thage of lx yeres &amp;
                 more sworn &amp; examyned seyth that as concernyng the xiiij Int<ex>er</ex>ogatory
                 this deponent was p<ex>re</ex>sent when on<ex>e</ex>
-                <rs ref="http://ereed.library.utoronto.ca/eats/entity/26846/" type="Person_Commoner">wyll<ex>ia</ex>m anderson</rs> s<ex>er</ex>uant to the seid <rs ref="http://ereed.library.utoronto.ca/eats/entity/26891/" type="Person_Gentry">s<ex>ir</ex> humfrey</rs><note type="foot">s<ex>ir</ex> humfrey: <hi rend="italic">Sir <rs ref="http://ereed.library.utoronto.ca/eats/entity/26891/" type="Person_Gentry">Humphrey Ferrers</rs>, the defendant</hi></note> did <rs ref="http://ereed.library.utoronto.ca/eats/entity/45465/" type="CrimesMisdemeanors">stryke</rs> on<ex>e</ex> wyll<ex>ia</ex>m Tarre<note type="foot">wyll<ex>ia</ex>m Tarre: <hi rend="italics">ie, <rs ref="http://ereed.library.utoronto.ca/eats/entity/27012/" type="Person_Commoner">William Johnson</rs></hi></note> on <rs ref="http://ereed.library.utoronto.ca/eats/entity/41497/" type="CalendarDay_Liturgical">Corpus chr<ex>ist</ex>i day</rs> last past<note type="foot">Corpus <gap reason="omitted"/> day: <hi rend="italic">15 June
+                <rs ref="http://ereed.library.utoronto.ca/eats/entity/26846/" type="Person_Commoner">wyll<ex>ia</ex>m anderson</rs> s<ex>er</ex>uant to the seid <rs ref="http://ereed.library.utoronto.ca/eats/entity/26891/" type="Person_Gentry">s<ex>ir</ex> humfrey</rs><note type="foot">s<ex>ir</ex> humfrey: <hi rend="italic">Sir <rs ref="http://ereed.library.utoronto.ca/eats/entity/26891/" type="Person_Gentry">Humphrey Ferrers</rs>, the defendant</hi></note> did <rs ref="http://ereed.library.utoronto.ca/eats/entity/45465/" type="CrimesMisdemeanors">stryke</rs> on<ex>e</ex> wyll<ex>ia</ex>m Tarre<note type="foot">wyll<ex>ia</ex>m Tarre: <hi rend="italic">ie, <rs ref="http://ereed.library.utoronto.ca/eats/entity/27012/" type="Person_Commoner">William Johnson</rs></hi></note> on <rs ref="http://ereed.library.utoronto.ca/eats/entity/41497/" type="CalendarDay_Liturgical">Corpus chr<ex>ist</ex>i day</rs> last past<note type="foot">Corpus <gap reason="omitted"/> day: <hi rend="italic">15 June
                     1536</hi></note> &amp; <term ref="gloss:brake-1">brake</term> his hed in ij
                 places but ‸<add place="above">for</add> what cause or by whose p<ex>ro</ex>curement
                 this deponent know<ex>e</ex>t<ex>h</ex> not and as to any other of the seid
@@ -8140,7 +8142,7 @@ table. The (blank) above is the second cell of that row -->the
                 seythe apon hys othe <gap reason="omitted"/> and as to xv Int<ex>er</ex>ogatory the
                 seyd deponent seythe that the seid <rs ref="http://ereed.library.utoronto.ca/eats/entity/26891/" type="Person_Gentry">s<ex>ir</ex> humfrey</rs> apon <rs ref="http://ereed.library.utoronto.ca/eats/entity/41497/" type="CalendarDay_Liturgical">corpus Cristy day </rs>last past Co<ex>m</ex>mandyd
                 hys s<ex>er</ex>uant <rs ref="http://ereed.library.utoronto.ca/eats/entity/26846/" type="Person_Commoner">Anderson</rs> to <rs ref="http://ereed.library.utoronto.ca/eats/entity/45465/" type="CrimesMisdemeanors">strike</rs> the s<ex>er</ex>uant of wyll<ex>ia</ex>m
-                  Tarre<note type="foot">wyll<ex>ia</ex>m Tarre: <hi rend="italics">ie, <rs ref="http://ereed.library.utoronto.ca/eats/entity/26949/" type="Person_Commoner">Humfrey Tarre</rs></hi></note> namyd <rs ref="http://ereed.library.utoronto.ca/eats/entity/27012/" type="Person_Commoner">wyll<ex>ia</ex>m Iohnson</rs> bycause he <term ref="gloss:brake-1">brake</term>
+                  Tarre<note type="foot">wyll<ex>ia</ex>m Tarre: <hi rend="italic">ie, <rs ref="http://ereed.library.utoronto.ca/eats/entity/26949/" type="Person_Commoner">Humfrey Tarre</rs></hi></note> namyd <rs ref="http://ereed.library.utoronto.ca/eats/entity/27012/" type="Person_Commoner">wyll<ex>ia</ex>m Iohnson</rs> bycause he <term ref="gloss:brake-1">brake</term>
                 the shynnys of the seid s<ex>ir</ex> humfrey in the <rs ref="http://ereed.library.utoronto.ca/eats/entity/40453/" type="Drama_Type">pley</rs> that was then <del>and</del> at the same tyme pleyd
                   w<ex>i</ex>t<ex>h</ex>in the seyd towne of <rs ref="http://ereed.library.utoronto.ca/eats/entity/3900/" type="Place_PA_Settlement">Tamworthe</rs> forsed w<ex>i</ex>t<ex>h</ex> his <rs ref="http://ereed.library.utoronto.ca/eats/entity/42193/" type="Thing_PropertyMachinery">chene</rs></ab>
 
@@ -8210,13 +8212,13 @@ table. The (blank) above is the second cell of that row -->the
                       <hi rend="italic">square brackets in original</hi></note>
                 </note>
                 <note type="marginal" place="margin_left">varsus Diabol<ex>um</ex></note>
-                  Will<ex>ia</ex>m Tarre<note type="foot">Will<ex>ia</ex>m Tarre: <hi rend="italics">ie, <rs ref="http://ereed.library.utoronto.ca/eats/entity/27012/" type="Person_Commoner">William Johnson</rs></hi></note> was dysguysed and
+                  Will<ex>ia</ex>m Tarre<note type="foot">Will<ex>ia</ex>m Tarre: <hi rend="italic">ie, <rs ref="http://ereed.library.utoronto.ca/eats/entity/27012/" type="Person_Commoner">William Johnson</rs></hi></note> was dysguysed and
                 playd the part of a <rs ref="http://ereed.library.utoronto.ca/eats/entity/40913/" type="Drama_Character">dyvell</rs>, havinge great <rs ref="http://ereed.library.utoronto.ca/eats/entity/42193/" type="Thing_PropertyMachinery">chaynes</rs> of Iron abowt hym, and so
                   com<ex>m</ex>ynge Rudly by this deponent <rs ref="http://ereed.library.utoronto.ca/eats/entity/45465/" type="CrimesMisdemeanors">strake</rs>
                 <pb n="101" type="folio"/> this deponent on the shynnes withe his chaynes: Wheropon
                 this deponent sayd vnto his s<ex>er</ex>vauntes, Is ther non of yowe that wyll gyve
-                hym a blowe? and theropon the sayd <rs ref="http://ereed.library.utoronto.ca/eats/entity/26846/" type="Person_Commoner">Anderson</rs>, his s<ex>er</ex>vaunt went to the sayd Tarre<note type="foot">Tarre: <hi rend="italics">ie, Johnson</hi></note> and demawnded of hym why he
-                hurt his master so with his chayne. The sayd Tarre<note type="foot">Tarre: <hi rend="italics">ie, Johnson</hi></note> answeringe agayne, Why, knave, he myght
+                hym a blowe? and theropon the sayd <rs ref="http://ereed.library.utoronto.ca/eats/entity/26846/" type="Person_Commoner">Anderson</rs>, his s<ex>er</ex>vaunt went to the sayd Tarre<note type="foot">Tarre: <hi rend="italic">ie, Johnson</hi></note> and demawnded of hym why he
+                hurt his master so with his chayne. The sayd Tarre<note type="foot">Tarre: <hi rend="italic">ie, Johnson</hi></note> answeringe agayne, Why, knave, he myght
                 have <term ref="gloss:stonde-1">stonde</term> forther owt my way then. The sayd
                 Anderson heringe hym make such a lewde answere, strake hym on the hede with his
                 dagger.</ab>
@@ -12470,8 +12472,8 @@ table. The (blank) above is the second cell of that row -->the
                 <rs ref="http://ereed.library.utoronto.ca/eats/entity/32881/" type="Collective_Occupation">sadeler</rs> de londres p<ex>ur</ex> vne seel de
                 veluet enbroudez de lyons p<ex>ar</ex> nous donez a n<ex>ost</ex>re <rs ref="http://ereed.library.utoronto.ca/eats/entity/31930/" type="Person_Nobility">fille de Pembrok</rs> encontre le mariage <rs ref="http://ereed.library.utoronto.ca/eats/entity/32929/" type="Person_Royalty">la
                   Roigne</rs> vynt marcs Et a mons<ex>ire</ex>
-                <rs ref="http://ereed.library.utoronto.ca/eats/entity/35691/" type="Person_Gentry">Rob<ex>er</ex>t lande</rs> p<ex>ur</ex> vn eawere oue vn petite triper<note type="foot">triper: <hi rend="italic">for</hi> trivet <hi rend="italics">(?)</hi></note> supportant leawer dargent et <term ref="gloss:surorez-1">s<ex>ur</ex>orez</term> p<ex>ar</ex> nous don<ex>ez</ex> au Roigne le
-                  io<ex>ur</ex> de son mariage ouesq<ex>ue</ex> vn autre gr<ex>an</ex>t triper<note type="foot">triper: <hi rend="italic">for</hi> trivet <hi rend="italics">(?)</hi></note> achate de mons<ex>ire</ex>
+                <rs ref="http://ereed.library.utoronto.ca/eats/entity/35691/" type="Person_Gentry">Rob<ex>er</ex>t lande</rs> p<ex>ur</ex> vn eawere oue vn petite triper<note type="foot">triper: <hi rend="italic">for</hi> trivet <hi rend="italic">(?)</hi></note> supportant leawer dargent et <term ref="gloss:surorez-1">s<ex>ur</ex>orez</term> p<ex>ar</ex> nous don<ex>ez</ex> au Roigne le
+                  io<ex>ur</ex> de son mariage ouesq<ex>ue</ex> vn autre gr<ex>an</ex>t triper<note type="foot">triper: <hi rend="italic">for</hi> trivet <hi rend="italic">(?)</hi></note> achate de mons<ex>ire</ex>
                 <rs ref="http://ereed.library.utoronto.ca/eats/entity/35633/" type="Person_Gentry">Iohan Philippot</rs> dys livres &amp; as diu<ex>er</ex>ses heraudes esteantz a
                   <rs ref="http://ereed.library.utoronto.ca/eats/entity/37452/" type="Place_PA_Settlement">Westemonstre</rs> le io<ex>ur</ex> del mariage susdit
                 de n<ex>ost</ex>re doun vynt liures Et as diu<ex>er</ex>ses <rs ref="http://ereed.library.utoronto.ca/eats/entity/8709/" type="Entertainer_Type">ministralles</rs> esteantes illeoqes<note type="marginal" place="margin_left">touchant la g<ex>r</ex>ande<lb/> Gardrobe<note type="foot">touchant...Gardrobe:
@@ -13107,7 +13109,7 @@ table. The (blank) above is the second cell of that row -->the
       </text>
     </group>
     <back>
-      <div n="1" type="appendix" xml:id="appendix-1">
+      <div type="appendix" xml:id="appendix">
         <head>‘o god what a world’ by <rs ref="http://ereed.library.utoronto.ca/eats/entity/40099/" type="Person_Commoner">Richard Sheale</rs>, <rs ref="http://ereed.library.utoronto.ca/eats/entity/8709/" type="Entertainer_Type">Minstrel</rs> of <rs ref="http://ereed.library.utoronto.ca/eats/entity/3900/" type="Place_PA_Settlement">Tamworth</rs></head>
         <div>
           <p>The Ashmolean manuscripts were among the rarities bequeathed to the University of
